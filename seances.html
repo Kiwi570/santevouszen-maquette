@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#0e1215">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -136,7 +136,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <p class="registre-compte mono" aria-live="polite"><b data-registre-n>51</b> séances affichées · <span data-registre-total></span></p>
-    <ol class="registre-liste" data-registre-liste data-replie>
+    <p class="registre-apercu-aide mono">Survolez une séance : son lieu apparaît</p>
+    <ol class="registre-liste" data-registre-liste data-replie data-effet="index-survol">
       <li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="49.4">
         <span class="ls-cat mono">Enseignement · Printemps · n° 1</span>
         <span class="ls-titre">Échauffement complet Qi Gong et Tai-chi</span>
@@ -343,6 +344,19 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <span class="ls-duree mono">18:42</span>
       </li>
     </ol>
+    <div class="registre-apercu" data-apercu aria-hidden="true"><div class="apercu-image" data-apercu-cat="enseignement"><figure class="media " style="--cadrage:50% 42%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/seance-bambous-784.webp" srcset="/assets/images/seance-bambous-480.webp 480w, /assets/images/seance-bambous-640.webp 640w, /assets/images/seance-bambous-784.webp 784w" sizes="320px" alt="Patrick devant un bosquet de bambous" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure></div><div class="apercu-image" data-apercu-cat="pleine-nature"><figure class="media " style="--cadrage:50% 51%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/seance-riviere-foret-784.webp" srcset="/assets/images/seance-riviere-foret-480.webp 480w, /assets/images/seance-riviere-foret-640.webp 640w, /assets/images/seance-riviere-foret-784.webp 784w" sizes="320px" alt="Patrick en tenue blanche au bord d&#39;une rivière en forêt" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure></div><div class="apercu-image" data-apercu-cat="meditation"><figure class="media " style="--cadrage:50% 38%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/meditation-foret-784.webp" srcset="/assets/images/meditation-foret-480.webp 480w, /assets/images/meditation-foret-640.webp 640w, /assets/images/meditation-foret-784.webp 784w" sizes="320px" alt="Patrick assis en tailleur en forêt" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure></div></div>
     <p class="registre-plus"><button type="button" class="bouton bouton--contour" data-registre-plus data-plus="Voir toute la liste" data-moins="Replier la liste" aria-expanded="false">Voir toute la liste</button></p>
     <figure class="media registre-bandeau" data-fx="parallaxe" style="--cadrage:50% 50%;aspect-ratio:21 / 7">
   <picture>

@@ -1,15 +1,14 @@
 {
- "id": "20261116-133910-standard-cible-partiel",
- "date": "2026-11-16T13:40:00.053Z",
+ "id": "20261116-144042-standard-cible-partiel",
+ "date": "2026-11-16T14:41:44.050Z",
  "niveau": "standard",
- "pages": "/,/contact",
+ "pages": "/,/formules",
  "etapes": [
-  "fichiers",
-  "mesures"
+  "films"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 0,
+ "aRegarder": 6,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

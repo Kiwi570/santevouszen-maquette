@@ -89,9 +89,9 @@
    "consigneDoigt": "Glissez la poignée vers le haut, lentement"
   },
   "ench": {
-   "region": "L'enchaînement : six séances tournées dehors",
-   "aide": "Faites défiler : six postures, six paysages",
-   "aideDoigt": "Glissez : six postures, six paysages →"
+   "region": "Quatre séances tournées dehors",
+   "aide": "Faites défiler : quatre séances, quatre paysages",
+   "aideDoigt": "Glissez : quatre séances, quatre paysages →"
   },
   "facons": {
    "sur": "Comment pratiquer",
@@ -162,6 +162,47 @@
    "texte": "La chaîne YouTube Santé Vous ZEN propose des séances en accès libre. Une question ? Patrick répond au téléphone.",
    "youtube": "Une séance gratuite sur YouTube",
    "tel": "Appeler le 0692 09 05 13"
+  },
+  "offre": {
+   "sur": "Ce que vous trouvez ici",
+   "titre": "Le Qi Gong avec Patrick, chez vous.",
+   "a": {
+    "chiffre": "107 séances",
+    "titre": "À la demande, 24 h sur 24",
+    "texte": "42 séances d'enseignement rangées par saison, 52 d'entraînement en pleine nature et 13 méditations guidées. Vous les suivez quand vous voulez.",
+    "lien": "Voir les séances"
+   },
+   "b": {
+    "chiffre": "Chaque jeudi",
+    "titre": "Le live sur Zoom",
+    "texte": "1 h 15 en direct avec Patrick, à 18 h heure de Paris, 21 h à La Réunion. De 12 à 36 lives selon la formule.",
+    "lien": "Les formules avec live"
+   },
+   "c": {
+    "chiffre": "3 modules",
+    "titre": "Fitness seniors",
+    "texte": "Renforcement, équilibre et étirements, de 18 à 43 minutes, avec un bâton ou une chaise.",
+    "lien": "Le fitness seniors"
+   }
+  },
+  "etapes": {
+   "sur": "Comment ça marche",
+   "titre": "Trois étapes, sans vous déplacer.",
+   "e1": {
+    "titre": "Choisissez votre formule",
+    "texte": "De 4 à 12 mois, avec ou sans le live du jeudi. À partir de 84 €."
+   },
+   "e2": {
+    "titre": "Recevez votre accès",
+    "texte": "Les séances sont en ligne 24 h sur 24 pendant toute la durée de votre formule."
+   },
+   "e3": {
+    "titre": "Pratiquez chez vous",
+    "texte": "À votre rythme, et le jeudi en direct avec Patrick sur Zoom si votre formule comprend le live."
+   },
+   "action": "Choisir ma formule",
+   "question": "Une question ? Appelez Patrick au",
+   "suite": "Faites défiler : quatre séances du catalogue, tournées dehors"
   }
  },
  "introuvable": {
@@ -190,7 +231,8 @@
    "compte": "séances affichées",
    "note": "Extrait du catalogue réel : les 51 séances dont le site actuel donne le titre et la durée. Les vidéos sont réservées aux abonnés.",
    "plus": "Voir toute la liste",
-   "moins": "Replier la liste"
+   "moins": "Replier la liste",
+   "apercu": "Survolez une séance : son lieu apparaît"
   },
   "chez": {
    "sur": "Chez vous",
@@ -298,6 +340,14 @@
   },
   "faq": {
    "titre": "Questions fréquentes"
+  },
+  "duree": {
+   "titre": "Combien de temps ?",
+   "aide": "Glissez : plus l'accès est long, plus ses mains montent",
+   "alt": "Patrick Campo sur le ponton de Nosy Be : les mains au ventre, au visage ou jointes au-dessus de la tête selon la durée choisie",
+   "live": "lives du jeudi",
+   "sans": "sans live",
+   "voir": "Voir cette formule"
   }
  },
  "contact": {
@@ -325,6 +375,13 @@
    "facebook": "Facebook de Patrick Campo"
   },
   "zone": "Patrick enseigne depuis La Réunion. Le live du jeudi est à 18 h, heure de Paris : 21 h à La Réunion quand Paris est à l'heure d'hiver, 20 h à l'heure d'été.",
-  "envoye": "Message simulé, rien n'est envoyé. Sur le vrai site, il arriverait à Patrick, qui vous répond par e-mail ou par téléphone."
+  "envoye": "Message simulé, rien n'est envoyé. Sur le vrai site, il arriverait à Patrick, qui vous répond par e-mail ou par téléphone.",
+  "horloges": {
+   "titre": "Quelle heure est-il chez Patrick ?",
+   "reunion": "À La Réunion",
+   "paris": "À Paris",
+   "live": "Prochain live",
+   "alt": "Patrick Campo sur le ponton de Nosy Be, face au lagon"
+  }
  }
 }

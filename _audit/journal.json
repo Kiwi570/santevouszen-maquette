@@ -112,6 +112,42 @@
    "effetsRetires": [],
    "grilleDispenses": {},
    "notes": "Regard DA 1 : REFAIRE 3,1 (trace trop petite, un seul jeu, milieu générique) ; accueil repris en profondeur (~25 min). Regard DA 2 : REFAIRE 3,2 ; l'utilisateur choisit la chronophotographie de la vraie séance (extrait vidéo demandé). Vidéo publique Ba Duan Jin enseignement 1 récupérée via le dossier Téléchargements (accès accordé), 12 images détourées (rembg) pour la chronophotographie."
+  },
+  {
+   "version": 2,
+   "perimetre": [
+    "accueil",
+    "seances",
+    "formules",
+    "contact"
+   ],
+   "etapes": [
+    {
+     "etape": "signature des pages d'onglet (formules, contact, séances)",
+     "budget": 40,
+     "debut": "2026-11-16T14:42:00+01:00",
+     "fin": "2026-11-16T15:05:00+01:00"
+    },
+    {
+     "etape": "accueil rendu lisible (offres, étapes, parcours à quatre séances)",
+     "budget": 30,
+     "debut": "2026-11-16T15:07:00+01:00",
+     "fin": "2026-11-16T15:25:00+01:00"
+    },
+    {
+     "etape": "audit standard et corrections",
+     "budget": 30,
+     "debut": "2026-11-16T15:25:00+01:00",
+     "fin": "2026-11-16T15:40:00+01:00"
+    },
+    {
+     "etape": "livraison",
+     "budget": 5,
+     "debut": "2026-11-16T15:40:00+01:00",
+     "fin": "2026-11-16T15:45:00+01:00"
+    }
+   ],
+   "attentes": []
   }
  ]
 }

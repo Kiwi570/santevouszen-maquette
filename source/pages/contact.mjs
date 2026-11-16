@@ -2,17 +2,24 @@
 import { html } from '../../outils/gabarit.mjs';
 import { img, point } from '../gabarits/outils.mjs';
 
-export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'grok/riviere-galets-1280.webp' };
+export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'geste-lagon-1280.webp' };
 
 export default (c) => html`
 <section class="con-ouv" id="debut">
-  ${img(c, 'grok/riviere-galets', { priorite: true, classe: 'con-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="12"' })}
+  ${img(c, 'geste-lagon', { priorite: true, classe: 'con-fond', sizes: '100vw', alt: c.s('contact.horloges.alt'), attrs: 'data-fx="zoom" data-fx-force="8"' })}
   <div class="conteneur con-ouv-texte">
     <p class="surtitre">${c.t('contact.sur')}</p>
     <h1 class="con-titre" data-anime="lettres" data-grille="typo">${c.t('contact.titre')}</h1>
     <p class="con-chapo">${c.t('contact.chapo')}</p>
     <p><a class="con-tel" href="tel:${c.site.contact.telephoneLien}" data-action-principale data-iris-centre>${c.site.contact.telephone}</a></p>
     <p class="con-mail" data-info-cle><a href="mailto:${c.site.contact.email}">${c.site.contact.email}</a></p>
+  </div>
+  <div class="horloges" data-horloges data-effet="horloges" aria-label="${c.s('contact.horloges.titre')}">
+    ${[['reunion', 'Indian/Reunion'], ['paris', 'Europe/Paris']].map(([k, z]) => html`<figure class="horloge" data-zone="${z}">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="h-cadran" cx="50" cy="50" r="46"/>${Array.from({ length: 12 }, (_, i) => html`<line class="h-repere" x1="50" y1="8" x2="50" y2="${i % 3 ? 12 : 15}" transform="rotate(${i * 30} 50 50)"/>`)}<path class="h-live" data-h-live d=""/><line class="h-heure" data-h-heure x1="50" y1="50" x2="50" y2="27"/><line class="h-minute" data-h-minute x1="50" y1="50" x2="50" y2="14"/><circle class="h-centre" cx="50" cy="50" r="3"/></svg>
+      <figcaption><span>${c.t(`contact.horloges.${k}`)}</span><b class="mono" data-h-texte>--:--</b></figcaption>
+    </figure>`)}
+    <p class="horloges-live mono" data-h-prochain>${c.t('contact.horloges.live')}</p>
   </div>
 </section>
 

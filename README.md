@@ -1,4 +1,4 @@
-# Santé Vous Zen · maquette v1
+# Santé Vous Zen · maquette v2
 
 Maquette de démonstration du futur site de Patrick Campo (Qi Gong, méditation et fitness seniors en ligne), direction « Le geste lent ».
 Adresse prévue : https://santevouszen-maquette.vercel.app · site actuel : https://www.santevouszen.com
@@ -13,7 +13,7 @@ Pages du site actuel non reprises en v1 : Stages 2026 (résumés dans l'accueil,
 - Politique de confidentialité (RGPD) : à compléter.
 - CGVU : à reprendre du site actuel.
 - Logo : le vrai logo (écriture « Santé Vous Zen » et frise de huit silhouettes rouges) n'a été trouvé que dans l'affiche d'automne. Fournir le fichier vectoriel ou en haute définition ; la maquette utilise en attendant une marque typographique et un point de lumière.
-- Crédits des illustrations générées (à garder sur le site final) : quatre illustrations créées avec Grok, marquées « Illustration générée » : océan à l'aube (Formules), lave et fougères (Patrick Campo), rivière à galets (Contact), champ de lave (404).
+- Crédits des illustrations générées (à garder sur le site final) : deux illustrations créées avec Grok, marquées « Illustration générée » : lave et fougères (fond de la page Patrick Campo) et champ de lave (404). Depuis la v2, Formules et Contact s'ouvrent sur de vraies photos.
 
 ## Retiré ou remplacé faute d'information
 - Prix et places des stages : non affichés (absents du site) ; les stages 2026 sont présentés comme terminés, « prochaines dates sur demande ».

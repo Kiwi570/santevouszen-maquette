@@ -40,13 +40,15 @@ export default (c) => {
       </div>
     </div>
     <p class="registre-compte mono" aria-live="polite"><b data-registre-n>${S.length}</b> ${c.t('seances.registre.compte')} · <span data-registre-total></span></p>
-    <ol class="registre-liste" data-registre-liste data-replie>
+    <p class="registre-apercu-aide mono">${c.t('seances.registre.apercu')}</p>
+    <ol class="registre-liste" data-registre-liste data-replie data-effet="index-survol">
       ${S.map((s) => html`<li class="ligne-seance" data-cat="${s.cat}" data-saison="${s.saison || ''}" data-min="${minutes(s.duree).toFixed(1)}">
         <span class="ls-cat mono">${c.t(`seances.registre.${s.cat}`)}${s.saison ? html` · ${c.t(`seances.registre.${s.saison}`)}` : ''}${s.num ? html` · n° ${s.num}` : ''}</span>
         <span class="ls-titre">${s.titre}</span>
         <span class="ls-duree mono">${s.duree}</span>
       </li>`)}
     </ol>
+    <div class="registre-apercu" data-apercu aria-hidden="true">${[['enseignement', 'seance-bambous'], ['pleine-nature', 'seance-riviere-foret'], ['meditation', 'meditation-foret']].map(([k, n]) => html`<div class="apercu-image" data-apercu-cat="${k}">${img(c, n, { sizes: '320px', ratio: '4 / 3' })}</div>`)}</div>
     <p class="registre-plus"><button type="button" class="bouton bouton--contour" data-registre-plus data-plus="${c.s('seances.registre.plus')}" data-moins="${c.s('seances.registre.moins')}" aria-expanded="false">${c.t('seances.registre.plus')}</button></p>
     ${img(c, 'seance-colline', { classe: 'registre-bandeau', sizes: '100vw', ratio: '21 / 7', attrs: 'data-fx="parallaxe"' })}
     <p class="registre-note">${c.t('seances.registre.note')}</p>

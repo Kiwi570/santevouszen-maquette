@@ -1,6 +1,6 @@
 /* Santé Vous Zen · « Le geste lent ». Effets propres au client (chacun marqué data-effet="nom-du-plan").
    Le socle gère l'ouverture, le voile en iris, l'en-tête, le menu, les boucles, les mesures et les effets génériques. */
-import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -492,6 +492,85 @@ function billetQuiFile(lien, nom) {
 }
 
 
+/* ---------- v2 · Formules : la durée en ouverture, sur le geste de Nosy Be ----------
+   Le curseur (ou un glissement vertical sur Patrick, à la souris) choisit 4, 7 ou 12 mois : ses mains montent du ventre
+   au ciel, et la formule avec live qui correspond s'affiche, avec son vrai prix. */
+function dureeOuverture() {
+  const sec = $('[data-for-duree]');
+  if (!sec) return;
+  const F = JSON.parse(sec.dataset.forDuree), mois = [4, 7, 12], fig = $('.for-pose', sec), curseur = $('[data-fd-curseur]', sec);
+  const P = poseLongue(fig), h = { p: 0.5, cible: 0.5 };
+  P.charger();
+  boucle(fig, (dt) => { h.p += clamp(h.cible - h.p, -0.8 * dt, 0.8 * dt); P.dessiner(h.p); });
+  function maj() {
+    const v = +curseur.value, f = F.find((x) => x.mois === mois[v]);
+    h.cible = [0.1, 0.5, 1][v];
+    curseur.setAttribute('aria-valuetext', `${mois[v]} mois`);
+    $$('.duree-reperes li', sec).forEach((li, k) => li.classList.toggle('actif', k === v));
+    if (!f) return;
+    $('[data-fd-nom]', sec).textContent = f.nom;
+    $('[data-fd-prix]', sec).textContent = `${f.prix} €`;
+    $('[data-fd-live]', sec).textContent = `${f.live} lives du jeudi`;
+    $('[data-fd-lien]', sec).href = `#formule-${f.cle}`;
+  }
+  curseur.addEventListener('input', maj);
+  $$('.duree-reperes li', sec).forEach((li, k) => li.addEventListener('click', () => { curseur.value = k; maj(); }));
+  let y0 = null, v0 = 1;
+  fig.addEventListener('pointerdown', (e) => { if (e.pointerType === 'touch') return; y0 = e.clientY; v0 = +curseur.value; try { fig.setPointerCapture(e.pointerId); } catch {} });
+  fig.addEventListener('pointermove', (e) => { if (y0 == null) return; const v = clamp(Math.round(v0 + (y0 - e.clientY) / 80), 0, 2); if (v !== +curseur.value) { curseur.value = v; maj(); } });
+  const lache = () => { y0 = null; }; fig.addEventListener('pointerup', lache); fig.addEventListener('pointercancel', lache);
+  maj(); h.p = h.cible;
+}
+
+/* ---------- v2 · Contact : deux horloges, La Réunion et Paris, et l'arc du prochain live ---------- */
+function horloges() {
+  const box = $('[data-horloges]');
+  if (!box) return;
+  const L = { debut: '2026-09-03', fin: '2026-12-03', jour: 4, heure: '18:00', heureFin: '19:15' };
+  const arc = (a0, a1) => { const pt = (a) => [50 + 40 * Math.sin(a), 50 - 40 * Math.cos(a)]; const [x0, y0] = pt(a0), [x1, y1] = pt(a1); return `M${x0.toFixed(2)} ${y0.toFixed(2)} A40 40 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${x1.toFixed(2)} ${y1.toFixed(2)}`; };
+  const angle = (hh, mm) => ((hh % 12) + mm / 60) / 12 * Math.PI * 2;
+  function maj() {
+    const now = new Date(), p = prochainLive(L, now);
+    $$('.horloge', box).forEach((f) => {
+      const t = heureLocale(f.dataset.zone, now);
+      $('[data-h-heure]', f).setAttribute('transform', `rotate(${((t.h % 12) + t.m / 60) * 30} 50 50)`);
+      $('[data-h-minute]', f).setAttribute('transform', `rotate(${(t.m + t.s / 60) * 6} 50 50)`);
+      $('[data-h-texte]', f).textContent = `${String(t.h).padStart(2, '0')} h ${String(t.m).padStart(2, '0')}`;
+      /* L'arc lumineux du live, à l'heure de chaque ville (18 h-19 h 15 à Paris). */
+      if (p.debut) { const a = heureLocale(f.dataset.zone, p.debut), b = heureLocale(f.dataset.zone, p.fin); $('[data-h-live]', f).setAttribute('d', arc(angle(a.h, a.m), angle(b.h, b.m) + (angle(b.h, b.m) < angle(a.h, a.m) ? Math.PI * 2 : 0))); }
+    });
+    const el = $('[data-h-prochain]', box);
+    if (p.etat === 'direct') el.textContent = 'Le live est en cours sur Zoom';
+    else if (p.debut) el.textContent = `Prochain live : ${fmtJour(p.debut)}, ${fmtHeure(p.debut, 'Europe/Paris')} à Paris, ${fmtHeure(p.debut, 'Indian/Reunion')} à La Réunion`;
+    else el.textContent = "Le programme d'hiver sera annoncé ici";
+  }
+  maj(); setInterval(maj, 15000);
+}
+
+/* ---------- v2 · Séances : au survol d'une séance, son lieu apparaît sous le pointeur ---------- */
+function indexSurvol() {
+  const sec = $('[data-registre]'), ap = $('[data-apercu]');
+  if (!sec || !ap || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  const liste = $('[data-registre-liste]', sec);
+  const st = { x: 0, y: 0, cx: 0, cy: 0, actif: false, cat: '' };
+  liste.addEventListener('pointermove', (e) => {
+    const l = e.target.closest('.ligne-seance');
+    st.x = e.clientX; st.y = e.clientY;
+    if (!l) return;
+    if (!st.actif) { st.cx = st.x; st.cy = st.y; }
+    st.actif = true;
+    if (l.dataset.cat !== st.cat) { st.cat = l.dataset.cat; $$('[data-apercu-cat]', ap).forEach((d) => d.classList.toggle('vu', d.dataset.apercuCat === st.cat)); }
+    ap.classList.add('visible');
+  });
+  liste.addEventListener('pointerleave', () => { st.actif = false; ap.classList.remove('visible'); });
+  boucle(sec, (dt) => {
+    if (!st.actif) return;
+    const k = Math.min(1, dt * 9), vx = st.x - st.cx;
+    st.cx += (st.x - st.cx) * k; st.cy += (st.y - st.cy) * k;
+    ap.style.transform = `translate3d(${st.cx + 28}px, ${st.cy - 110}px, 0) rotate(${clamp(vx * 0.05, -6, 6)}deg)`;
+  });
+}
+
 /* ---------- Séances : le registre filtrable (filtres gardés dans l'adresse) ---------- */
 function registre() {
   const sec = $('[data-registre]');
@@ -613,6 +692,9 @@ demarrer({
     try { horlogeLive(); liveCourt(); } catch (e) { console.error(e); }
     try { choixFormule(); } catch (e) { console.error(e); }
     try { registre(); } catch (e) { console.error(e); }
+    try { dureeOuverture(); } catch (e) { console.error(e); }
+    try { horloges(); } catch (e) { console.error(e); }
+    try { indexSurvol(); } catch (e) { console.error(e); }
     try { serie(); } catch (e) { console.error(e); }
     try { inscription(); } catch (e) { console.error(e); }
     if (window.__projet && window.__projet.preparer) window.__projet.preparer();

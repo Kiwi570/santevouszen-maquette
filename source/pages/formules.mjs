@@ -1,9 +1,9 @@
 /* Formules (page de catégorie : inscription) · monde « océan profond ». Ouverture : l'océan à l'aube, prix d'appel en grand.
    Signature : les six formules en deux familles ; « Choisir » fait filer le billet vers l'inscription (retour physique). */
 import { html } from '../../outils/gabarit.mjs';
-import { img, euros, point } from '../gabarits/outils.mjs';
+import { img, euros, point, json, pose } from '../gabarits/outils.mjs';
 
-export const page = { cle: 'formules', fichier: 'formules', imagePartage: 'grok/ocean-aube-1280.webp' };
+export const page = { cle: 'formules', fichier: 'formules', imagePartage: 'geste-lagon-1280.webp' };
 
 export default (c) => {
   const F = c.donnees.formules;
@@ -21,12 +21,18 @@ export default (c) => {
     <a class="bouton" href="${c.url('formules', 'inscription', `formule=${f.cle}`)}" data-choisir="${f.cle}" data-nom="${f.nom}" data-libelle="${c.libelle('formules')}">${c.t('formules.choisir')} ${f.nom}</a>
   </li>`;
   return html`
-<section class="for-ouv" id="debut">
-  ${img(c, 'grok/ocean-aube', { priorite: true, classe: 'for-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="10"' })}
+<section class="for-ouv for-ouv--pose" id="debut" data-for-duree='${json(F.filter((f) => f.famille === 'live'))}'>
+  ${pose(c, 'ouv', { classe: 'for-pose', alt: c.s('formules.duree.alt'), priorite: true, attrs: 'data-fantomes="non" data-effet="duree-ouverture"' })}
   <div class="conteneur for-ouv-texte">
     <p class="surtitre">${c.t('formules.sur')}</p>
     <h1 class="for-titre" data-anime="lettres" data-grille="typo">${c.t('formules.titre')}</h1>
     <p class="for-chapo">${c.t('formules.chapo')}</p>
+    <div class="for-duree" data-grille="manipuler">
+      <p class="for-duree-titre mono">${c.t('formules.duree.titre')}</p>
+      <input class="for-duree-curseur" type="range" min="0" max="2" step="1" value="1" data-fd-curseur aria-label="${c.s('formules.duree.titre')}" aria-valuetext="7 mois">
+      <ol class="duree-reperes"><li>4 mois</li><li class="actif">7 mois</li><li>12 mois</li></ol>
+      <p class="for-duree-sortie" aria-live="polite"><b data-fd-nom>ESSENTIEL</b> <span class="for-duree-prix" data-fd-prix>${euros(234)}</span> <span data-fd-live>24 ${c.t('formules.duree.live')}</span> <a class="lien-fleche" href="#formule-essentiel" data-fd-lien>${c.t('formules.duree.voir')}</a></p>
+    </div>
     <p class="for-actions"><a class="bouton" href="#avec-live" data-action-principale>${c.t('formules.action')}</a><span class="mono for-info" data-info-cle data-iris-centre>${c.t('formules.info')}</span></p>
   </div>
 </section>

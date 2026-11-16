@@ -30,6 +30,38 @@ export default (c) => {
   <p class="ouv-legende masque-ecran-bas">${c.t('accueil.ouv.legende')}</p>
 </section>
 
+<section class="offre" id="pratiquer">
+  ${point(6, 8)}
+  <div class="conteneur">
+    <p class="surtitre">${c.t('accueil.offre.sur')}</p>
+    <h2 class="titre-section" data-anime="lignes">${c.t('accueil.offre.titre')}</h2>
+    <ul class="offre-liste" data-anime="cascade">
+      ${[['a', 'seance-bambous', 'seances', ''], ['b', 'patrick-face', 'formules', 'avec-live'], ['c', 'fitness-lac', 'fitness-seniors', '']].map(([k, im, page, ancre]) => html`<li class="offre-carte">
+        ${img(c, im, { classe: 'offre-photo', sizes: '(max-width: 760px) 92vw, 30vw', ratio: '4 / 3', attrs: 'data-fx="zoom" data-fx-force="8"' })}
+        <p class="offre-chiffre">${c.t(`accueil.offre.${k}.chiffre`)}</p>
+        <h3>${c.t(`accueil.offre.${k}.titre`)}</h3>
+        <p>${c.t(`accueil.offre.${k}.texte`)}</p>
+        ${c.lien(page, { ancre: ancre || undefined, classe: 'lien-fleche', texte: c.t(`accueil.offre.${k}.lien`) })}
+      </li>`)}
+    </ul>
+  </div>
+</section>
+
+<section class="etapes" id="comment">
+  <div class="conteneur etapes-grille">
+    <div>
+      <p class="surtitre">${c.t('accueil.etapes.sur')}</p>
+      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.etapes.titre')}</h2>
+      <ol class="etapes-liste" data-anime="cascade">
+        ${['e1', 'e2', 'e3'].map((k, i) => html`<li><span class="etape-n" aria-hidden="true">${i + 1}</span><div><h3>${c.t(`accueil.etapes.${k}.titre`)}</h3><p>${c.t(`accueil.etapes.${k}.texte`)}</p></div></li>`)}
+      </ol>
+      <p class="etapes-actions">${c.lien('formules', { ancre: 'avec-live', classe: 'bouton', texte: c.t('accueil.etapes.action') })} <span>${c.t('accueil.etapes.question')} <a href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></span></p>
+    </div>
+    ${img(c, 'geste-lagon', { classe: 'etapes-photo', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
+  </div>
+  <p class="etapes-suite mono" aria-hidden="true">${c.t('accueil.etapes.suite')} ↓</p>
+</section>
+
 <section class="ench" id="enchainement" style="--n:${E.length}" data-ench data-grille="scene" data-scene data-entete-cache aria-label="${c.s('accueil.ench.region')}">
   <div class="ench-cadre" data-collant>
     <div class="ench-piste" data-ench-piste data-effet="enchainement" tabindex="0" role="region" aria-label="${c.s('accueil.ench.region')}">
@@ -48,28 +80,6 @@ export default (c) => {
   </div>
 </section>
 
-<section class="moities" id="pratiquer">
-  <h2 class="visuellement-cache">${c.t('accueil.facons.titre')}</h2>
-  ${point(50, 6)}
-  <article class="moitie">
-    ${img(c, 'moitie-live', { classe: 'moitie-photo', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
-    <div class="moitie-texte">
-      <p class="surtitre">${c.t('accueil.facons.live.chiffre')}</p>
-      <h3 class="moitie-titre" data-anime="lignes">${c.t('accueil.facons.live.titre')}</h3>
-      <p>${c.t('accueil.facons.live.texte')}</p>
-      ${c.lien('formules', { classe: 'lien-fleche', texte: c.t('accueil.facons.live.lien') })}
-    </div>
-  </article>
-  <article class="moitie">
-    ${img(c, 'moitie-heure', { classe: 'moitie-photo', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
-    <div class="moitie-texte">
-      <p class="surtitre">${c.t('accueil.facons.demande.chiffre')}</p>
-      <h3 class="moitie-titre" data-anime="lignes">${c.t('accueil.facons.demande.titre')}</h3>
-      <p>${c.t('accueil.facons.demande.texte')}</p>
-      <p class="moitie-aussi">${c.lien('seances', { ancre: 'meditation', classe: 'lien-fleche', texte: c.t('accueil.facons.meditation.lien') })} ${c.lien('fitness-seniors', { classe: 'lien-fleche', texte: c.t('accueil.facons.fitness.lien') })} ${c.lien('seances', { classe: 'lien-fleche', texte: c.t('accueil.facons.demande.lien') })}</p>
-    </div>
-  </article>
-</section>
 
 <section class="live" id="live" data-live='${json(L)}'>
   ${img(c, 'live-plage', { classe: 'live-fond', sizes: '(max-width: 760px) 100vw, 62vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}

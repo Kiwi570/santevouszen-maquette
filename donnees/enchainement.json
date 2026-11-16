@@ -40,30 +40,6 @@
   "jeu": ""
  },
  {
-  "image": "geste-foret",
-  "lieu": "Sur le sentier",
-  "forme": "Wu Chi",
-  "sous": "la posture debout",
-  "seance": "Printemps · séance 1",
-  "duree": "49:26",
-  "texte": "Immobile au milieu de la forêt : la posture qui ouvre l'échauffement complet.",
-  "geste": "descendre",
-  "cote": "gauche",
-  "jeu": ""
- },
- {
-  "image": "geste-cote",
-  "lieu": "Sur la colline",
-  "forme": "Qi Gong du dos",
-  "sous": "et de la colonne vertébrale",
-  "seance": "Qi Gong de pleine nature",
-  "duree": "",
-  "texte": "Le buste s'allonge, les bras partent loin devant, la colonne s'étire.",
-  "geste": "tirer",
-  "cote": "gauche",
-  "jeu": ""
- },
- {
   "image": "geste-ensemble",
   "lieu": "Ensemble, en stage",
   "forme": "Les stages",

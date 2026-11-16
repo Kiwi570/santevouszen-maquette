@@ -43,13 +43,13 @@
       "langue": "fr",
       "fichier": "assets/partage/contact-fr.jpg",
       "gabarit": "droite",
-      "image": "grok/riviere-galets-1280.webp",
-      "poids": 89826,
+      "image": "geste-lagon-1280.webp",
+      "poids": 68227,
       "sujet": {
         "x": 600,
-        "y": 28,
+        "y": 105,
         "l": 600,
-        "h": 573
+        "h": 490
       },
       "textes": [
         {
@@ -113,11 +113,11 @@
       "langue": "fr",
       "fichier": "assets/partage/formules-fr.jpg",
       "gabarit": "droite",
-      "image": "grok/ocean-aube-1280.webp",
-      "poids": 68943,
+      "image": "geste-lagon-1280.webp",
+      "poids": 69876,
       "sujet": {
         "x": 600,
-        "y": 140,
+        "y": 105,
         "l": 600,
         "h": 490
       },

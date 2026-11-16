@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#0e1215">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -125,9 +125,67 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
   <p class="ouv-legende masque-ecran-bas">Soutenir le ciel des deux mains · Ba Duan Jin, sur le ponton de Nosy Be (Madagascar)</p>
 </section>
-<section class="ench" id="enchainement" style="--n:6" data-ench data-grille="scene" data-scene data-entete-cache aria-label="L&#39;enchaînement : six séances tournées dehors">
+<section class="offre" id="pratiquer">
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:6%;--py:8%" aria-hidden="true"><i></i></span>
+  <div class="conteneur">
+    <p class="surtitre">Ce que vous trouvez ici</p>
+    <h2 class="titre-section" data-anime="lignes">Le Qi Gong avec Patrick, chez vous.</h2>
+    <ul class="offre-liste" data-anime="cascade">
+      <li class="offre-carte">
+        <figure class="media offre-photo" data-fx="zoom" data-fx-force="8" style="--cadrage:50% 42%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/seance-bambous-784.webp" srcset="/assets/images/seance-bambous-480.webp 480w, /assets/images/seance-bambous-640.webp 640w, /assets/images/seance-bambous-784.webp 784w" sizes="(max-width: 760px) 92vw, 30vw" alt="Patrick devant un bosquet de bambous" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="offre-chiffre">107 séances</p>
+        <h3>À la demande, 24 h sur 24</h3>
+        <p>42 séances d&#39;enseignement rangées par saison, 52 d&#39;entraînement en pleine nature et 13 méditations guidées. Vous les suivez quand vous voulez.</p>
+        <a href="/seances" class="lien-fleche" data-libelle="Les séances">Voir les séances</a>
+      </li><li class="offre-carte">
+        <figure class="media offre-photo" data-fx="zoom" data-fx-force="8" style="--cadrage:50% 34%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/patrick-face-960.webp" srcset="/assets/images/patrick-face-480.webp 480w, /assets/images/patrick-face-640.webp 640w, /assets/images/patrick-face-960.webp 960w" sizes="(max-width: 760px) 92vw, 30vw" alt="Patrick Campo face à l&#39;objectif, en tunique blanche, au milieu de la forêt" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="offre-chiffre">Chaque jeudi</p>
+        <h3>Le live sur Zoom</h3>
+        <p>1 h 15 en direct avec Patrick, à 18 h heure de Paris, 21 h à La Réunion. De 12 à 36 lives selon la formule.</p>
+        <a href="/formules#avec-live" class="lien-fleche" data-libelle="Formules">Les formules avec live</a>
+      </li><li class="offre-carte">
+        <figure class="media offre-photo" data-fx="zoom" data-fx-force="8" style="--cadrage:39% 42%;aspect-ratio:4 / 3;--cadrage-mobile:50% 42%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/fitness-lac-mobile-640.webp 640w" sizes="(max-width: 760px) 92vw, 30vw">
+    <img src="/assets/images/fitness-lac-1280.webp" srcset="/assets/images/fitness-lac-640.webp 640w, /assets/images/fitness-lac-1280.webp 1280w, /assets/images/fitness-lac-1920.webp 1920w" sizes="(max-width: 760px) 92vw, 30vw" alt="Un groupe de seniors lève les bras avec Patrick sur une terrasse au bord d&#39;un lac" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="offre-chiffre">3 modules</p>
+        <h3>Fitness seniors</h3>
+        <p>Renforcement, équilibre et étirements, de 18 à 43 minutes, avec un bâton ou une chaise.</p>
+        <a href="/fitness-seniors" class="lien-fleche" data-libelle="Fitness seniors">Le fitness seniors</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="etapes" id="comment">
+  <div class="conteneur etapes-grille">
+    <div>
+      <p class="surtitre">Comment ça marche</p>
+      <h2 class="titre-section" data-anime="lignes">Trois étapes, sans vous déplacer.</h2>
+      <ol class="etapes-liste" data-anime="cascade">
+        <li><span class="etape-n" aria-hidden="true">1</span><div><h3>Choisissez votre formule</h3><p>De 4 à 12 mois, avec ou sans le live du jeudi. À partir de 84 €.</p></div></li><li><span class="etape-n" aria-hidden="true">2</span><div><h3>Recevez votre accès</h3><p>Les séances sont en ligne 24 h sur 24 pendant toute la durée de votre formule.</p></div></li><li><span class="etape-n" aria-hidden="true">3</span><div><h3>Pratiquez chez vous</h3><p>À votre rythme, et le jeudi en direct avec Patrick sur Zoom si votre formule comprend le live.</p></div></li>
+      </ol>
+      <p class="etapes-actions"><a href="/formules#avec-live" class="bouton" data-libelle="Formules">Choisir ma formule</a> <span>Une question ? Appelez Patrick au <a href="tel:+262692090513">0692 09 05 13</a></span></p>
+    </div>
+    <figure class="media etapes-photo" data-fx="parallaxe" data-fx-force="10" style="--cadrage:78% 55%;aspect-ratio:4 / 5;--cadrage-mobile:50% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-lagon-mobile-608.webp 608w" sizes="(max-width: 760px) 100vw, 40vw">
+    <img src="/assets/images/geste-lagon-1280.webp" srcset="/assets/images/geste-lagon-640.webp 640w, /assets/images/geste-lagon-1280.webp 1280w, /assets/images/geste-lagon-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 40vw" alt="Patrick en fente basse sur un ponton de bois au bord d&#39;un lagon" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <p class="etapes-suite mono" aria-hidden="true">Faites défiler : quatre séances du catalogue, tournées dehors ↓</p>
+</section>
+<section class="ench" id="enchainement" style="--n:4" data-ench data-grille="scene" data-scene data-entete-cache aria-label="Quatre séances tournées dehors">
   <div class="ench-cadre" data-collant>
-    <div class="ench-piste" data-ench-piste data-effet="enchainement" tabindex="0" role="region" aria-label="L&#39;enchaînement : six séances tournées dehors">
+    <div class="ench-piste" data-ench-piste data-effet="enchainement" tabindex="0" role="region" aria-label="Quatre séances tournées dehors">
       <article class="ench-panneau ench-panneau--gauche ench-panneau--pose" data-panneau="0" id="geste-1">
         <figure class="pose ench-photo" data-pose='{"nom":"lave","n":10,"ordi":[0.288,0.1907,0.338,0.7769],"tel":[0,0.1907,0.9951,0.7769],"telTaille":[540,960],"telX":0.3115,"telL":0.3161,"boite":[0,0,1920,1080],"trace":0,"fondu":0}' data-visuel data-effet="pose-longue">
     <picture><source media="(max-width: 760px)" srcset="/assets/images/chrono/lave-m-image.webp" width="540" height="960"><img src="/assets/images/chrono/lave-image.webp" width="1600" height="900" alt="Patrick Campo en blanc sur la coulée de lave, face à l&#39;océan, pendant un kata de la méthode du Dr Yayama" loading="lazy" decoding="async"></picture>
@@ -165,75 +223,21 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p class="ench-meta" data-meta><span>Pleine nature · séance 4</span><span class="mono">18:41</span></p>
         </div>
       </article><article class="ench-panneau ench-panneau--gauche" data-panneau="3" id="geste-4">
-        <figure class="media ench-photo" data-effet="plongee" style="--cadrage:51% 50%;--cadrage-mobile:44% 50%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-foret-mobile-640.webp 640w" sizes="100vw">
-    <img src="/assets/images/geste-foret-1280.webp" srcset="/assets/images/geste-foret-640.webp 640w, /assets/images/geste-foret-1280.webp 1280w, /assets/images/geste-foret-1920.webp 1920w" sizes="100vw" alt="Patrick debout dans la posture Wu Chi, sur un sentier de forêt" width="1280" height="720" loading="lazy" decoding="async">
-  </picture>
-</figure>
-        <div class="ench-texte">
-          <p class="surtitre">04 · Sur le sentier</p>
-          <h2 class="ench-forme">Wu Chi<span>la posture debout</span></h2>
-          <p class="ench-desc">Immobile au milieu de la forêt : la posture qui ouvre l&#39;échauffement complet.</p>
-          <p class="ench-meta" data-meta><span>Printemps · séance 1</span><span class="mono">49:26</span></p>
-        </div>
-      </article><article class="ench-panneau ench-panneau--gauche" data-panneau="4" id="geste-5">
-        <figure class="media ench-photo" data-effet="plongee" style="--cadrage:55% 45%;--cadrage-mobile:40% 45%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-cote-mobile-608.webp 608w" sizes="100vw">
-    <img src="/assets/images/geste-cote-1280.webp" srcset="/assets/images/geste-cote-640.webp 640w, /assets/images/geste-cote-1280.webp 1280w, /assets/images/geste-cote-1920.webp 1920w" sizes="100vw" alt="Patrick Campo, bras tendus vers l&#39;avant, sur une colline couverte d&#39;arbustes" width="1280" height="720" loading="lazy" decoding="async">
-  </picture>
-</figure>
-        <div class="ench-texte">
-          <p class="surtitre">05 · Sur la colline</p>
-          <h2 class="ench-forme">Qi Gong du dos<span>et de la colonne vertébrale</span></h2>
-          <p class="ench-desc">Le buste s&#39;allonge, les bras partent loin devant, la colonne s&#39;étire.</p>
-          <p class="ench-meta" data-meta><span>Qi Gong de pleine nature</span></p>
-        </div>
-      </article><article class="ench-panneau ench-panneau--gauche" data-panneau="5" id="geste-6">
         <figure class="media ench-photo" data-effet="plongee" style="--cadrage:60% 45%;--cadrage-mobile:55% 45%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-ensemble-mobile-640.webp 640w" sizes="100vw">
     <img src="/assets/images/geste-ensemble-1280.webp" srcset="/assets/images/geste-ensemble-640.webp 640w, /assets/images/geste-ensemble-1280.webp 1280w, /assets/images/geste-ensemble-1920.webp 1920w" sizes="100vw" alt="Un groupe de pratiquants lève le bras derrière Patrick, au-dessus d&#39;une baie" width="1280" height="720" loading="lazy" decoding="async">
   </picture>
 </figure>
         <div class="ench-texte">
-          <p class="surtitre">06 · Ensemble, en stage</p>
+          <p class="surtitre">04 · Ensemble, en stage</p>
           <h2 class="ench-forme">Les stages<span>Cantal et Corse-du-Sud</span></h2>
           <p class="ench-desc">Une semaine de pratique en plein air, pour débutants comme confirmés. Prochaines dates sur demande.</p>
           <p class="ench-meta" data-meta><span>Juin et septembre 2026 · terminés</span></p>
         </div>
       </article>
     </div>
-    <div class="ench-pied" aria-hidden="true"><span class="ench-compte mono"><b data-ench-n>01</b> / 06</span><span class="ench-barre"><i data-ench-progres></i></span><span class="ench-aide ench-aide--souris masque-ecran-bas">Faites défiler : six postures, six paysages</span><span class="ench-aide ench-aide--doigt">Glissez : six postures, six paysages →</span></div>
+    <div class="ench-pied" aria-hidden="true"><span class="ench-compte mono"><b data-ench-n>01</b> / 04</span><span class="ench-barre"><i data-ench-progres></i></span><span class="ench-aide ench-aide--souris masque-ecran-bas">Faites défiler : quatre séances, quatre paysages</span><span class="ench-aide ench-aide--doigt">Glissez : quatre séances, quatre paysages →</span></div>
   </div>
-</section>
-<section class="moities" id="pratiquer">
-  <h2 class="visuellement-cache">Avec lui en direct, ou à votre heure</h2>
-  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:50%;--py:6%" aria-hidden="true"><i></i></span>
-  <article class="moitie">
-    <figure class="media moitie-photo" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 45%">
-  <picture>
-    <img src="/assets/images/moitie-live-960.webp" srcset="/assets/images/moitie-live-480.webp 480w, /assets/images/moitie-live-640.webp 640w, /assets/images/moitie-live-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="Pratiquants en tuniques colorées autour de Patrick sur la terrasse d&#39;une piscine, montagnes derrière" width="960" height="1200" loading="lazy" decoding="async">
-  </picture>
-</figure>
-    <div class="moitie-texte">
-      <p class="surtitre">Jeudi 18 h Paris · 21 h Réunion</p>
-      <h3 class="moitie-titre" data-anime="lignes">Le live sur Zoom</h3>
-      <p>Une heure et quart en direct avec Patrick, chaque jeudi de la saison.</p>
-      <a href="/formules" class="lien-fleche" data-libelle="Formules">Formules avec live</a>
-    </div>
-  </article>
-  <article class="moitie">
-    <figure class="media moitie-photo" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 8%">
-  <picture>
-    <img src="/assets/images/moitie-heure-960.webp" srcset="/assets/images/moitie-heure-480.webp 480w, /assets/images/moitie-heure-640.webp 640w, /assets/images/moitie-heure-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="Patrick Campo en tunique mauve sur le ponton d&#39;un lac" width="960" height="1200" loading="lazy" decoding="async">
-  </picture>
-</figure>
-    <div class="moitie-texte">
-      <p class="surtitre">42 + 52</p>
-      <h3 class="moitie-titre" data-anime="lignes">Séances à la demande</h3>
-      <p>Enseignement rangé par saison et entraînement de pleine nature, 24 h sur 24.</p>
-      <p class="moitie-aussi"><a href="/seances#meditation" class="lien-fleche" data-libelle="Les séances">Les méditations</a> <a href="/fitness-seniors" class="lien-fleche" data-libelle="Fitness seniors">Le fitness seniors</a> <a href="/seances" class="lien-fleche" data-libelle="Les séances">Voir les séances</a></p>
-    </div>
-  </article>
 </section>
 <section class="live" id="live" data-live='{"debut":"2026-09-03","fin":"2026-12-03","jour":4,"heure":"18:00","heureFin":"19:15","zone":"Europe/Paris","seances":12,"titre":"Programme d&#39;automne 2026","texte":"L&#39;automne est la saison du repli bienveillant et du renforcement de l&#39;énergie des poumons : 12 semaines de pratique structurées autour de 6 cycles traditionnels."}'>
   <figure class="media live-fond" data-fx="parallaxe" data-fx-force="8" style="--cadrage:52% 50%;--cadrage-mobile:50% 50%">
