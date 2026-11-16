@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le registre des formes</title>
+<style>
+@font-face{font-family:Archivo;src:url(polices/archivo.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:Mono;src:url(polices/mono.woff2) format("woff2");font-weight:100 800}
+:root{--papier:#f7f6f2;--encre:#141414;--rouge:#d63a22;--gris:#5d5d58}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:var(--papier);color:var(--encre);font-family:Archivo,sans-serif}
+.ecran{position:relative;height:100svh;min-height:560px;overflow:hidden;padding:92px 48px 28px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:40px}
+header{position:absolute;inset:0 0 auto 0;height:72px;display:flex;align-items:center;gap:28px;padding:0 48px;background:var(--papier);border-bottom:1.5px solid var(--encre);z-index:5}
+.marque{font-weight:800;font-stretch:72%;font-size:24px;text-transform:uppercase;letter-spacing:.01em}
+nav{display:flex;gap:24px;margin-left:auto;font-size:16px;font-weight:500}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 22px;background:var(--rouge);color:#fff;font-weight:700;font-size:16px;border-radius:4px}
+.btn.ligne{background:transparent;color:var(--encre);border:1.5px solid var(--encre)}
+.tambour{position:relative;perspective:900px;display:flex;flex-direction:column;justify-content:center;gap:6px;padding-bottom:190px;min-width:0}
+.ligne{display:flex;align-items:baseline;gap:18px;font-weight:800;text-transform:uppercase;line-height:.9;letter-spacing:-.01em;white-space:nowrap;transform-origin:50% 50% -260px}
+.ligne small{font-family:Mono;font-size:13px;font-weight:500;letter-spacing:.04em;color:var(--gris);text-transform:none}
+.l1{font-size:30px;font-stretch:62%;opacity:.25;transform:rotateX(46deg)}
+.l2{font-size:52px;font-stretch:70%;opacity:.45;transform:rotateX(26deg)}
+.l3{font-size:clamp(60px,6.6vw,104px);font-stretch:78%;color:var(--rouge)}
+.l4{font-size:52px;font-stretch:70%;opacity:.45;transform:rotateX(-26deg)}
+.l5{font-size:30px;font-stretch:62%;opacity:.25;transform:rotateX(-46deg)}
+.l3 small{color:var(--encre);font-size:14px}
+.info{position:absolute;left:0;right:0;bottom:6px;display:flex;flex-direction:column;gap:14px}
+h1{font-size:18px;font-weight:600;line-height:1.4;max-width:46ch;font-stretch:100%}
+h1 b{font-weight:800}
+.actions{display:flex;gap:12px}
+.live{font-family:Mono;font-size:14px}
+.live b{color:var(--rouge)}
+.image{position:relative;border-radius:2px;overflow:hidden;align-self:stretch;margin-bottom:0}
+.image img{width:100%;height:100%;object-fit:cover;object-position:56% 50%}
+.image figcaption{position:absolute;left:0;bottom:0;right:0;padding:14px 18px;background:var(--encre);color:var(--papier);font-family:Mono;font-size:13px;display:flex;justify-content:space-between}
+.tourner{position:absolute;right:-8px;top:50%;transform:translate(50%,-50%) rotate(90deg);font-family:Mono;font-size:13px;color:var(--gris)}
+.repere{position:absolute;left:-30px;top:50%;width:18px;height:2px;background:var(--rouge)}
+@media (max-width:760px){
+ header{padding:0 20px;height:64px} nav{display:none} header .btn{margin-left:auto;min-height:44px;padding:0 16px}
+ .ecran{grid-template-columns:1fr;grid-template-rows:34svh auto;padding:76px 20px 20px;gap:10px}
+ .tambour{padding-bottom:0;justify-content:flex-start}
+ .image{grid-row:1}
+ .l1,.l4,.l5{display:none} .l2,.l4{font-size:26px} .l3{font-size:44px}
+ .ligne small{display:none}
+ .info{position:static;margin-top:12px} h1{font-size:16px} .actions{flex-direction:column}
+ .tourner{display:none}
+}
+</style></head><body>
+<header><div class="marque">Santé Vous Zen</div><nav><span>Les formes</span><span>Le live</span><span>Formules</span><span>Patrick Campo</span><span>Contact</span></nav><a class="btn">S'abonner</a></header>
+<div class="ecran">
+ <div class="tambour">
+  <span class="repere"></span>
+  <p class="ligne l1">Méthode du Dr Yayama <small>5 katas</small></p>
+  <p class="ligne l2">Les 8 pièces de brocart <small>Ba Duan Jin</small></p>
+  <p class="ligne l3">18 mouvements <small>Tai Ji Qi Gong<br>forme complète · 18:41</small></p>
+  <p class="ligne l4">Les 9 petits cieux <small>Ba Gua</small></p>
+  <p class="ligne l5">Le jeu des 5 animaux <small>Wu Qin Xi</small></p>
+  <span class="tourner">↕ faites tourner le registre</span>
+  <div class="info">
+   <h1><b>Qi Gong en ligne avec Patrick Campo.</b> 42 séances d'enseignement, 52 d'entraînement, 13 méditations, et le live du jeudi et du dimanche.</h1>
+   <div class="actions"><a class="btn">Choisir ma formule</a><a class="btn ligne">Essayer gratuitement</a></div>
+   <p class="live">● Ce soir <b>18 h Paris</b> · 21 h Réunion · sur Zoom</p>
+  </div>
+ </div>
+ <figure class="image"><img src="/recu/site/24-mouvements-tai-chi.jpg" alt=""><figcaption><span>Stage de juin, Cantal</span><span>03 / 12</span></figcaption></figure>
+</div>
+</body></html>

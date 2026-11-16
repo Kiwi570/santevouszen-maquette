@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le ballon de souffle</title>
+<style>
+@font-face{font-family:Syne;src:url(polices/syne.woff2) format("woff2");font-weight:400 800}
+@font-face{font-family:Figtree;src:url(polices/figtree.woff2) format("woff2");font-weight:300 900}
+:root{--basalte:#0d1418;--ocean:#0f3346;--perle:#fbf3e4;--corail:#ff7a4d;--texte:#eef3f4}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:var(--basalte);color:var(--texte);font-family:Figtree,sans-serif}
+.ecran{position:relative;height:100svh;min-height:560px;overflow:hidden}
+.photo{position:absolute;inset:0}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:18% 40%}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(10,22,30,.92) 0,rgba(10,22,30,.6) 32%,rgba(10,22,30,0) 62%),radial-gradient(60% 70% at 30% 45%,rgba(0,0,0,0),rgba(6,14,20,.45))}
+header{position:absolute;inset:0 0 auto 0;height:76px;display:flex;align-items:center;gap:30px;padding:0 48px;z-index:5;background:var(--basalte)}
+.marque{font-family:Syne;font-weight:800;font-size:22px;letter-spacing:.01em}
+nav{display:flex;gap:26px;margin-left:auto;font-size:16px;font-weight:500}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;background:var(--perle);color:#14202a;font-weight:700;font-size:16px}
+.btn.ligne{background:transparent;color:var(--texte);border:1.5px solid rgba(238,243,244,.55)}
+.texte{position:absolute;right:56px;top:150px;width:min(520px,40vw);z-index:3;display:flex;flex-direction:column;gap:22px}
+.sur{font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--corail)}
+h1{font-family:Syne;font-weight:700;font-size:clamp(56px,6.4vw,104px);line-height:.95;letter-spacing:-.025em}
+.chapo{font-size:19px;line-height:1.55;color:#d7e2e6}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.live{font-size:16px;display:flex;gap:10px;align-items:center}
+.live i{width:9px;height:9px;border-radius:50%;background:var(--corail);display:inline-block}
+.ballon{position:absolute;z-index:2;left:19%;top:44%;width:min(46vw,64vh);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;
+ background:radial-gradient(circle at 38% 32%,rgba(255,255,255,.95) 0 6%,rgba(255,240,214,.75) 16%,rgba(255,196,150,.35) 38%,rgba(120,200,230,.14) 62%,rgba(120,200,230,0) 71%);
+ box-shadow:0 0 120px 30px rgba(255,190,140,.22),inset 0 0 80px rgba(255,255,255,.25)}
+.ballon::before,.ballon::after{content:"";position:absolute;inset:6%;border-radius:50%;border:1.5px solid rgba(255,244,228,.55);transform:rotateX(68deg)}
+.ballon::after{inset:6%;transform:rotateY(64deg) rotateZ(20deg);border-color:rgba(190,232,248,.45)}
+.ballon span{position:absolute;inset:14%;border-radius:50%;border:1px dashed rgba(255,244,228,.35)}
+.etiquette{position:absolute;z-index:3;left:6%;bottom:9%;font-size:14px;font-weight:600;background:rgba(10,22,30,.75);padding:10px 16px;border-radius:999px}
+.mains{position:absolute;z-index:3;left:19%;top:79%;transform:translateX(-50%);font-size:14px;color:#fff;font-weight:600;text-shadow:0 1px 10px #000}
+@media (max-width:760px){
+ header{padding:0 20px;height:64px} nav{display:none} header .btn{margin-left:auto;min-height:44px;padding:0 18px}
+ .photo img{object-position:27% 40%}
+ .photo::after{background:linear-gradient(0deg,rgba(10,22,30,.95) 0,rgba(10,22,30,.7) 38%,rgba(10,22,30,0) 62%)}
+ .texte{left:20px;right:20px;width:auto;top:auto;bottom:24px;gap:14px}
+ h1{font-size:42px} .chapo{font-size:16px} .actions .btn{min-height:46px}
+ .ballon{left:50%;top:32%;width:78vw}
+ .mains,.etiquette{display:none} .ballon{top:30%;width:70vw}
+}
+</style></head><body>
+<div class="ecran">
+ <figure class="photo"><img src="/recu/site/qi-gong-poumons-gros.jpg" alt=""></figure>
+ <div class="ballon"><span></span></div>
+ <p class="mains">Glissez pour ouvrir, relâchez pour fermer</p>
+ <header><div class="marque">Santé Vous Zen</div><nav><span>Séances</span><span>Live Zoom</span><span>Formules</span><span>Patrick Campo</span><span>Contact</span></nav><a class="btn">S'abonner</a></header>
+ <div class="texte">
+  <p class="sur">Qi Gong · méditation · seniors</p>
+  <h1>Le souffle entre les mains.</h1>
+  <p class="chapo">Renforcer le corps, pacifier l'esprit. Patrick Campo enseigne depuis La Réunion, en direct le jeudi et le dimanche, et en 107 séances à la demande.</p>
+  <div class="actions"><a class="btn">Voir les formules</a><a class="btn ligne">Une séance offerte</a></div>
+  <p class="live"><i></i>Prochain live : ce soir, 18 h Paris · 21 h Réunion</p>
+ </div>
+ <p class="etiquette">Tenir le ballon · Zhan Zhuang</p>
+</div>
+</body></html>

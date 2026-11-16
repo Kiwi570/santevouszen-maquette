@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fitness seniors : renforcement, équilibre et étirements · Santé Vous Zen</title>
+<meta name="description" content="Trois modules de fitness pour seniors avec Patrick Campo : renforcement musculaire, sport et équilibre, étirements généralisés, avec peu de matériel.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://santevouszen-maquette.vercel.app/fitness-seniors">
+<style>:root{--fond:#0e1215;--texte:#f6f4ef;--voile-fond:#0e1215;--ouverture-fond:#0e1215;--menu-fond:#0e1215}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0e1215">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Santé Vous Zen">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Fitness seniors : renforcement, équilibre et étirements · Santé Vous Zen">
+<meta property="og:description" content="Trois modules de fitness pour seniors avec Patrick Campo : renforcement musculaire, sport et équilibre, étirements généralisés, avec peu de matériel.">
+<meta property="og:url" content="https://santevouszen-maquette.vercel.app/fitness-seniors">
+<meta property="og:image" content="https://santevouszen-maquette.vercel.app/assets/partage/fitness-seniors-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Un groupe de seniors en séance au bord d&#39;un lac">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Santé Vous Zen","url":"https://santevouszen-maquette.vercel.app/","telephone":"+262692090513","email":"santevouszen@gmail.com","founder":{"@type":"Person","name":"Patrick Campo"},"address":{"@type":"PostalAddress","streetAddress":"30 bis Chemin des Benjoins","postalCode":"97490","addressLocality":"Sainte-Clotilde","addressRegion":"La Réunion","addressCountry":"FR"},"description":"Cours de Qi Gong, de méditation et de fitness seniors en ligne, avec Patrick Campo : séances à la demande et live sur Zoom.","sameAs":["https://www.youtube.com/@santevouszen974","https://www.facebook.com/patrick.campo.7/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-point" aria-hidden="true"></span><span data-voile-libelle>Fitness seniors</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-arc" viewBox="0 0 600 260" aria-hidden="true"><path d="M60 230 C 140 40, 460 40, 540 230"/></svg>
+  <span class="ouverture-point" data-ouverture-objet></span>
+  <p class="ouverture-nom">Santé Vous Zen</p>
+  <p class="ouverture-ligne">Qi Gong · méditation · seniors</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="entete-point" aria-hidden="true"></span><span>Santé Vous Zen</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors" aria-current="page">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/seances" class="menu-lien" data-libelle="Les séances">Les séances</a></li><li style="--i:2"><a href="/fitness-seniors" class="menu-lien" data-libelle="Fitness seniors" aria-current="page">Fitness seniors</a></li><li style="--i:3"><a href="/patrick-campo" class="menu-lien" data-libelle="Patrick Campo">Patrick Campo</a></li><li style="--i:4"><a href="/formules" class="menu-lien" data-libelle="Formules">Formules</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+262692090513">Appeler 0692 09 05 13</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="fit-ouv monde-chaud" id="debut">
+  <div class="fit-ouv-texte">
+    <p class="surtitre">Fitness seniors</p>
+    <h1 class="fit-titre" data-anime="lettres" data-grille="typo">Un muscle à la fois.</h1>
+    <p class="fit-chapo">Trois modules filmés au bord d&#39;un lac et en salle : renforcement, équilibre, étirements. Peu de matériel : un bâton, une chaise, une charge légère.</p>
+    <p class="fit-actions"><a href="/formules" class="bouton" data-libelle="Formules" data-action-principale>Voir les formules</a><span class="mono fit-info" data-info-cle>3 modules · 18 à 43 min · un bâton, une chaise</span></p>
+  </div>
+  <figure class="media fit-photo" data-fx="parallaxe" data-fx-force="8" data-iris-centre style="--cadrage:39% 42%;--cadrage-mobile:50% 42%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/fitness-lac-mobile-640.webp 640w" sizes="(max-width: 760px) 100vw, 55vw">
+    <img src="/assets/images/fitness-lac-1280.webp" srcset="/assets/images/fitness-lac-640.webp 640w, /assets/images/fitness-lac-1280.webp 1280w, /assets/images/fitness-lac-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 55vw" alt="Un groupe de seniors lève les bras avec Patrick sur une terrasse au bord d&#39;un lac" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="serie monde-chaud" id="serie" data-serie data-effet="compteur-serie" data-fini="Série terminée : 20 sur 20. Respirez.">
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:3%;--py:5%" aria-hidden="true"><i></i></span>
+  <div class="conteneur serie-grille">
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Comptez la série avec lui</h2>
+      <p data-anime>Mollets et retour du sang veineux : 1 série de 20, en montant sur la pointe des pieds, bras levés.</p>
+      <p class="serie-message" data-serie-message aria-live="polite"></p>
+    </div>
+    <div class="serie-compteur">
+      <svg viewBox="0 0 240 240" class="serie-anneau" aria-hidden="true"><circle cx="120" cy="120" r="104" class="sa-fond"/><circle cx="120" cy="120" r="104" class="sa-plein" data-serie-anneau/></svg>
+      <p class="serie-chiffre mono" data-indicateur><b data-serie-n>0</b><span>/ 20</span></p>
+      <button type="button" class="bouton serie-bouton" data-serie-bouton data-grille="retour">Je monte sur la pointe des pieds</button>
+      <button type="button" class="bouton bouton--contour serie-reprendre" data-serie-reprendre hidden>Recommencer</button>
+    </div>
+  </div>
+  <figure class="media serie-photo" data-fx="zoom" style="--cadrage:50% 35%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/fitness-mollets-784.webp" srcset="/assets/images/fitness-mollets-480.webp 480w, /assets/images/fitness-mollets-640.webp 640w, /assets/images/fitness-mollets-784.webp 784w" sizes="(max-width: 760px) 100vw, 40vw" alt="Exercice des mollets en groupe sur la terrasse du lac" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="modules monde-chaud" id="modules">
+  <div class="conteneur">
+    <p class="surtitre">Les trois modules</p>
+    <h2 class="titre-section" data-anime="lignes">Ce qu&#39;il y a dans chaque séance.</h2>
+    <ol class="modules-liste" data-anime="cascade">
+      <li class="module" id="renforcement" data-fx="vitesse" data-fx-force="2">
+        <figure class="media " style="--cadrage:50% 0%;aspect-ratio:21 / 9">
+  <picture>
+    <img src="/assets/images/fitness-jambes-784.webp" srcset="/assets/images/fitness-jambes-480.webp 480w, /assets/images/fitness-jambes-640.webp 640w, /assets/images/fitness-jambes-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Exercice des jambes en salle, posture du cavalier" width="784" height="336" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="module-num mono">01</p>
+        <h3>Fitness et muscles seniors</h3>
+        <dl class="module-infos">
+          <div><dt>Durée</dt><dd class="mono">43:23</dd></div>
+          <div><dt>Travail</dt><dd>mollets, jambes, lombaires, poitrine, abdominaux</dd></div>
+          <div><dt>Matériel</dt><dd>rien, un partenaire pour un exercice</dd></div>
+        </dl>
+        <ul class="module-exos"><li><span>Mollets et retour du sang veineux</span><b class="mono">1×20</b></li><li><span>Jambes 3, demi-squat tenu 10 s</span><b class="mono">3×10</b></li><li><span>Lombaires 1, le pont</span><b class="mono">1×15</b></li><li><span>Abdominaux 1, genoux alternés</span><b class="mono">1×15</b></li></ul>
+      </li><li class="module" id="sport" data-fx="vitesse" data-fx-force="2">
+        <figure class="media " style="--cadrage:50% 0%;aspect-ratio:21 / 9">
+  <picture>
+    <img src="/assets/images/fitness-equilibre-784.webp" srcset="/assets/images/fitness-equilibre-480.webp 480w, /assets/images/fitness-equilibre-640.webp 640w, /assets/images/fitness-equilibre-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Montée sur la pointe des pieds, bras levés, en salle" width="784" height="336" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="module-num mono">02</p>
+        <h3>Fitness et sport seniors 2</h3>
+        <dl class="module-infos">
+          <div><dt>Durée</dt><dd class="mono">24:41</dd></div>
+          <div><dt>Travail</dt><dd>taille, bas du dos, jambes, équilibre, bras</dd></div>
+          <div><dt>Matériel</dt><dd>un bâton, une charge légère</dd></div>
+        </dl>
+        <ul class="module-exos"><li><span>Rotation de la taille</span><b class="mono">1×20</b></li><li><span>Mollets, épaules, équilibre</span><b class="mono">2×15</b></li><li><span>Biceps, coudes au corps</span><b class="mono">4×15</b></li><li><span>Équilibre 3, sans appui</span><b class="mono">1×10</b></li></ul>
+      </li><li class="module" id="etirements" data-fx="vitesse" data-fx-force="2">
+        <figure class="media " style="--cadrage:50% 0%;aspect-ratio:21 / 9">
+  <picture>
+    <img src="/assets/images/fitness-psoas-784.webp" srcset="/assets/images/fitness-psoas-480.webp 480w, /assets/images/fitness-psoas-640.webp 640w, /assets/images/fitness-psoas-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Étirement du psoas en fente avant, en salle" width="784" height="336" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="module-num mono">03</p>
+        <h3>Souplesse et étirements seniors</h3>
+        <dl class="module-infos">
+          <div><dt>Durée</dt><dd class="mono">18:21</dd></div>
+          <div><dt>Travail</dt><dd>tendons d&#39;Achille, jambes, dos, épaules, poitrine</dd></div>
+          <div><dt>Matériel</dt><dd>une chaise si besoin</dd></div>
+        </dl>
+        <ul class="module-exos"><li><span>Psoas iliaque</span><b class="mono">01:03</b></li><li><span>Cervicales</span><b class="mono">00:49</b></li><li><span>Ischio-jambiers, lombaires</span><b class="mono">02:16</b></li><li><span>Tendons d&#39;Achille et mollets</span><b class="mono">01:34</b></li></ul>
+      </li>
+    </ol>
+    <p class="prudence">Ces séances sont une activité physique adaptée, pas un soin. En cas de doute sur votre santé, demandez l&#39;avis de votre médecin avant de commencer.</p>
+  </div>
+</section>
+<section class="fin-page monde-chaud" id="commencer">
+  <figure class="media fin-page-photo" data-anime="rideau" style="--cadrage:51% 35%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/fitness-salle-784.webp" srcset="/assets/images/fitness-salle-480.webp 480w, /assets/images/fitness-salle-640.webp 640w, /assets/images/fitness-salle-784.webp 784w" sizes="(max-width: 760px) 100vw, 45vw" alt="Exercice d&#39;équilibre dans une salle de sport" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div>
+    <h2 class="titre-section" data-anime="lignes">Pour suivre le fitness seniors, choisissez votre formule.</h2>
+    <p data-anime><a href="/formules" class="bouton" data-libelle="Formules">Choisir ma formule</a></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Santé Vous Zen</p>
+      <p>Cours en ligne · depuis La Réunion<br><a href="tel:+262692090513">0692 09 05 13</a><br><a href="mailto:santevouszen@gmail.com">santevouszen@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors" aria-current="page">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Pratiquer</strong></p>
+      <ul>
+        <li>Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)</li>
+        <li><a href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">Chaîne YouTube</a></li>
+        <li><a href="https://www.facebook.com/patrick.campo.7/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : inscriptions, paiements et messages sont simulés, rien n&#39;est envoyé.</p><p class="pied-legal">Mentions légales · Politique de confidentialité · CGVU : à compléter</p><p>© Santé Vous Zen · Patrick Campo</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+262692090513">Appeler</a>
+  <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+</div>
+</body>
+</html>

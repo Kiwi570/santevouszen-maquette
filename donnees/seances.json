@@ -1,0 +1,359 @@
+[
+ {
+  "num": "1",
+  "titre": "Échauffement complet Qi Gong et Tai-chi",
+  "duree": "49:26",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "26",
+  "titre": "Docteur Yayama, les 5 katas",
+  "duree": "1:00:44",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "6",
+  "titre": "Tai Chi Qi Gong 1 à 6",
+  "duree": "55:49",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "10",
+  "titre": "Tai Chi Qi Gong 7 à 12",
+  "duree": "1:04:12",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "14",
+  "titre": "Tai Chi Qi Gong 13 à 18",
+  "duree": "1:06:36",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "18",
+  "titre": "Les 18 mouvements du Tai Chi Qi Gong 1",
+  "duree": "1:06:54",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "22",
+  "titre": "Les 18 mouvements du Tai Ji Qi Gong 2",
+  "duree": "1:02:19",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "30",
+  "titre": "Docteur Yayama 2, séance complète",
+  "duree": "54:25",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "34",
+  "titre": "Qi Gong du printemps",
+  "duree": "46:06",
+  "cat": "enseignement",
+  "saison": "printemps"
+ },
+ {
+  "num": "1",
+  "titre": "Retour sur l'échauffement complet",
+  "duree": "54:41",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "2",
+  "titre": "Wu Qin Xi, Ba Duan Jin, les 9 petits cieux, Tai Chi Qi Gong",
+  "duree": "57:00",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "5",
+  "titre": "Wu Qin Xi, Ba Duan Jin, Tai Chi Qi Gong",
+  "duree": "1:03:04",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "6",
+  "titre": "Wu Qin Xi, Ba Duan Jin",
+  "duree": "1:02:27",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "7",
+  "titre": "Wu Qin Xi, forme complète",
+  "duree": "1:01:37",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "8",
+  "titre": "Les 9 petits cieux, forme complète",
+  "duree": "1:12:15",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "9",
+  "titre": "Les 18 mouvements du Tai Chi Qi Gong, forme complète",
+  "duree": "59:23",
+  "cat": "enseignement",
+  "saison": "été"
+ },
+ {
+  "num": "1",
+  "titre": "Retour sur l'échauffement complet",
+  "duree": "54:41",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "2",
+  "titre": "Les 8 pièces de brocart, forme complète",
+  "duree": "1:07:14",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "3",
+  "titre": "Les 18 mouvements du Tai Ji Qi Gong, forme complète",
+  "duree": "1:00:29",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "4",
+  "titre": "Qi Gong du Dr Yayama, forme complète",
+  "duree": "1:13:39",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "5",
+  "titre": "Qi Gong pour les poumons et le gros intestin",
+  "duree": "58:30",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "6",
+  "titre": "Qi Gong pour l'équilibre, forme complète",
+  "duree": "1:05:40",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "7",
+  "titre": "Les 8 trésors de soie",
+  "duree": "1:06:04",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "9",
+  "titre": "Qi Gong Shaolin 2, forme complète",
+  "duree": "59:25",
+  "cat": "enseignement",
+  "saison": "automne"
+ },
+ {
+  "num": "1",
+  "titre": "Apprentissage d'un échauffement complet",
+  "duree": "54:49",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "2",
+  "titre": "Qi Gong pour renforcer l'équilibre",
+  "duree": "1:03:14",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "3",
+  "titre": "Ba Duan Jin, Tai Chi Qi Gong, Wu Chi",
+  "duree": "58:53",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "5",
+  "titre": "Ba Duan Jin, Tai Chi Qi Gong, Wu Chi (formes 5 et 6)",
+  "duree": "1:05:07",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "6",
+  "titre": "Qi Gong Shaolin 11, 12 et 13, Zhan Zhuang 4",
+  "duree": "1:05:40",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "7",
+  "titre": "Les 8 pièces de brocart complet, respiration paradoxale",
+  "duree": "1:06:04",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "8",
+  "titre": "Les 9 petits cieux, forme complète",
+  "duree": "1:12:15",
+  "cat": "enseignement",
+  "saison": "hiver"
+ },
+ {
+  "num": "4",
+  "titre": "18 mouvements du Tai Ji Qi Gong, forme complète",
+  "duree": "18:41",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "19",
+  "titre": "8 pièces de brocart (Ba Duan Jin)",
+  "duree": "19:16",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "5",
+  "titre": "Méthode du Docteur Yayama, 5 katas",
+  "duree": "26:00",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "",
+  "titre": "18 mouvements du Tai Ji Qi Gong, forme assise",
+  "duree": "27:39",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "",
+  "titre": "Qi Gong des 9 petits cieux",
+  "duree": "27:08",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "29",
+  "titre": "Qi Gong style Shaolin, les 13 Luohan",
+  "duree": "26:48",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "3",
+  "titre": "18 mouvements du Tai Chi Qi Gong",
+  "duree": "29:31",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "9",
+  "titre": "La danse du Dragon",
+  "duree": "08:46",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "",
+  "titre": "Ba Duan Jin à Nosy Be (8 trésors de soie), à louer 3,50 €",
+  "duree": "24:47",
+  "cat": "pleine-nature",
+  "saison": null
+ },
+ {
+  "num": "1",
+  "titre": "Méditation contre la douleur, physique ou émotionnelle",
+  "duree": "16:55",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "2",
+  "titre": "Lâcher prise grâce au pardon",
+  "duree": "13:38",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "3",
+  "titre": "Méditation par balayage corporel",
+  "duree": "14:13",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "4",
+  "titre": "La respiration consciente",
+  "duree": "18:21",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "5",
+  "titre": "Vaincre le sentiment de solitude",
+  "duree": "22:14",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "6",
+  "titre": "Méditation Metta pour l'amour bienveillant",
+  "duree": "18:11",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "7",
+  "titre": "Nourrir son intériorité avec les 5 éléments",
+  "duree": "23:46",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "8",
+  "titre": "Intérioriser l'élément Feu",
+  "duree": "12:45",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "9",
+  "titre": "L'élément Espace",
+  "duree": "13:48",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "10",
+  "titre": "Pacifier l'esprit",
+  "duree": "18:02",
+  "cat": "meditation",
+  "saison": null
+ },
+ {
+  "num": "11",
+  "titre": "Nourrir le corps par les 3 refuges intérieurs",
+  "duree": "18:42",
+  "cat": "meditation",
+  "saison": null
+ }
+]

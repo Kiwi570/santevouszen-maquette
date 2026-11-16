@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Santé Vous Zen : Qi Gong en ligne avec Patrick Campo</title>
+<meta name="description" content="Qi Gong, méditation et fitness seniors en ligne avec Patrick Campo : 107 séances à suivre chez vous et un live sur Zoom chaque jeudi, depuis La Réunion.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://santevouszen-maquette.vercel.app/">
+<style>:root{--fond:#0e1215;--texte:#f6f4ef;--voile-fond:#0e1215;--ouverture-fond:#0e1215;--menu-fond:#0e1215}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0e1215">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Santé Vous Zen">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Santé Vous Zen : Qi Gong en ligne avec Patrick Campo">
+<meta property="og:description" content="Qi Gong, méditation et fitness seniors en ligne avec Patrick Campo : 107 séances à suivre chez vous et un live sur Zoom chaque jeudi, depuis La Réunion.">
+<meta property="og:url" content="https://santevouszen-maquette.vercel.app/">
+<meta property="og:image" content="https://santevouszen-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Patrick Campo sur une coulée de lave, face à l&#39;océan">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Santé Vous Zen","url":"https://santevouszen-maquette.vercel.app/","telephone":"+262692090513","email":"santevouszen@gmail.com","founder":{"@type":"Person","name":"Patrick Campo"},"address":{"@type":"PostalAddress","streetAddress":"30 bis Chemin des Benjoins","postalCode":"97490","addressLocality":"Sainte-Clotilde","addressRegion":"La Réunion","addressCountry":"FR"},"description":"Cours de Qi Gong, de méditation et de fitness seniors en ligne, avec Patrick Campo : séances à la demande et live sur Zoom.","sameAs":["https://www.youtube.com/@santevouszen974","https://www.facebook.com/patrick.campo.7/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-point" aria-hidden="true"></span><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-arc" viewBox="0 0 600 260" aria-hidden="true"><path d="M60 230 C 140 40, 460 40, 540 230"/></svg>
+  <span class="ouverture-point" data-ouverture-objet></span>
+  <p class="ouverture-nom">Santé Vous Zen</p>
+  <p class="ouverture-ligne">Qi Gong · méditation · seniors</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <span class="entete-point" aria-hidden="true"></span><span>Santé Vous Zen</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/seances" class="menu-lien" data-libelle="Les séances">Les séances</a></li><li style="--i:2"><a href="/fitness-seniors" class="menu-lien" data-libelle="Fitness seniors">Fitness seniors</a></li><li style="--i:3"><a href="/patrick-campo" class="menu-lien" data-libelle="Patrick Campo">Patrick Campo</a></li><li style="--i:4"><a href="/formules" class="menu-lien" data-libelle="Formules">Formules</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+262692090513">Appeler 0692 09 05 13</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv--pose" id="debut" data-ouv data-vite="Plus lentement… le geste se brouille" data-fin="Vous soutenez le ciel des deux mains : la première des 8 pièces de brocart" data-doigt="Glissez la poignée vers le haut, lentement">
+  <figure class="pose ouv-figure" data-pose='{"nom":"ouv","n":11,"ordi":[0.4115,0,0.1995,1],"tel":[0.3148,0,0.4728,1],"mains":[0.4927,0.0972],"mainsTel":[0.5075,0.0972],"telTaille":[600,800],"telX":0.2786,"telL":0.4219,"masques":[[0.49,0.56,0.14,0.36]],"boite":[0,0,1920,1080],"trace":0.35,"fondu":0.25,"lisse":3}' data-visuel data-effet="trace-geste" data-souris>
+    <picture><source media="(max-width: 760px)" srcset="/assets/images/chrono/ouv-m-image.webp" width="600" height="800"><img src="/assets/images/chrono/ouv-image.webp" width="1600" height="900" alt="Patrick Campo en tenue blanche sur un ponton de bois face au lagon de Nosy Be, les mains devant le ventre, au début du geste « soutenir le ciel des deux mains »" fetchpriority="high" decoding="async"></picture>
+    <canvas class="pose-toile" aria-hidden="true"></canvas>
+  </figure>
+  <span class="ouv-mains" data-iris-centre aria-hidden="true"></span>
+  <button type="button" class="ouv-poignee" data-poignee data-grille="manipuler" aria-label="Faire monter les bras de Patrick : glisser vers le haut, lentement"><span></span></button>
+  <p class="ouv-consigne" data-consigne aria-live="polite"><span data-consigne-texte>Montez la souris, lentement : ses bras montent avec vous</span></p>
+  <div class="ouv-texte">
+    <p class="surtitre ouv-sur masque-ecran-tres-bas">Qi Gong en ligne · Patrick Campo</p>
+    <h1 class="ouv-titre" data-grille="typo"><span class="ouv-l1">Le geste</span> <span class="ouv-l2"><span class="ouv-lent" data-effet="titre-lent">lent.</span></span></h1>
+    <p class="ouv-chapo masque-ecran-tres-bas" data-anime="gsap">Renforcer le corps, pacifier l&#39;esprit : 107 séances à suivre chez vous, et le live du jeudi avec Patrick Campo.</p>
+    <p class="ouv-live" data-info-cle data-anime="gsap"><span class="pastille" aria-hidden="true"></span><span data-live-court>Live Zoom chaque jeudi · 18 h Paris</span></p>
+    <p class="ouv-actions" data-anime="gsap">
+      <a href="/formules#avec-live" class="bouton" data-libelle="Formules" data-action-principale data-survol="magnetique">Choisir ma formule</a>
+      <a class="lien-fleche ouv-essai masque-ecran-tres-bas" href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">Essayer gratuitement</a>
+    </p>
+  </div>
+  <p class="ouv-legende masque-ecran-bas">Soutenir le ciel des deux mains · Ba Duan Jin, sur le ponton de Nosy Be (Madagascar)</p>
+</section>
+<section class="ench" id="enchainement" style="--n:6" data-ench data-grille="scene" data-scene data-entete-cache aria-label="L&#39;enchaînement : six séances tournées dehors">
+  <div class="ench-cadre" data-collant>
+    <div class="ench-piste" data-ench-piste data-effet="enchainement" tabindex="0" role="region" aria-label="L&#39;enchaînement : six séances tournées dehors">
+      <article class="ench-panneau ench-panneau--gauche ench-panneau--pose" data-panneau="0" id="geste-1">
+        <figure class="pose ench-photo" data-pose='{"nom":"lave","n":10,"ordi":[0.288,0.1907,0.338,0.7769],"tel":[0,0.1907,0.9951,0.7769],"telTaille":[540,960],"telX":0.3115,"telL":0.3161,"boite":[0,0,1920,1080],"trace":0,"fondu":0}' data-visuel data-effet="pose-longue">
+    <picture><source media="(max-width: 760px)" srcset="/assets/images/chrono/lave-m-image.webp" width="540" height="960"><img src="/assets/images/chrono/lave-image.webp" width="1600" height="900" alt="Patrick Campo en blanc sur la coulée de lave, face à l&#39;océan, pendant un kata de la méthode du Dr Yayama" loading="lazy" decoding="async"></picture>
+    <canvas class="pose-toile" aria-hidden="true"></canvas>
+  </figure>
+        <div class="ench-texte">
+          <p class="surtitre">01 · Sur la coulée de lave</p>
+          <h2 class="ench-forme">Méthode du Dr Yayama<span>les 5 katas</span></h2>
+          <p class="ench-desc">Pendule, oiseau, tortue, ours, dragon : cinq katas accessibles à tous, face à l&#39;océan.</p>
+          <p class="ench-meta" data-meta><span>Pleine nature · séance 5</span><span class="mono">26:00</span></p>
+          <p class="ench-jeu mono" data-jeu>Passez la souris de gauche à droite : il déroule le kata</p>
+        </div>
+      </article><article class="ench-panneau ench-panneau--gauche ench-panneau--pose" data-panneau="1" id="geste-2">
+        <figure class="pose ench-photo" data-pose='{"nom":"ocean","n":10,"ordi":[0.2612,0.227,0.3247,0.773],"tel":[0.0297,0.3157,0.9094,0.6843],"telTaille":[540,960],"telX":0.2219,"telL":0.3161,"boite":[0,124,1700,956],"masques":[[0.385,0.36,0.045,0.07],[0.385,0.54,0.075,0.16]],"trace":0.5,"lisse":2}' data-visuel data-effet="pose-longue">
+    <picture><source media="(max-width: 760px)" srcset="/assets/images/chrono/ocean-m-image.webp" width="540" height="960"><img src="/assets/images/chrono/ocean-image.webp" width="1600" height="900" alt="Patrick Campo en blanc sur l&#39;herbe du littoral, la mer qui déferle derrière lui, les mains qui s&#39;ouvrent devant la poitrine" loading="lazy" decoding="async"></picture>
+    <canvas class="pose-toile" aria-hidden="true"></canvas>
+  </figure>
+        <div class="ench-texte">
+          <p class="surtitre">02 · Sur le littoral</p>
+          <h2 class="ench-forme">Qi Gong des poumons<span>et du gros intestin</span></h2>
+          <p class="ench-desc">L&#39;automne est la saison des poumons : face au large, la poitrine s&#39;ouvre et le souffle s&#39;allonge.</p>
+          <p class="ench-meta" data-meta><span>Qi Gong d&#39;automne · en accès libre sur YouTube</span></p>
+          <p class="ench-jeu mono" data-jeu>Passez la souris : la poitrine s&#39;ouvre avec ses mains</p>
+        </div>
+      </article><article class="ench-panneau ench-panneau--gauche" data-panneau="2" id="geste-3">
+        <figure class="media ench-photo" data-effet="plongee" style="--cadrage:48% 45%;--cadrage-mobile:50% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-riviere-mobile-608.webp 608w" sizes="100vw">
+    <img src="/assets/images/geste-riviere-1280.webp" srcset="/assets/images/geste-riviere-640.webp 640w, /assets/images/geste-riviere-1280.webp 1280w, /assets/images/geste-riviere-1920.webp 1920w" sizes="100vw" alt="Patrick Campo en tenue blanche au bord d&#39;une rivière en forêt" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="ench-texte">
+          <p class="surtitre">03 · Au bord de la rivière</p>
+          <h2 class="ench-forme">Les 18 mouvements<span>du Tai Ji Qi Gong</span></h2>
+          <p class="ench-desc">L&#39;enchaînement complet, du souffle initial jusqu&#39;à l&#39;harmonisation du ciel et de la terre, au bruit de l&#39;eau.</p>
+          <p class="ench-meta" data-meta><span>Pleine nature · séance 4</span><span class="mono">18:41</span></p>
+        </div>
+      </article><article class="ench-panneau ench-panneau--gauche" data-panneau="3" id="geste-4">
+        <figure class="media ench-photo" data-effet="plongee" style="--cadrage:51% 50%;--cadrage-mobile:44% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-foret-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/geste-foret-1280.webp" srcset="/assets/images/geste-foret-640.webp 640w, /assets/images/geste-foret-1280.webp 1280w, /assets/images/geste-foret-1920.webp 1920w" sizes="100vw" alt="Patrick debout dans la posture Wu Chi, sur un sentier de forêt" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="ench-texte">
+          <p class="surtitre">04 · Sur le sentier</p>
+          <h2 class="ench-forme">Wu Chi<span>la posture debout</span></h2>
+          <p class="ench-desc">Immobile au milieu de la forêt : la posture qui ouvre l&#39;échauffement complet.</p>
+          <p class="ench-meta" data-meta><span>Printemps · séance 1</span><span class="mono">49:26</span></p>
+        </div>
+      </article><article class="ench-panneau ench-panneau--gauche" data-panneau="4" id="geste-5">
+        <figure class="media ench-photo" data-effet="plongee" style="--cadrage:55% 45%;--cadrage-mobile:40% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-cote-mobile-608.webp 608w" sizes="100vw">
+    <img src="/assets/images/geste-cote-1280.webp" srcset="/assets/images/geste-cote-640.webp 640w, /assets/images/geste-cote-1280.webp 1280w, /assets/images/geste-cote-1920.webp 1920w" sizes="100vw" alt="Patrick Campo, bras tendus vers l&#39;avant, sur une colline couverte d&#39;arbustes" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="ench-texte">
+          <p class="surtitre">05 · Sur la colline</p>
+          <h2 class="ench-forme">Qi Gong du dos<span>et de la colonne vertébrale</span></h2>
+          <p class="ench-desc">Le buste s&#39;allonge, les bras partent loin devant, la colonne s&#39;étire.</p>
+          <p class="ench-meta" data-meta><span>Qi Gong de pleine nature</span></p>
+        </div>
+      </article><article class="ench-panneau ench-panneau--gauche" data-panneau="5" id="geste-6">
+        <figure class="media ench-photo" data-effet="plongee" style="--cadrage:60% 45%;--cadrage-mobile:55% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-ensemble-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/geste-ensemble-1280.webp" srcset="/assets/images/geste-ensemble-640.webp 640w, /assets/images/geste-ensemble-1280.webp 1280w, /assets/images/geste-ensemble-1920.webp 1920w" sizes="100vw" alt="Un groupe de pratiquants lève le bras derrière Patrick, au-dessus d&#39;une baie" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="ench-texte">
+          <p class="surtitre">06 · Ensemble, en stage</p>
+          <h2 class="ench-forme">Les stages<span>Cantal et Corse-du-Sud</span></h2>
+          <p class="ench-desc">Une semaine de pratique en plein air, pour débutants comme confirmés. Prochaines dates sur demande.</p>
+          <p class="ench-meta" data-meta><span>Juin et septembre 2026 · terminés</span></p>
+        </div>
+      </article>
+    </div>
+    <div class="ench-pied" aria-hidden="true"><span class="ench-compte mono"><b data-ench-n>01</b> / 06</span><span class="ench-barre"><i data-ench-progres></i></span><span class="ench-aide ench-aide--souris masque-ecran-bas">Faites défiler : six postures, six paysages</span><span class="ench-aide ench-aide--doigt">Glissez : six postures, six paysages →</span></div>
+  </div>
+</section>
+<section class="moities" id="pratiquer">
+  <h2 class="visuellement-cache">Avec lui en direct, ou à votre heure</h2>
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:50%;--py:6%" aria-hidden="true"><i></i></span>
+  <article class="moitie">
+    <figure class="media moitie-photo" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/moitie-live-960.webp" srcset="/assets/images/moitie-live-480.webp 480w, /assets/images/moitie-live-640.webp 640w, /assets/images/moitie-live-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="Pratiquants en tuniques colorées autour de Patrick sur la terrasse d&#39;une piscine, montagnes derrière" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="moitie-texte">
+      <p class="surtitre">Jeudi 18 h Paris · 21 h Réunion</p>
+      <h3 class="moitie-titre" data-anime="lignes">Le live sur Zoom</h3>
+      <p>Une heure et quart en direct avec Patrick, chaque jeudi de la saison.</p>
+      <a href="/formules" class="lien-fleche" data-libelle="Formules">Formules avec live</a>
+    </div>
+  </article>
+  <article class="moitie">
+    <figure class="media moitie-photo" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 8%">
+  <picture>
+    <img src="/assets/images/moitie-heure-960.webp" srcset="/assets/images/moitie-heure-480.webp 480w, /assets/images/moitie-heure-640.webp 640w, /assets/images/moitie-heure-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="Patrick Campo en tunique mauve sur le ponton d&#39;un lac" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="moitie-texte">
+      <p class="surtitre">42 + 52</p>
+      <h3 class="moitie-titre" data-anime="lignes">Séances à la demande</h3>
+      <p>Enseignement rangé par saison et entraînement de pleine nature, 24 h sur 24.</p>
+      <p class="moitie-aussi"><a href="/seances#meditation" class="lien-fleche" data-libelle="Les séances">Les méditations</a> <a href="/fitness-seniors" class="lien-fleche" data-libelle="Fitness seniors">Le fitness seniors</a> <a href="/seances" class="lien-fleche" data-libelle="Les séances">Voir les séances</a></p>
+    </div>
+  </article>
+</section>
+<section class="live" id="live" data-live='{"debut":"2026-09-03","fin":"2026-12-03","jour":4,"heure":"18:00","heureFin":"19:15","zone":"Europe/Paris","seances":12,"titre":"Programme d&#39;automne 2026","texte":"L&#39;automne est la saison du repli bienveillant et du renforcement de l&#39;énergie des poumons : 12 semaines de pratique structurées autour de 6 cycles traditionnels."}'>
+  <figure class="media live-fond" data-fx="parallaxe" data-fx-force="8" style="--cadrage:52% 50%;--cadrage-mobile:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/live-plage-mobile-640.webp 640w" sizes="(max-width: 760px) 100vw, 62vw">
+    <img src="/assets/images/live-plage-1280.webp" srcset="/assets/images/live-plage-640.webp 640w, /assets/images/live-plage-1280.webp 1280w, /assets/images/live-plage-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 62vw" alt="Patrick Campo en noir sur l&#39;herbe, au bord d&#39;une plage de sable noir face à la houle" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur live-texte">
+    <p class="surtitre">Le rendez-vous</p>
+    <h2 class="live-grand" data-effet="horloge-live"><span class="live-jour" data-live-jour>Jeudi, 18 h à Paris</span><span class="live-heures" data-live-heures>21 h chez Patrick, à La Réunion</span><span class="live-ligne" aria-hidden="true"><i class="live-lumiere" data-live-lumiere></i></span></h2>
+    <p class="live-saison">Programme d&#39;automne 2026 : 12 séances en direct sur Zoom, chaque jeudi du 3 septembre au 3 décembre, de 18 h à 19 h 15, heure de Paris.</p>
+    <p><a href="/formules?avec=live" class="bouton" data-libelle="Formules">Rejoindre le live</a></p>
+  </div>
+</section>
+<section class="patrick patrick--moitie" id="patrick">
+  <figure class="media patrick-moitie-photo" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 38%">
+  <picture>
+    <img src="/assets/images/patrick-equilibre-800.webp" srcset="/assets/images/patrick-equilibre-480.webp 480w, /assets/images/patrick-equilibre-640.webp 640w, /assets/images/patrick-equilibre-800.webp 800w" sizes="(max-width: 760px) 100vw, 50vw" alt="Patrick Campo, une main levée, en équilibre sur une pierre au bord d&#39;une rivière" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="patrick-texte">
+    <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:8%;--py:8%" aria-hidden="true"><i></i></span>
+    <p class="surtitre">Qui vous guide</p>
+    <h2 class="titre-section" data-anime="lignes">Vingt ans à remettre les corps en mouvement.</h2>
+    <p data-anime>Patrick Campo enseigne la médecine physique et la réadaptation depuis 20 ans, et le Qi Gong énergétique depuis 15 ans. Au centre de rééducation Sainte-Clotilde, à Saint-Denis de La Réunion, il accompagne depuis 2003 des personnes à haut risque cardiovasculaire et rénal.</p>
+    <ul class="patrick-chiffres" data-anime="cascade">
+      <li><b class="mono" data-compteur="20">20</b><span>ans en médecine physique et réadaptation</span></li>
+      <li><b class="mono" data-compteur="15">15</b><span>ans d&#39;enseignement du Qi Gong</span></li>
+      <li><b class="mono">2003</b><span>au centre Sainte-Clotilde</span></li>
+    </ul>
+    <p data-anime><a href="/patrick-campo" class="bouton bouton--contour" data-libelle="Patrick Campo">Son parcours</a></p>
+  </div>
+</section>
+<section class="choix choix--pose" id="formules" data-choix='[{"cle":"basic","nom":"BASIC","prix":134,"mois":4,"live":12,"entretien":"1 entretien téléphonique","connaissance":false,"famille":"live"},{"cle":"essentiel","nom":"ESSENTIEL","prix":234,"mois":7,"live":24,"entretien":"1 entretien téléphonique","connaissance":true,"famille":"live"},{"cle":"premium","nom":"PREMIUM","prix":334,"mois":12,"live":36,"entretien":"1 entretien en visio Zoom","connaissance":true,"famille":"live"},{"cle":"bronze","nom":"BRONZE","prix":84,"mois":4,"live":0,"entretien":"","connaissance":false,"famille":"libre"},{"cle":"argent","nom":"ARGENT","prix":154,"mois":7,"live":12,"entretien":"1 entretien téléphonique","connaissance":true,"famille":"libre"},{"cle":"or","nom":"OR","prix":214,"mois":12,"live":12,"entretien":"1 entretien téléphonique","connaissance":true,"famille":"libre"}]'>
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="bas" style="--px:94%;--py:16%" aria-hidden="true"><i></i></span>
+  <div class="duree-cote">
+    <figure class="pose duree-pose" data-pose='{"nom":"ouv","n":11,"ordi":[0.4115,0,0.1995,1],"tel":[0.3148,0,0.4728,1],"mains":[0.4927,0.0972],"mainsTel":[0.5075,0.0972],"telTaille":[600,800],"telX":0.2786,"telL":0.4219,"masques":[[0.49,0.56,0.14,0.36]],"boite":[0,0,1920,1080],"trace":0.35,"fondu":0.25,"lisse":3}' data-visuel data-variante="tel" data-fantomes="non" data-effet="trace-duree">
+    <picture><source media="(max-width: 760px)" srcset="/assets/images/chrono/ouv-m-image.webp" width="600" height="800"><img src="/assets/images/chrono/ouv-image.webp" width="1600" height="900" alt="Patrick Campo sur le ponton de Nosy Be : les mains au ventre, au visage ou jointes au-dessus de la tête selon la durée choisie" loading="lazy" decoding="async"></picture>
+    <canvas class="pose-toile" aria-hidden="true"></canvas>
+  </figure>
+  </div>
+  <div class="choix-colonne">
+    <p class="surtitre">Les formules</p>
+    <h2 class="titre-section" data-anime="lignes">Combien de temps voulez-vous pratiquer ?</h2>
+    <div class="choix-grille">
+      <div class="choix-reglages" data-anime>
+        <fieldset class="choix-mode">
+          <legend>Votre façon</legend>
+          <label><input type="radio" name="mode" value="live" checked> Avec le live</label>
+          <label><input type="radio" name="mode" value="libre"> À mon heure</label>
+        </fieldset>
+        <div class="duree" data-duree>
+              <p class="duree-titre">Durée de l&#39;accès</p>
+              <div class="duree-scene">
+                <input class="duree-curseur" type="range" min="0" max="2" step="1" value="1" data-duree-curseur aria-label="Durée de l&#39;accès" aria-valuetext="7 mois">
+              </div>
+              <p class="duree-aide mono">Glissez : plus l&#39;accès est long, plus ses mains montent</p>
+              <ol class="duree-reperes"><li>4 mois</li><li>7 mois</li><li>12 mois</li></ol>
+            </div>
+      </div>
+      <article class="billet billet--sombre billet--nu" data-billet>
+        <p class="billet-nom mono" data-b-nom>ESSENTIEL</p>
+        <p class="billet-prix" data-prix><span class="rouleau" data-b-prix>234 €</span></p>
+        <p class="billet-duree" data-b-duree>7 mois d'accès</p>
+        <ul class="billet-liste">
+          <li data-b-live>24 séances en direct sur Zoom</li>
+          <li>Entraînement (52), enseignement (42), méditation (13), 24 h sur 24</li>
+          <li data-b-plus>Onglet connaissance (documents PDF)</li>
+          <li data-b-entretien>1 entretien téléphonique</li>
+        </ul>
+        <p class="billet-actions">
+          <a class="bouton" href="/formules?formule=essentiel#inscription" data-b-lien data-grille="retour" data-effet="billet-live" data-libelle="Formules">Choisir cette formule</a>
+          <a href="/formules" class="lien-fleche" data-libelle="Formules">Comparer les six formules</a>
+        </p>
+      </article>
+    </div>
+    <p class="choix-note">Prix affichés sur le site actuel, toutes taxes comprises. Inscription simulée dans cette maquette.</p>
+  </div>
+</section>
+<section class="appel" id="essayer">
+  <figure class="media appel-photo" data-fx="zoom" data-fx-force="14" style="--cadrage:46% 57%">
+  <picture>
+    <img src="/assets/images/groupe-rochers-960.webp" srcset="/assets/images/groupe-rochers-480.webp 480w, /assets/images/groupe-rochers-640.webp 640w, /assets/images/groupe-rochers-960.webp 960w" sizes="100vw" alt="Patrick et un groupe en blanc, bras levés sur des rochers face à la mer" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur appel-texte">
+    <h2 class="titre-section" data-anime="lignes">Essayez avant de vous abonner.</h2>
+    <p data-anime>La chaîne YouTube Santé Vous ZEN propose des séances en accès libre. Une question ? Patrick répond au téléphone.</p>
+    <p class="appel-actions" data-anime>
+      <a class="bouton" href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">Une séance gratuite sur YouTube</a>
+      <a class="bouton bouton--contour" href="tel:+262692090513">Appeler le 0692 09 05 13</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Santé Vous Zen</p>
+      <p>Cours en ligne · depuis La Réunion<br><a href="tel:+262692090513">0692 09 05 13</a><br><a href="mailto:santevouszen@gmail.com">santevouszen@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Pratiquer</strong></p>
+      <ul>
+        <li>Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)</li>
+        <li><a href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">Chaîne YouTube</a></li>
+        <li><a href="https://www.facebook.com/patrick.campo.7/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : inscriptions, paiements et messages sont simulés, rien n&#39;est envoyé.</p><p class="pied-legal">Mentions légales · Politique de confidentialité · CGVU : à compléter</p><p>© Santé Vous Zen · Patrick Campo</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+262692090513">Appeler</a>
+  <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+</div>
+</body>
+</html>

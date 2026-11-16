@@ -1,0 +1,360 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : titre hors de l’écran",
+      "detail": "haut 338 px, bas 417 px, zone 65–390 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > h1.ouv-titre « Le geste lent. »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > p.ouv-actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Choisir ma formule »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > p.ouv-live:nth-of-type(4) « Prochain live jeudi 19 novembre · 18 h Paris · 21  »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par div.conteneur > div.choix-grille > article.billet.billet--sombre > p.billet-prix:nth-of-type(2) « 234 € »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.choix-grille > article.billet.billet--sombre > p.billet-prix:nth-of-type(2) > span.rouleau « 234 € »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ouv-texte > h1.ouv-titre > span.ouv-l2:nth-of-type(2) > span.ouv-lent « lent. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > h1.ouv-titre > span.ouv-l1:nth-of-type(1) « Le geste »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "moitie-heure (4/5, faible, 95 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "article.moitie:nth-of-type(2) > figure.media.moitie-photo > picture > img « Patrick Campo en tenue blanche au bord d'une riviè »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "moitie-heure (4/5, faible, 60 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article.moitie:nth-of-type(2) > figure.media.moitie-photo > picture > img « Patrick Campo en tenue blanche au bord d'une riviè »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-texte > p.ouv-live:nth-of-type(4) « Live Zoom chaque jeudi · 18 h Paris »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#debut > p.ouv-consigne:nth-of-type(1) > span « Prenez la lumière et montez lentement »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > button.ouv-poignee « Guider la trace de lumière : glisser vers le haut, »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.con-ouv-texte > p.con-mail:nth-of-type(4) « santevouszen@gmail.com »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.con-ouv-texte > p:nth-of-type(3) > a.con-tel « 0692 09 05 13 »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.fit-ouv-texte > p.fit-actions:nth-of-type(3) > a.bouton « Voir les formules »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.fit-ouv-texte > p.fit-actions:nth-of-type(3) > span.mono.fit-info « 3 modules · 18 à 43 minutes »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : titre hors de l’écran",
+      "detail": "haut 741 px, bas 787 px, zone 65–779 px",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.fit-ouv-texte > h1.fit-titre « Un muscle à la fois. »",
+      "lieux": [
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : titre hors de l’écran",
+      "detail": "haut 429 px, bas 511 px, zone 65–503 px",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.fit-ouv-texte > h1.fit-titre « Un muscle à la fois. »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#serie > span.point-fil",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#serie > div.conteneur.serie-grille > div:nth-of-type(1) > h2.titre-section « Comptez la série avec lui »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par div.conteneur.inscription-grille > div > article.billet.billet--recap > p.billet-prix:nth-of-type(2) « 234 € »",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div > article.billet.billet--recap > p.billet-prix:nth-of-type(2) > span « 234 € »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.for-ouv-texte > p.for-actions:nth-of-type(3) > span.mono.for-info « À partir de 84 € pour 4 mois »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/seances",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "div.conteneur.sea-ouv-tete > div.sea-ouv-bas > p.sea-actions:nth-of-type(2) > span.sea-info.mono « Accès 24 h sur 24 · de 84 € à 334 € »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "contraste sur image",
+      "detail": "2.24:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1), ombre portée à vérifier",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > p.surtitre.ouv-sur:nth-of-type(1) « QI GONG EN LIGNE · PATRICK CAMPO »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "contraste sur image",
+      "detail": "2.55:1 sur les 10 % de la photo les moins favorables (minimum 3:1), ombre portée à vérifier",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > h1.ouv-titre > span.ouv-l1:nth-of-type(1) « Le geste »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "contraste sur image",
+      "detail": "2.52:1 sur les 10 % de la photo les moins favorables (minimum 3:1), ombre portée à vérifier",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.ouv-texte > h1.ouv-titre > span.ouv-l2:nth-of-type(2) > span.ouv-lent « lent. »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "photo moyenne affichée en très grand",
+      "detail": "fitness-mollets (3/5, 100 % de l'écran) : une image notée 4 ou 5 à cette taille",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#serie > figure.media.serie-photo > picture > img « Exercice des mollets en groupe sur la terrasse du  »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "photo moyenne affichée en très grand",
+      "detail": "seance-colline (3/5, 66 % de l'écran) : une image notée 4 ou 5 à cette taille",
+      "etape": "mesures",
+      "page": "/seances",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur > figure.media.registre-bandeau > picture > img « Patrick bras tendus sur une colline couverte d'arb »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "mesures": 36
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 4 étape(s) notée(s), 82 min de travail pour 100 min de budget, 12 min d’attente de l’utilisateur.",
+    "Journal : « aperçu de l'accueil en films (attente de la réponse notée à part) » 17 min pour 5 prévues.",
+    "Audit rapide : étapes lourdes sur /, /contact, /fitness-seniors, /formules, /patrick-campo, /seances.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Balayage des largeurs : non fait en audit rapide."
+  ],
+  "grille": []
+}

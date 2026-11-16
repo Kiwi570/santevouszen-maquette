@@ -1,0 +1,25 @@
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "Santé Vous Zen",
+ "url": "https://santevouszen-maquette.vercel.app/",
+ "telephone": "+262692090513",
+ "email": "santevouszen@gmail.com",
+ "founder": {
+  "@type": "Person",
+  "name": "Patrick Campo"
+ },
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "30 bis Chemin des Benjoins",
+  "postalCode": "97490",
+  "addressLocality": "Sainte-Clotilde",
+  "addressRegion": "La Réunion",
+  "addressCountry": "FR"
+ },
+ "description": "Cours de Qi Gong, de méditation et de fitness seniors en ligne, avec Patrick Campo : séances à la demande et live sur Zoom.",
+ "sameAs": [
+  "https://www.youtube.com/@santevouszen974",
+  "https://www.facebook.com/patrick.campo.7/"
+ ]
+}

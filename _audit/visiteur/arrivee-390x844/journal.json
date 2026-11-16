@@ -1,0 +1,40 @@
+{
+ "mission": "arrivee",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8639,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Menu",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  }
+ ]
+}

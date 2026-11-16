@@ -1,0 +1,80 @@
+[
+ {
+  "cle": "renforcement",
+  "titre": "Fitness et muscles seniors",
+  "duree": "43:23",
+  "cibles": "mollets, jambes, lombaires, poitrine, abdominaux",
+  "materiel": "rien, un partenaire pour un exercice",
+  "exemples": [
+   [
+    "Mollets et retour du sang veineux",
+    "1×20"
+   ],
+   [
+    "Jambes 3, demi-squat tenu 10 s",
+    "3×10"
+   ],
+   [
+    "Lombaires 1, le pont",
+    "1×15"
+   ],
+   [
+    "Abdominaux 1, genoux alternés",
+    "1×15"
+   ]
+  ],
+  "image": "fitness-mollets"
+ },
+ {
+  "cle": "sport",
+  "titre": "Fitness et sport seniors 2",
+  "duree": "24:41",
+  "cibles": "taille, bas du dos, jambes, équilibre, bras",
+  "materiel": "un bâton, une charge légère",
+  "exemples": [
+   [
+    "Rotation de la taille",
+    "1×20"
+   ],
+   [
+    "Mollets, épaules, équilibre",
+    "2×15"
+   ],
+   [
+    "Biceps, coudes au corps",
+    "4×15"
+   ],
+   [
+    "Équilibre 3, sans appui",
+    "1×10"
+   ]
+  ],
+  "image": "fitness-salle"
+ },
+ {
+  "cle": "etirements",
+  "titre": "Souplesse et étirements seniors",
+  "duree": "18:21",
+  "cibles": "tendons d'Achille, jambes, dos, épaules, poitrine",
+  "materiel": "une chaise si besoin",
+  "exemples": [
+   [
+    "Psoas iliaque",
+    "01:03"
+   ],
+   [
+    "Cervicales",
+    "00:49"
+   ],
+   [
+    "Ischio-jambiers, lombaires",
+    "02:16"
+   ],
+   [
+    "Tendons d'Achille et mollets",
+    "01:34"
+   ]
+  ],
+  "image": "fitness-etirements"
+ }
+]

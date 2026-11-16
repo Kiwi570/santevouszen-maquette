@@ -1,0 +1,78 @@
+[
+ {
+  "image": "geste-lave",
+  "lieu": "Sur la coulée de lave",
+  "forme": "Méthode du Dr Yayama",
+  "sous": "les 5 katas",
+  "seance": "Pleine nature · séance 5",
+  "duree": "26:00",
+  "texte": "Pendule, oiseau, tortue, ours, dragon : cinq katas accessibles à tous, face à l'océan.",
+  "geste": "croiser",
+  "cote": "gauche",
+  "jeu": "Passez la souris de gauche à droite : il déroule le kata",
+  "pose": "lave",
+  "alt": "Patrick Campo en blanc sur la coulée de lave, face à l'océan, pendant un kata de la méthode du Dr Yayama"
+ },
+ {
+  "pose": "ocean",
+  "image": "",
+  "lieu": "Sur le littoral",
+  "forme": "Qi Gong des poumons",
+  "sous": "et du gros intestin",
+  "seance": "Qi Gong d'automne · en accès libre sur YouTube",
+  "duree": "",
+  "texte": "L'automne est la saison des poumons : face au large, la poitrine s'ouvre et le souffle s'allonge.",
+  "geste": "",
+  "cote": "gauche",
+  "alt": "Patrick Campo en blanc sur l'herbe du littoral, la mer qui déferle derrière lui, les mains qui s'ouvrent devant la poitrine",
+  "jeu": "Passez la souris : la poitrine s'ouvre avec ses mains"
+ },
+ {
+  "image": "geste-riviere",
+  "lieu": "Au bord de la rivière",
+  "forme": "Les 18 mouvements",
+  "sous": "du Tai Ji Qi Gong",
+  "seance": "Pleine nature · séance 4",
+  "duree": "18:41",
+  "texte": "L'enchaînement complet, du souffle initial jusqu'à l'harmonisation du ciel et de la terre, au bruit de l'eau.",
+  "geste": "arc",
+  "cote": "gauche",
+  "jeu": ""
+ },
+ {
+  "image": "geste-foret",
+  "lieu": "Sur le sentier",
+  "forme": "Wu Chi",
+  "sous": "la posture debout",
+  "seance": "Printemps · séance 1",
+  "duree": "49:26",
+  "texte": "Immobile au milieu de la forêt : la posture qui ouvre l'échauffement complet.",
+  "geste": "descendre",
+  "cote": "gauche",
+  "jeu": ""
+ },
+ {
+  "image": "geste-cote",
+  "lieu": "Sur la colline",
+  "forme": "Qi Gong du dos",
+  "sous": "et de la colonne vertébrale",
+  "seance": "Qi Gong de pleine nature",
+  "duree": "",
+  "texte": "Le buste s'allonge, les bras partent loin devant, la colonne s'étire.",
+  "geste": "tirer",
+  "cote": "gauche",
+  "jeu": ""
+ },
+ {
+  "image": "geste-ensemble",
+  "lieu": "Ensemble, en stage",
+  "forme": "Les stages",
+  "sous": "Cantal et Corse-du-Sud",
+  "seance": "Juin et septembre 2026 · terminés",
+  "duree": "",
+  "texte": "Une semaine de pratique en plein air, pour débutants comme confirmés. Prochaines dates sur demande.",
+  "geste": "lever",
+  "cote": "gauche",
+  "jeu": ""
+ }
+]

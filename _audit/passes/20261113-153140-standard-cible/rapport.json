@@ -1,0 +1,370 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.introuvable-texte.conteneur > p:nth-of-type(3) > a.bouton « Revenir à l'accueil »",
+      "lieux": [
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.80:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.introuvable-texte.conteneur > p.surtitre:nth-of-type(1) « 404 »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.26:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.introuvable-texte.conteneur > h1 « Ce geste n'existe pas encore. »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#message > span.point-fil",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#message > div.conteneur.con-grille > form.formulaire > h2.titre-section « Ou laissez un message »",
+      "lieux": [
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.con-ouv-texte > p.con-mail:nth-of-type(4) « santevouszen@gmail.com »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.fit-ouv-texte > p.fit-actions:nth-of-type(3) > a.bouton « Voir les formules »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.fit-ouv-texte > p.fit-actions:nth-of-type(3) > span.mono.fit-info « 3 modules · 18 à 43 minutes »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.for-ouv-texte > p.for-actions:nth-of-type(3) > a.bouton « Comparer les formules »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.for-ouv-texte > p.for-actions:nth-of-type(3) > span.mono.for-info « À partir de 84 € pour 4 mois »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.pat-ouv-grille.conteneur > div.pat-ouv-texte > h1.pat-titre « Patrick Campo »",
+      "etape": "mesures",
+      "page": "/patrick-campo",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.pat-ouv-grille.conteneur > div.pat-ouv-texte > p.surtitre:nth-of-type(1) « QUI VOUS GUIDE »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.conteneur.sea-ouv-tete > h1.sea-titre « 107 séances, à votre heure. »",
+      "etape": "mesures",
+      "page": "/seances",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.sea-ouv-tete > p.surtitre « LE CATALOGUE »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "photo moyenne affichée en très grand",
+      "detail": "fitness-mollets (3/5, 100 % de l'écran) : une image notée 4 ou 5 à cette taille",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#serie > figure.media.serie-photo > picture > img « Exercice des mollets en groupe sur la terrasse du  »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "photo moyenne affichée en très grand",
+      "detail": "fitness-mollets (3/5, 62 % de l'écran) : une image notée 4 ou 5 à cette taille",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#serie > figure.media.serie-photo > picture > img « Exercice des mollets en groupe sur la terrasse du  »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "photo moyenne affichée en très grand",
+      "detail": "seance-colline (3/5, 66 % de l'écran) : une image notée 4 ou 5 à cette taille",
+      "etape": "mesures",
+      "page": "/seances",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur > figure.media.registre-bandeau > picture > img « Patrick bras tendus sur une colline couverte d'arb »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "transition : changement brusque",
+      "detail": "à 1284 ms (différence 21 %) (films/transition-contact-vers-seances-1366.png)",
+      "etape": "films",
+      "page": "/contact → /seances",
+      "taille": "1366×768",
+      "mode": "film",
+      "lieux": [
+        "1366×768 film"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 72 ms (différence 44 %) (films/retour-avant-1366.png)",
+      "etape": "films",
+      "page": "/seances",
+      "taille": "1366×768",
+      "mode": "retour avant",
+      "lieux": [
+        "1366×768 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 63 ms (différence 50 %) (films/retour-arrière-390.png)",
+      "etape": "films",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "retour arrière",
+      "lieux": [
+        "390×844 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 64 ms (différence 34 %) (films/retour-avant-390.png)",
+      "etape": "films",
+      "page": "/seances",
+      "taille": "390×844",
+      "mode": "retour avant",
+      "lieux": [
+        "390×844 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "billet-live : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/formules",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article.billet.billet--recap",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 7,
+    "mesures": 66,
+    "balayage": 5,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 5,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 10,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 4 étape(s) notée(s), 82 min de travail pour 100 min de budget, 38 min d’attente de l’utilisateur.",
+    "Journal : « aperçu de l'accueil en films (attente de la réponse notée à part) » 17 min pour 5 prévues.",
+    "Audit standard : étapes lourdes sur /contact, /fitness-seniors, /formules, /patrick-campo, /seances.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture /contact (1366×768) : 2469 ms depuis le premier octet",
+    "Ouverture /fitness-seniors (1366×768) : 2498 ms depuis le premier octet",
+    "Ouverture /formules (1366×768) : 2496 ms depuis le premier octet",
+    "Ouverture /patrick-campo (1366×768) : 2482 ms depuis le premier octet",
+    "Ouverture /seances (1366×768) : 2491 ms depuis le premier octet",
+    "film de l'ouverture /seances 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /contact (390×844) : 2534 ms depuis le premier octet",
+    "Ouverture /fitness-seniors (390×844) : 2515 ms depuis le premier octet",
+    "Ouverture /formules (390×844) : 2531 ms depuis le premier octet",
+    "Ouverture /patrick-campo (390×844) : 2549 ms depuis le premier octet",
+    "Ouverture /seances (390×844) : 2478 ms depuis le premier octet",
+    "bords de l’écran /patrick-campo 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 479 images d’intro, 37 de voile et 149 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun lien profond vers une section d’une autre page.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /fitness-seniors : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /formules : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /patrick-campo : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /seances : aucune section épinglée ou plein écran.",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 128, tâche la plus longue 0 ms",
+    "Fluidité /fitness-seniors 1366×768 (molette) : 0 % d'images lentes sur 235, tâche la plus longue 0 ms",
+    "Fluidité /formules 1366×768 (molette) : 0 % d'images lentes sur 275, tâche la plus longue 0 ms",
+    "Fluidité /patrick-campo 1366×768 (molette) : 0 % d'images lentes sur 235, tâche la plus longue 0 ms",
+    "Fluidité /seances 1366×768 (molette) : 0 % d'images lentes sur 232, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1347, tâche la plus longue 0 ms",
+    "Fluidité /fitness-seniors 390×844 (doigt) : 0 % d'images lentes sur 1342, tâche la plus longue 0 ms",
+    "Fluidité /formules 390×844 (doigt) : 0 % d'images lentes sur 1337, tâche la plus longue 0 ms",
+    "Fluidité /patrick-campo 390×844 (doigt) : 0 % d'images lentes sur 1345, tâche la plus longue 0 ms",
+    "Fluidité /seances 390×844 (doigt) : 0 % d'images lentes sur 1335, tâche la plus longue 0 ms",
+    "Vitesse /contact : 0.44 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /fitness-seniors : 0.40 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /formules : 0.41 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /patrick-campo : 0.39 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /seances : 0.41 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "présent",
+      "detail": "accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 6 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en iris"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "présent",
+      "detail": "sur les 6 page(s)"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "présent",
+      "detail": "sur les 6 page(s)"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "présent",
+      "detail": "geste du métier sur /"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "présent",
+      "detail": "sur /contact, /fitness-seniors, /formules, /"
+    }
+  ]
+}

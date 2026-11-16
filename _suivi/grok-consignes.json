@@ -1,0 +1,103 @@
+{
+  "client": "Santé Vous Zen",
+  "activite": "bien-être",
+  "direction": "Le geste lent",
+  "date": "2026-11-13T13:55:48.112Z",
+  "images": [
+    {
+      "nom": "grok-ocean-aube",
+      "fichier": "grok-ocean-aube.png",
+      "page": "formules",
+      "emplacement": "Ouverture de la page Formules",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide photograph of the black basalt coast of a volcanic island in the Indian Ocean at sunrise, jagged black lava rocks in the foreground with white surf breaking over them, warm low sun on the horizon to the right, long golden reflections on the sea, deep blue sky fading to apricot, a calm empty area of sky and sea on the left third, no people, no buildings, no boats. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A volcanic island of the Indian Ocean landscape only, described by its real features: no tea plantation, no rice terraces, no misty farmland, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok-ocean-aube-portrait",
+      "fichier": "grok-ocean-aube-portrait.png",
+      "page": "formules",
+      "emplacement": "Ouverture de la page Formules, téléphone",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Vertical photograph of the black basalt coast of a volcanic island at sunrise, jagged black lava rocks in the lower third with white surf, warm sun low on the horizon, golden reflections, calm sky in the upper half, no people, no buildings. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A volcanic island of the Indian Ocean landscape only, described by its real features: no tea plantation, no rice terraces, no misty farmland, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok-lave-fougeres",
+      "fichier": "grok-lave-fougeres.png",
+      "page": "accueil",
+      "emplacement": "Fond de la section Patrick Campo, accueil",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Close photograph of an old black lava flow, rough ropey basalt texture, a few young green ferns and small shrubs sprouting from the cracks, raking warm late afternoon light from the left, shallow depth of field, large calm dark area on the right, no people. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok-crepuscule",
+      "fichier": "grok-crepuscule.png",
+      "page": "accueil",
+      "emplacement": "Fond de la section Le live de ce soir",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Photograph of a calm ocean at blue hour seen from a low black lava shore, deep indigo sky with the first stars, a thin warm orange glow on the horizon, gentle waves catching the last light, very simple and dark, large empty sky area in the upper two thirds, no people, no boats, no moon. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok-salon",
+      "fichier": "grok-salon.png",
+      "page": "seances",
+      "emplacement": "Section Chez vous, à votre heure (page Séances)",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A bright, simple living room in the morning, the furniture pushed aside to leave a clear space on a light wooden floor, a plain wooden chair near a large open window with tropical green plants outside, soft daylight, a folded light blanket on the chair, peaceful and empty, no laptop, no screen, no person. Vertical composition, aspect ratio 2:3. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok-404",
+      "fichier": "grok-404.png",
+      "page": "404",
+      "emplacement": "Page 404",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "Wide empty field of old grey-black lava under a light morning mist, a faint footpath of small stones fading away into the distance, a pale sky, very calm and empty, no people, no buildings. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok-riviere-galets",
+      "fichier": "grok-riviere-galets.png",
+      "page": "contact",
+      "emplacement": "Ouverture de la page Contact",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Photograph of a clear mountain river of a volcanic island flowing over smooth round grey pebbles and large pale boulders, dense green tropical forest on steep banks, soft overcast light, calm water in the foreground, large calm area of water and stones on the left, no people, no bridge. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

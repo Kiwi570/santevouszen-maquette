@@ -1,0 +1,134 @@
+{
+ "mission": "regardneuf-fitness-seniors",
+ "taille": "1366x768",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7639,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer Fitness seniors",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.7,
+   "adresse": "/fitness-seniors",
+   "y": 0,
+   "hauteurPage": 4572,
+   "titres": [
+    "h1 Un muscle à la fois."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Voir les formules"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "attendre 3500",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 9.2,
+   "adresse": "/fitness-seniors",
+   "y": 0,
+   "hauteurPage": 4572,
+   "titres": [
+    "h1 Un muscle à la fois."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Voir les formules"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 9.2,
+   "adresse": "/fitness-seniors",
+   "y": 0,
+   "hauteurPage": 4572,
+   "titres": [
+    "h1 Un muscle à la fois."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Voir les formules"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-3.png"
+  }
+ ]
+}

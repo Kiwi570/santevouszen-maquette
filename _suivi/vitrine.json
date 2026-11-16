@@ -1,0 +1,219 @@
+{
+ "explication": "Vitrine du projet : des ouvertures de la bibliothèque à dépasser, jamais à imiter (ni leur idée, ni leur mise en page).",
+ "activite": [
+  "bien-être"
+ ],
+ "metier": "qi gong, méditation",
+ "besoin": [
+  "inscription",
+  "écouter-regarder"
+ ],
+ "ton": [
+  "doux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "santevouszen-maquette",
+ "ecartees": [],
+ "ouvertures": [
+  {
+   "rang": 1,
+   "id": "sensoria-maquette/debut",
+   "maquette": "sensoria-maquette",
+   "client": "école et espace de soins holistiques (massages, naturopathie, sonothérapie, techniques énergétiques) à Blois, Sète et Briord",
+   "metier": "école de soins holistiques",
+   "activite": [
+    "formation",
+    "bien-être"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin inscription, écouter-regarder",
+    "ambiance doux",
+    "clair et sombre alternés (20 % sombre)"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 20,
+   "note_section": 4,
+   "note_maquette": 83,
+   "titre": "Formations, soins & ateliers holistiques à Blois, Sète & Briord",
+   "description": "Formations, soins et ateliers holistiques : intérieur de yourte plein cadre, prochaine session, titres en italique",
+   "familles": [],
+   "plan": "recit-lineaire",
+   "module": null,
+   "fiche": "sections/sensoria-maquette/debut.json",
+   "capture": "medias/sensoria-maquette/debut-p1440.jpg",
+   "video": "medias/sensoria-maquette/debut-p720.mp4",
+   "en_ligne": "https://sensoria-maquette.vercel.app"
+  },
+  {
+   "rang": 2,
+   "id": "beat-haechler-maquette/hero",
+   "maquette": "beat-haechler-maquette",
+   "client": "masseur indépendant entre deux villes au bord d'un lac",
+   "metier": "masseur",
+   "activite": [
+    "bien-être"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin inscription",
+    "ambiance doux",
+    "clair et sombre alternés (20 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 20,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Image d'ouverture sur l'eau en WebGL",
+   "description": "Premier écran plein cadre : la photo est rendue dans un shader OGL qui ajoute une brume qui respire et des ondes concentriques là où passent la souris ou le doigt ; titre en lignes masquées, boutons et pastille du prochain jour de consultation.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/beat-haechler-maquette/hero.json",
+   "capture": "medias/beat-haechler-maquette/hero-p1440.jpg",
+   "video": "medias/beat-haechler-maquette/hero-p720.mp4",
+   "en_ligne": "https://beat-haechler-maquette.vercel.app"
+  },
+  {
+   "rang": 3,
+   "id": "hiroko-nakatani-maquette/debut",
+   "maquette": "hiroko-nakatani-maquette",
+   "client": "instructrice de méditation de pleine conscience (MBSR) à Paris Est et en ligne, marches en silence dans le bois de Vincennes, association IMA KOKO-LO",
+   "metier": "instructrice de méditation MBSR",
+   "activite": [
+    "bien-être",
+    "formation"
+   ],
+   "pourquoi": [
+    "même métier",
+    "besoin inscription",
+    "ambiance doux",
+    "clair et sombre alternés (25 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 25,
+   "note_section": 4,
+   "note_maquette": 86,
+   "titre": "Revenir à l’instant, en marchant, ensemble.",
+   "description": "Ouverture : « Revenir à l'instant, en marchant, ensemble » en Shippori Mincho, mot-clé au pinceau ; à droite le bol chantant en bronze martelé, son eau montre le bois d'automne ; tourner sur le bord le fait chanter, effleurer l'eau le frappe ; prochaine séance et compte à rebours",
+   "familles": [
+    "webgl"
+   ],
+   "plan": "objet-unique",
+   "module": null,
+   "fiche": "sections/hiroko-nakatani-maquette/debut.json",
+   "capture": "medias/hiroko-nakatani-maquette/debut-p1440.jpg",
+   "video": "medias/hiroko-nakatani-maquette/debut-p720.mp4",
+   "en_ligne": "https://hiroko-nakatani-maquette.vercel.app"
+  },
+  {
+   "rang": 4,
+   "id": "sequoia-studio-maquette/debut",
+   "maquette": "sequoia-studio-maquette",
+   "client": "galerie en ligne d'œuvres d'art mural en éditions limitées (impressions FineArt, caisses américaines, certificats d'authenticité)",
+   "metier": "galerie d'art en ligne",
+   "activite": [
+    "culture",
+    "commerce"
+   ],
+   "pourquoi": [
+    "style sombre (100 % sombre)",
+    "lumiere-pointeur",
+    "masque",
+    "curseur-vivant"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 100,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Des œuvres originales prêtes à sublimer vos espaces.",
+   "description": "« Des œuvres originales prêtes à sublimer vos espaces » : une œuvre accrochée dans le noir, éclairée par un projecteur qui suit la souris",
+   "familles": [
+    "lumiere-pointeur",
+    "masque",
+    "curseur-vivant"
+   ],
+   "plan": "recit-lineaire",
+   "module": null,
+   "fiche": "sections/sequoia-studio-maquette/debut.json",
+   "capture": "medias/sequoia-studio-maquette/debut-p1440.jpg",
+   "video": null,
+   "en_ligne": "https://sequoia-studio-maquette.vercel.app"
+  },
+  {
+   "rang": 5,
+   "id": "elka-maquette/debut",
+   "maquette": "elka-maquette",
+   "client": "hypnothérapeute à Bard-lès-Époisses (Côte-d'Or) : séances individuelles, enfants, ateliers d'autohypnose en visio",
+   "metier": "hypnothérapeute",
+   "activite": [
+    "santé",
+    "bien-être"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin inscription",
+    "ambiance doux",
+    "style clair (9 % sombre)",
+    "webgl",
+    "masque"
+   ],
+   "lumiere": "clair",
+   "part_sombre": 9,
+   "note_section": 5,
+   "note_maquette": 83,
+   "titre": "Libérez votre potentiel grâce à l’hypnose.",
+   "description": "« Libérez votre potentiel grâce à l'hypnose » : arche ouverte sur l'Auxois au lever du soleil (lumière WebGL), statut ouvert ou fermé du cabinet",
+   "familles": [
+    "webgl",
+    "masque"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/elka-maquette/debut.json",
+   "capture": "medias/elka-maquette/debut-p1440.jpg",
+   "video": "medias/elka-maquette/debut-p720.mp4",
+   "en_ligne": "https://elka-maquette.vercel.app"
+  },
+  {
+   "rang": 6,
+   "id": "muriel-chaplain-maquette/debut",
+   "maquette": "muriel-chaplain-maquette",
+   "client": "énergéticienne : libérations au Point Zéro, soins, bains sonores et voyages initiatiques près de Lamalou-les-Bains (Hérault)",
+   "metier": "énergéticienne",
+   "activite": [
+    "bien-être"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin écouter-regarder",
+    "ambiance doux",
+    "clair et sombre alternés (40 % sombre)",
+    "lumiere-pointeur",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 40,
+   "note_section": 5,
+   "note_maquette": 83,
+   "titre": "Revenir à soi,au Point Zéro",
+   "description": "« Revenir à soi, au Point Zéro » : lotus sur un lac au coucher du soleil, eau en WebGL qui ondule sous le pointeur",
+   "familles": [
+    "lumiere-pointeur",
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/muriel-chaplain-maquette/debut.json",
+   "capture": "medias/muriel-chaplain-maquette/debut-p1440.jpg",
+   "video": "medias/muriel-chaplain-maquette/debut-p720.mp4",
+   "en_ligne": "https://muriel-chaplain-maquette.vercel.app"
+  }
+ ]
+}

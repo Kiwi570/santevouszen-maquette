@@ -1,0 +1,168 @@
+{
+ "mission": "difference",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.5,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8645,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.2,
+   "adresse": "/",
+   "y": 764,
+   "hauteurPage": 8645,
+   "titres": [
+    "h2 Méthode du Dr Yayama les 5 katas"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.2,
+   "adresse": "/",
+   "y": 764,
+   "hauteurPage": 8645,
+   "titres": [
+    "h2 Méthode du Dr Yayama les 5 katas"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5,
+   "adresse": "/",
+   "y": 1525,
+   "hauteurPage": 8645,
+   "titres": [
+    "h2 Les 18 mouvements du Tai Ji Qi Gong"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5,
+   "adresse": "/",
+   "y": 1527,
+   "hauteurPage": 8645,
+   "titres": [
+    "h2 Les 18 mouvements du Tai Ji Qi Gong"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.8,
+   "adresse": "/",
+   "y": 2292,
+   "hauteurPage": 8645,
+   "titres": [
+    "h2 Wu Chi la posture debout",
+    "h2 Qi Gong du dos et de la colonne vertébrale"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-5.png"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "mission": "arrivee",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 4.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8645,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  }
+ ]
+}

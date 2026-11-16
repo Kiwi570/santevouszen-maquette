@@ -1,0 +1,3330 @@
+{
+  "ouverture-lave": {
+    "nom": "ouverture-lave",
+    "source": "recu/nettoye/seance-5-methode-docteur.jpg",
+    "role": "ouverture",
+    "alt": "Patrick Campo en tenue blanche sur une coulée de lave, l'océan derrière lui",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d1bf680c166c8c67",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 33.3,
+      "l": 96.9,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.8,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "ouverture-lave-640.webp",
+      "ouverture-lave-1280.webp",
+      "ouverture-lave-1920.webp",
+      "ouverture-lave-mobile-640.webp"
+    ],
+    "poids": {
+      "ouverture-lave-640.webp": 52868,
+      "ouverture-lave-1280.webp": 162532,
+      "ouverture-lave-1920.webp": 291442,
+      "ouverture-lave-mobile-640.webp": 93584
+    },
+    "media": "c.media({ nom: 'ouverture-lave', alt: \"Patrick Campo en tenue blanche sur une coulée de lave, l'océan derrière lui\", cadrage: '49% 50%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  },
+  "geste-ocean": {
+    "nom": "geste-ocean",
+    "source": "recu/nettoye/qi-gong-poumons-gros.jpg",
+    "role": "ouverture",
+    "alt": "Patrick, bras ouverts à hauteur de poitrine, face à l'océan et aux rochers de basalte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d1cc182ca77034cf",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 62%"
+    },
+    "cadrage": "40% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 22.2,
+      "l": 100,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "geste-ocean-640.webp",
+      "geste-ocean-1280.webp",
+      "geste-ocean-1920.webp",
+      "geste-ocean-mobile-640.webp"
+    ],
+    "poids": {
+      "geste-ocean-640.webp": 44712,
+      "geste-ocean-1280.webp": 122080,
+      "geste-ocean-1920.webp": 199060,
+      "geste-ocean-mobile-640.webp": 61382
+    },
+    "media": "c.media({ nom: 'geste-ocean', alt: \"Patrick, bras ouverts à hauteur de poitrine, face à l'océan et aux rochers de basalte\", cadrage: '40% 62%', cadrageMobile: '50% 62%', sizes: '100vw', priorite: true })"
+  },
+  "geste-riviere": {
+    "nom": "geste-riviere",
+    "source": "recu/nettoye/seance-4-18-mouvements.jpg",
+    "role": "ouverture",
+    "alt": "Patrick Campo en tenue blanche au bord d'une rivière en forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4fdab79cbc2586e8",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        608
+      ],
+      "cadrage": "50% 45%"
+    },
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 5.6,
+      "l": 96.9,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 640, 1080 px (source trop petite)",
+      "agrandie 1,5 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "geste-riviere-640.webp",
+      "geste-riviere-1280.webp",
+      "geste-riviere-1920.webp",
+      "geste-riviere-mobile-608.webp"
+    ],
+    "poids": {
+      "geste-riviere-640.webp": 72722,
+      "geste-riviere-1280.webp": 192466,
+      "geste-riviere-1920.webp": 289558,
+      "geste-riviere-mobile-608.webp": 94792
+    },
+    "media": "c.media({ nom: 'geste-riviere', alt: \"Patrick Campo en tenue blanche au bord d'une rivière en forêt\", cadrage: '48% 45%', cadrageMobile: '50% 45%', sizes: '100vw', priorite: true })"
+  },
+  "geste-foret": {
+    "nom": "geste-foret",
+    "source": "recu/nettoye/posture-wu-chi-qi.jpg",
+    "role": "ouverture",
+    "alt": "Patrick debout dans la posture Wu Chi, sur un sentier de forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "870cd1e3d3d8392c",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "44% 50%"
+    },
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 53.1,
+      "y": 16.7,
+      "l": 15.6,
+      "h": 72.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "geste-foret-640.webp",
+      "geste-foret-1280.webp",
+      "geste-foret-1920.webp",
+      "geste-foret-mobile-640.webp"
+    ],
+    "poids": {
+      "geste-foret-640.webp": 67124,
+      "geste-foret-1280.webp": 161412,
+      "geste-foret-1920.webp": 249790,
+      "geste-foret-mobile-640.webp": 77018
+    },
+    "media": "c.media({ nom: 'geste-foret', alt: \"Patrick debout dans la posture Wu Chi, sur un sentier de forêt\", cadrage: '51% 50%', cadrageMobile: '44% 50%', sizes: '100vw', priorite: true })"
+  },
+  "geste-lagon": {
+    "nom": "geste-lagon",
+    "source": "recu/nettoye/qi-gong-ba-duan.jpg",
+    "role": "ouverture",
+    "alt": "Patrick en fente basse sur un ponton de bois au bord d'un lagon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "085e0ef6c0a4dbfd",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        608
+      ],
+      "cadrage": "50% 55%"
+    },
+    "cadrage": "78% 55%",
+    "sujet": {
+      "x": 37.5,
+      "y": 16.7,
+      "l": 62.5,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 640, 1080 px (source trop petite)",
+      "agrandie 1,5 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "geste-lagon-640.webp",
+      "geste-lagon-1280.webp",
+      "geste-lagon-1920.webp",
+      "geste-lagon-mobile-608.webp"
+    ],
+    "poids": {
+      "geste-lagon-640.webp": 28584,
+      "geste-lagon-1280.webp": 91210,
+      "geste-lagon-1920.webp": 134356,
+      "geste-lagon-mobile-608.webp": 51034
+    },
+    "media": "c.media({ nom: 'geste-lagon', alt: \"Patrick en fente basse sur un ponton de bois au bord d'un lagon\", cadrage: '78% 55%', cadrageMobile: '50% 55%', sizes: '100vw', priorite: true })"
+  },
+  "geste-ensemble": {
+    "nom": "geste-ensemble",
+    "source": "recu/site/qi-gong-pleine-nature.jpg",
+    "role": "ouverture",
+    "alt": "Un groupe de pratiquants lève le bras derrière Patrick, au-dessus d'une baie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9bddf47be143515b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "55% 45%"
+    },
+    "cadrage": "60% 45%",
+    "sujet": {
+      "x": 42.6,
+      "y": 35.7,
+      "l": 17.7,
+      "h": 54.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.88,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "geste-ensemble-640.webp",
+      "geste-ensemble-1280.webp",
+      "geste-ensemble-1920.webp",
+      "geste-ensemble-mobile-640.webp"
+    ],
+    "poids": {
+      "geste-ensemble-640.webp": 40608,
+      "geste-ensemble-1280.webp": 137680,
+      "geste-ensemble-1920.webp": 237062,
+      "geste-ensemble-mobile-640.webp": 80740
+    },
+    "media": "c.media({ nom: 'geste-ensemble', alt: \"Un groupe de pratiquants lève le bras derrière Patrick, au-dessus d'une baie\", cadrage: '60% 45%', cadrageMobile: '55% 45%', sizes: '100vw', priorite: true })"
+  },
+  "seances-plage": {
+    "nom": "seances-plage",
+    "source": "recu/site/qi-gong-7-formes.jpg",
+    "role": "ouverture",
+    "alt": "Patrick, bras levés en chemise rouge, sur une plage de sable devant une baie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "21bc467cfbe40d54",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        608
+      ],
+      "cadrage": "50% 56%"
+    },
+    "cadrage": "47% 56%",
+    "sujet": {
+      "x": 37.6,
+      "y": 23.7,
+      "l": 17.9,
+      "h": 65.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 640, 1080 px (source trop petite)",
+      "agrandie 1,5 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "seances-plage-640.webp",
+      "seances-plage-1280.webp",
+      "seances-plage-1920.webp",
+      "seances-plage-mobile-608.webp"
+    ],
+    "poids": {
+      "seances-plage-640.webp": 26498,
+      "seances-plage-1280.webp": 73180,
+      "seances-plage-1920.webp": 111288,
+      "seances-plage-mobile-608.webp": 39570
+    },
+    "media": "c.media({ nom: 'seances-plage', alt: \"Patrick, bras levés en chemise rouge, sur une plage de sable devant une baie\", cadrage: '47% 56%', cadrageMobile: '50% 56%', sizes: '100vw', priorite: true })"
+  },
+  "seance-riviere-foret": {
+    "nom": "seance-riviere-foret",
+    "source": "recu/nettoye/seance-4-18-mouvements.jpg",
+    "role": "carte-service",
+    "alt": "Patrick en tenue blanche au bord d'une rivière en forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f0715ac2912f14de",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 5.6,
+      "l": 100,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 211,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "seance-riviere-foret-480.webp",
+      "seance-riviere-foret-640.webp",
+      "seance-riviere-foret-784.webp"
+    ],
+    "poids": {
+      "seance-riviere-foret-480.webp": 56608,
+      "seance-riviere-foret-640.webp": 87400,
+      "seance-riviere-foret-784.webp": 116318
+    },
+    "media": "c.media({ nom: 'seance-riviere-foret', alt: \"Patrick en tenue blanche au bord d'une rivière en forêt\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "patrick-palmiers": {
+    "nom": "patrick-palmiers",
+    "source": "recu/nettoye/seance-29-qi-gong.jpg",
+    "role": "ouverture",
+    "alt": "Patrick sur une terrasse face à la mer, entre deux cocotiers",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d20b665d07d76a60",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        608
+      ],
+      "cadrage": "50% 64%"
+    },
+    "cadrage": "48% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 640, 1080 px (source trop petite)",
+      "agrandie 1,5 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "patrick-palmiers-640.webp",
+      "patrick-palmiers-1280.webp",
+      "patrick-palmiers-1920.webp",
+      "patrick-palmiers-mobile-608.webp"
+    ],
+    "poids": {
+      "patrick-palmiers-640.webp": 34512,
+      "patrick-palmiers-1280.webp": 92600,
+      "patrick-palmiers-1920.webp": 131820,
+      "patrick-palmiers-mobile-608.webp": 52018
+    },
+    "media": "c.media({ nom: 'patrick-palmiers', alt: \"Patrick sur une terrasse face à la mer, entre deux cocotiers\", cadrage: '48% 64%', cadrageMobile: '50% 64%', sizes: '100vw', priorite: true })"
+  },
+  "groupe-rochers": {
+    "nom": "groupe-rochers",
+    "source": "recu/site/qi-gong-enseignement.jpg",
+    "role": "galerie",
+    "alt": "Patrick et un groupe en blanc, bras levés sur des rochers face à la mer",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fb00c3fccbd32027",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "46% 57%",
+    "sujet": {
+      "x": 19.3,
+      "y": 38.6,
+      "l": 53.1,
+      "h": 60.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.86,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1620,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-rochers-480.webp",
+      "groupe-rochers-640.webp",
+      "groupe-rochers-960.webp"
+    ],
+    "poids": {
+      "groupe-rochers-480.webp": 25690,
+      "groupe-rochers-640.webp": 45908,
+      "groupe-rochers-960.webp": 98674
+    },
+    "media": "c.media({ nom: 'groupe-rochers', alt: \"Patrick et un groupe en blanc, bras levés sur des rochers face à la mer\", cadrage: '46% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "groupe-stade": {
+    "nom": "groupe-stade",
+    "source": "recu/site/18-mouvements-tai-jo.jpg",
+    "role": "galerie",
+    "alt": "Patrick guide une foule de pratiquants sur la pelouse d'un stade",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "467d68eb8dfa86ae",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "33% 56%",
+    "sujet": {
+      "x": 8.5,
+      "y": 30.5,
+      "l": 32.2,
+      "h": 69.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-stade-480.webp",
+      "groupe-stade-640.webp",
+      "groupe-stade-960.webp"
+    ],
+    "poids": {
+      "groupe-stade-480.webp": 41552,
+      "groupe-stade-640.webp": 63934,
+      "groupe-stade-960.webp": 111840
+    },
+    "media": "c.media({ nom: 'groupe-stade', alt: \"Patrick guide une foule de pratiquants sur la pelouse d'un stade\", cadrage: '33% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "patrick-portrait": {
+    "nom": "patrick-portrait",
+    "source": "recu/site/patrick-campo-enseignant-qi.png",
+    "role": "portrait",
+    "alt": "Portrait de Patrick Campo, mains jointes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1ef6bdcc9c6c974b",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 30%",
+    "sujet": {
+      "x": 17.3,
+      "y": 0,
+      "l": 63.3,
+      "h": 54.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 108,
+      "top": 0,
+      "width": 864,
+      "height": 1080,
+      "source": [
+        1080,
+        1080
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1080 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "patrick-portrait-480.webp",
+      "patrick-portrait-640.webp",
+      "patrick-portrait-784.webp"
+    ],
+    "poids": {
+      "patrick-portrait-480.webp": 40810,
+      "patrick-portrait-640.webp": 58970,
+      "patrick-portrait-784.webp": 74008
+    },
+    "media": "c.media({ nom: 'patrick-portrait', alt: \"Portrait de Patrick Campo, mains jointes\", cadrage: '50% 30%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "fitness-lac": {
+    "nom": "fitness-lac",
+    "source": "recu/site/fitness-muscles-seniors-sportifs-2.jpg",
+    "role": "ouverture",
+    "alt": "Un groupe de seniors lève les bras avec Patrick sur une terrasse au bord d'un lac",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e8dbb5d79415470d",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 42%"
+    },
+    "cadrage": "39% 42%",
+    "sujet": {
+      "x": 11.8,
+      "y": 29.4,
+      "l": 54.4,
+      "h": 25
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "fitness-lac-640.webp",
+      "fitness-lac-1280.webp",
+      "fitness-lac-1920.webp",
+      "fitness-lac-mobile-640.webp"
+    ],
+    "poids": {
+      "fitness-lac-640.webp": 42990,
+      "fitness-lac-1280.webp": 121520,
+      "fitness-lac-1920.webp": 198760,
+      "fitness-lac-mobile-640.webp": 64190
+    },
+    "media": "c.media({ nom: 'fitness-lac', alt: \"Un groupe de seniors lève les bras avec Patrick sur une terrasse au bord d'un lac\", cadrage: '39% 42%', cadrageMobile: '50% 42%', sizes: '100vw', priorite: true })"
+  },
+  "fitness-mollets": {
+    "nom": "fitness-mollets",
+    "source": "recu/site/mollets-retour-sang-veineux.jpg",
+    "role": "carte-service",
+    "alt": "Exercice des mollets en groupe sur la terrasse du lac",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "56da4919e3dd9813",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 35%",
+    "sujet": {
+      "x": 37.5,
+      "y": 41.6,
+      "l": 16.1,
+      "h": 52.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 240,
+      "top": 0,
+      "width": 1440,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "fitness-mollets-480.webp",
+      "fitness-mollets-640.webp",
+      "fitness-mollets-784.webp"
+    ],
+    "poids": {
+      "fitness-mollets-480.webp": 40826,
+      "fitness-mollets-640.webp": 66966,
+      "fitness-mollets-784.webp": 93738
+    },
+    "media": "c.media({ nom: 'fitness-mollets', alt: \"Exercice des mollets en groupe sur la terrasse du lac\", cadrage: '50% 35%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "fitness-etirements": {
+    "nom": "fitness-etirements",
+    "source": "recu/site/etirements-generalises-seance-complete.jpg",
+    "role": "carte-service",
+    "alt": "Étirements debout dans une salle de sport",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e40ab4749439d6f7",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 35%",
+    "sujet": {
+      "x": 22.3,
+      "y": 48.2,
+      "l": 62.3,
+      "h": 42.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 240,
+      "top": 0,
+      "width": 1440,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "fitness-etirements-480.webp",
+      "fitness-etirements-640.webp",
+      "fitness-etirements-784.webp"
+    ],
+    "poids": {
+      "fitness-etirements-480.webp": 25086,
+      "fitness-etirements-640.webp": 36700,
+      "fitness-etirements-784.webp": 48576
+    },
+    "media": "c.media({ nom: 'fitness-etirements', alt: \"Étirements debout dans une salle de sport\", cadrage: '50% 35%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "fitness-salle": {
+    "nom": "fitness-salle",
+    "source": "recu/site/fitness-sport-seniors-2.jpg",
+    "role": "carte-service",
+    "alt": "Exercice d'équilibre dans une salle de sport",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9094ba141f4f4d9e",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "51% 35%",
+    "sujet": {
+      "x": 0,
+      "y": 52.9,
+      "l": 87.9,
+      "h": 33.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 230,
+      "top": 0,
+      "width": 1440,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "fitness-salle-480.webp",
+      "fitness-salle-640.webp",
+      "fitness-salle-784.webp"
+    ],
+    "poids": {
+      "fitness-salle-480.webp": 24922,
+      "fitness-salle-640.webp": 36186,
+      "fitness-salle-784.webp": 47250
+    },
+    "media": "c.media({ nom: 'fitness-salle', alt: \"Exercice d'équilibre dans une salle de sport\", cadrage: '51% 35%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "stage-cantal": {
+    "nom": "stage-cantal",
+    "source": "recu/site/24-mouvements-tai-chi.jpg",
+    "role": "galerie",
+    "alt": "Patrick en tunique mauve sur le ponton d'un lac, stage du Cantal",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "551f1620a8134666",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "53% 27%",
+    "sujet": {
+      "x": 34.2,
+      "y": 10.3,
+      "l": 33.7,
+      "h": 67.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1620,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "stage-cantal-480.webp",
+      "stage-cantal-640.webp",
+      "stage-cantal-960.webp"
+    ],
+    "poids": {
+      "stage-cantal-480.webp": 34110,
+      "stage-cantal-640.webp": 58396,
+      "stage-cantal-960.webp": 120138
+    },
+    "media": "c.media({ nom: 'stage-cantal', alt: \"Patrick en tunique mauve sur le ponton d'un lac, stage du Cantal\", cadrage: '53% 27%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "cantal-lac": {
+    "nom": "cantal-lac",
+    "source": "recu/site/qi-gong-meditation-entrainement.jpg",
+    "role": "section-fond",
+    "alt": "Vue d'un lac de barrage entouré de prairies et de forêts",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "29d2ffa3c14897c5",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 17.5,
+      "y": 27.9,
+      "l": 62.7,
+      "h": 30.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 112,
+      "top": 0,
+      "width": 1620,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 1620 px après recadrage)"
+    ],
+    "fichiers": [
+      "cantal-lac-640.webp",
+      "cantal-lac-1280.webp",
+      "cantal-lac-1920.webp"
+    ],
+    "poids": {
+      "cantal-lac-640.webp": 62342,
+      "cantal-lac-1280.webp": 157732,
+      "cantal-lac-1920.webp": 248654
+    },
+    "media": "c.media({ nom: 'cantal-lac', alt: \"Vue d'un lac de barrage entouré de prairies et de forêts\", cadrage: '50% 43%', sizes: '100vw' })"
+  },
+  "stage-corse": {
+    "nom": "stage-corse",
+    "source": "recu/site/bienvenue-site-sante-vous.jpg",
+    "role": "galerie",
+    "alt": "Pratiquants en tuniques colorées sur la terrasse d'une piscine, montagnes derrière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ef6a75a68d4e412a",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 17.9,
+      "y": 27.9,
+      "l": 66.3,
+      "h": 19.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 246,
+      "top": 0,
+      "width": 1620,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "stage-corse-480.webp",
+      "stage-corse-640.webp",
+      "stage-corse-960.webp"
+    ],
+    "poids": {
+      "stage-corse-480.webp": 44608,
+      "stage-corse-640.webp": 81084,
+      "stage-corse-960.webp": 178422
+    },
+    "media": "c.media({ nom: 'stage-corse', alt: \"Pratiquants en tuniques colorées sur la terrasse d'une piscine, montagnes derrière\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "stage-groupe": {
+    "nom": "stage-groupe",
+    "source": "recu/site/stages-qi-gong-2026.jpg",
+    "role": "galerie",
+    "alt": "Photo de groupe joyeuse des stagiaires sur une terrasse",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7ed4a2459ab8cfca",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 4.7,
+      "y": 25.5,
+      "l": 76.3,
+      "h": 55.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 167,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "stage-groupe-480.webp",
+      "stage-groupe-640.webp",
+      "stage-groupe-960.webp"
+    ],
+    "poids": {
+      "stage-groupe-480.webp": 33390,
+      "stage-groupe-640.webp": 55766,
+      "stage-groupe-960.webp": 111244
+    },
+    "media": "c.media({ nom: 'stage-groupe', alt: \"Photo de groupe joyeuse des stagiaires sur une terrasse\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "meditation-riviere": {
+    "nom": "meditation-riviere",
+    "source": "recu/site/6-meditation-metta-amour.jpg",
+    "role": "carte-service",
+    "alt": "Patrick assis en méditation au bord d'une rivière",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9045e10125dcde0c",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 28%",
+    "sujet": {
+      "x": 36.9,
+      "y": 3.9,
+      "l": 31.3,
+      "h": 55.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 320,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "meditation-riviere-480.webp",
+      "meditation-riviere-640.webp",
+      "meditation-riviere-784.webp"
+    ],
+    "poids": {
+      "meditation-riviere-480.webp": 28472,
+      "meditation-riviere-640.webp": 42786,
+      "meditation-riviere-784.webp": 55306
+    },
+    "media": "c.media({ nom: 'meditation-riviere', alt: \"Patrick assis en méditation au bord d'une rivière\", cadrage: '52% 28%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "meditation-plage": {
+    "nom": "meditation-plage",
+    "source": "recu/site/4-pacifier-esprit-liberez.jpg",
+    "role": "carte-service",
+    "alt": "Patrick en méditation, mains jointes, sur une plage",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "de969919bf251d55",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 37,
+      "y": 16.4,
+      "l": 25.2,
+      "h": 44.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.78,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 134,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "meditation-plage-480.webp",
+      "meditation-plage-640.webp",
+      "meditation-plage-784.webp"
+    ],
+    "poids": {
+      "meditation-plage-480.webp": 17328,
+      "meditation-plage-640.webp": 27020,
+      "meditation-plage-784.webp": 37390
+    },
+    "media": "c.media({ nom: 'meditation-plage', alt: \"Patrick en méditation, mains jointes, sur une plage\", cadrage: '50% 36%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "meditation-foret": {
+    "nom": "meditation-foret",
+    "source": "recu/site/1-nourrir-interiorite-5.jpg",
+    "role": "carte-service",
+    "alt": "Patrick assis en tailleur en forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b21f1e35153cf79a",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 33.8,
+      "y": 16.6,
+      "l": 32.1,
+      "h": 83.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 186,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "meditation-foret-480.webp",
+      "meditation-foret-640.webp",
+      "meditation-foret-784.webp"
+    ],
+    "poids": {
+      "meditation-foret-480.webp": 63104,
+      "meditation-foret-640.webp": 100396,
+      "meditation-foret-784.webp": 135828
+    },
+    "media": "c.media({ nom: 'meditation-foret', alt: \"Patrick assis en tailleur en forêt\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "seance-riviere": {
+    "nom": "seance-riviere",
+    "source": "recu/site/qi-gong-tai-chi.jpg",
+    "role": "carte-service",
+    "alt": "Patrick sur un tapis rouge au milieu d'une rivière à galets",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "56738c41ac2c5424",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 30.2,
+      "y": 22.1,
+      "l": 32.8,
+      "h": 67.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 58,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "seance-riviere-480.webp",
+      "seance-riviere-640.webp",
+      "seance-riviere-784.webp"
+    ],
+    "poids": {
+      "seance-riviere-480.webp": 41218,
+      "seance-riviere-640.webp": 66700,
+      "seance-riviere-784.webp": 93726
+    },
+    "media": "c.media({ nom: 'seance-riviere', alt: \"Patrick sur un tapis rouge au milieu d'une rivière à galets\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "seance-colline": {
+    "nom": "seance-colline",
+    "source": "recu/site/qi-gong-colonne-vertebrale.jpg",
+    "role": "carte-service",
+    "alt": "Patrick bras tendus sur une colline couverte d'arbustes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4a976c89b8d089d4",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 33,
+      "y": 32.5,
+      "l": 38.3,
+      "h": 66.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 262,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "seance-colline-480.webp",
+      "seance-colline-640.webp",
+      "seance-colline-784.webp"
+    ],
+    "poids": {
+      "seance-colline-480.webp": 36160,
+      "seance-colline-640.webp": 57812,
+      "seance-colline-784.webp": 79318
+    },
+    "media": "c.media({ nom: 'seance-colline', alt: \"Patrick bras tendus sur une colline couverte d'arbustes\", sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "seance-bambous": {
+    "nom": "seance-bambous",
+    "source": "recu/site/seance-19-8-pieces.jpg",
+    "role": "carte-service",
+    "alt": "Patrick devant un bosquet de bambous",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7a215a3f11de8ba4",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 40.1,
+      "y": 25.4,
+      "l": 18.4,
+      "h": 65.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 224,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "seance-bambous-480.webp",
+      "seance-bambous-640.webp",
+      "seance-bambous-784.webp"
+    ],
+    "poids": {
+      "seance-bambous-480.webp": 58494,
+      "seance-bambous-640.webp": 91156,
+      "seance-bambous-784.webp": 118140
+    },
+    "media": "c.media({ nom: 'seance-bambous', alt: \"Patrick devant un bosquet de bambous\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "grok/ocean-aube": {
+    "nom": "grok/ocean-aube",
+    "source": "recu/grok/grok-ocean-aube.png",
+    "role": "ouverture",
+    "alt": "Côte de lave noire au lever du soleil, écume blanche",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "db364edcb4c4223e",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 66%"
+    },
+    "cadrage": "63% 66%",
+    "sujet": {
+      "x": 6.3,
+      "y": 22.2,
+      "l": 93.7,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/ocean-aube-640.webp",
+      "grok/ocean-aube-1280.webp",
+      "grok/ocean-aube-1920.webp",
+      "grok/ocean-aube-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/ocean-aube-640.webp": 34946,
+      "grok/ocean-aube-1280.webp": 86394,
+      "grok/ocean-aube-1920.webp": 137712,
+      "grok/ocean-aube-mobile-640.webp": 49742
+    },
+    "media": "c.media({ nom: 'grok/ocean-aube', alt: \"Côte de lave noire au lever du soleil, écume blanche\", cadrage: '63% 66%', cadrageMobile: '50% 66%', sizes: '100vw', priorite: true })"
+  },
+  "grok/ocean-aube-portrait": {
+    "nom": "grok/ocean-aube-portrait",
+    "source": "recu/grok/grok-ocean-aube-portrait.png",
+    "role": "ouverture",
+    "alt": "Côte de lave noire au lever du soleil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "74f98ae2c08f141f",
+    "ratio": "9:16",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "58% 67%"
+    },
+    "cadrage": "58% 67%",
+    "sujet": {
+      "x": 5.6,
+      "y": 28.1,
+      "l": 94.4,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.8,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 1920,
+      "source": [
+        1080,
+        1920
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1920",
+      "1080 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 1080 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/ocean-aube-portrait-640.webp",
+      "grok/ocean-aube-portrait-1280.webp",
+      "grok/ocean-aube-portrait-mobile-640.webp",
+      "grok/ocean-aube-portrait-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/ocean-aube-portrait-640.webp": 48696,
+      "grok/ocean-aube-portrait-1280.webp": 112038,
+      "grok/ocean-aube-portrait-mobile-640.webp": 48696,
+      "grok/ocean-aube-portrait-mobile-1080.webp": 91334
+    },
+    "media": "c.media({ nom: 'grok/ocean-aube-portrait', alt: \"Côte de lave noire au lever du soleil\", cadrage: '58% 67%', cadrageMobile: '58% 67%', sizes: '100vw', priorite: true })"
+  },
+  "grok/lave-fougeres": {
+    "nom": "grok/lave-fougeres",
+    "source": "recu/grok/grok-lave-fougeres.png",
+    "role": "section-fond",
+    "alt": "Lave ancienne où poussent de jeunes fougères",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "43c78528a93c0f74",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "53% 42%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/lave-fougeres-640.webp",
+      "grok/lave-fougeres-1280.webp",
+      "grok/lave-fougeres-1920.webp"
+    ],
+    "poids": {
+      "grok/lave-fougeres-640.webp": 59176,
+      "grok/lave-fougeres-1280.webp": 122546,
+      "grok/lave-fougeres-1920.webp": 190482
+    },
+    "media": "c.media({ nom: 'grok/lave-fougeres', alt: \"Lave ancienne où poussent de jeunes fougères\", cadrage: '53% 42%', sizes: '100vw' })"
+  },
+  "grok/crepuscule": {
+    "nom": "grok/crepuscule",
+    "source": "recu/grok/grok-crepuscule.png",
+    "role": "section-fond",
+    "alt": "Côte de lave noire au coucher du soleil, ciel rouge et mer sombre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "30fe7a4f878cca0b",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "47% 58%",
+    "sujet": {
+      "x": 6.3,
+      "y": 27.3,
+      "l": 90.6,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/crepuscule-640.webp",
+      "grok/crepuscule-1280.webp",
+      "grok/crepuscule-1920.webp",
+      "grok/crepuscule-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/crepuscule-640.webp": 23990,
+      "grok/crepuscule-1280.webp": 53568,
+      "grok/crepuscule-1920.webp": 87588,
+      "grok/crepuscule-mobile-640.webp": 31342
+    },
+    "media": "c.media({ nom: 'grok/crepuscule', alt: \"Côte de lave noire au coucher du soleil, ciel rouge et mer sombre\", cadrage: '47% 58%', cadrageMobile: '50% 58%', sizes: '100vw' })"
+  },
+  "grok/404": {
+    "nom": "grok/404",
+    "source": "recu/grok/grok-404.png",
+    "role": "404",
+    "alt": "Champ de lave désert sous une brume légère",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6f35f2bca5f3e3b6",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/404-800.webp",
+      "grok/404-1600.webp"
+    ],
+    "poids": {
+      "grok/404-800.webp": 37776,
+      "grok/404-1600.webp": 80568
+    },
+    "media": "c.media({ nom: 'grok/404', alt: \"Champ de lave désert sous une brume légère\", cadrage: '45% 55%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "grok/riviere-galets": {
+    "nom": "grok/riviere-galets",
+    "source": "recu/grok/grok-riviere-galets.png",
+    "role": "section-fond",
+    "alt": "Rivière claire sur des galets ronds",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "49ba26f4679bf0f5",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 53%"
+    },
+    "cadrage": "51% 53%",
+    "sujet": {
+      "x": 3.1,
+      "y": 4.5,
+      "l": 93.8,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/riviere-galets-640.webp",
+      "grok/riviere-galets-1280.webp",
+      "grok/riviere-galets-1920.webp",
+      "grok/riviere-galets-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/riviere-galets-640.webp": 58874,
+      "grok/riviere-galets-1280.webp": 125020,
+      "grok/riviere-galets-1920.webp": 191516,
+      "grok/riviere-galets-mobile-640.webp": 66426
+    },
+    "media": "c.media({ nom: 'grok/riviere-galets', alt: \"Rivière claire sur des galets ronds\", cadrage: '51% 53%', cadrageMobile: '50% 53%', sizes: '100vw' })"
+  },
+  "ouverture-ocean": {
+    "nom": "ouverture-ocean",
+    "source": "recu/nettoye/qi-gong-poumons-gros.jpg",
+    "role": "ouverture",
+    "alt": "Patrick Campo, bras ouverts à hauteur de poitrine, face à l'océan et aux rochers de basalte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cf5a0e77d9ff5c5a",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "40% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 22.2,
+      "l": 100,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "ouverture-ocean-640.webp",
+      "ouverture-ocean-1280.webp",
+      "ouverture-ocean-1920.webp",
+      "ouverture-ocean-mobile-640.webp"
+    ],
+    "poids": {
+      "ouverture-ocean-640.webp": 44712,
+      "ouverture-ocean-1280.webp": 122080,
+      "ouverture-ocean-1920.webp": 199060,
+      "ouverture-ocean-mobile-640.webp": 61728
+    },
+    "media": "c.media({ nom: 'ouverture-ocean', alt: \"Patrick Campo, bras ouverts à hauteur de poitrine, face à l'océan et aux rochers de basalte\", cadrage: '40% 50%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  },
+  "geste-lave": {
+    "nom": "geste-lave",
+    "source": "recu/nettoye/seance-5-methode-docteur.jpg",
+    "role": "ouverture",
+    "alt": "Patrick Campo en tenue blanche sur une coulée de lave, l'océan derrière lui",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "752ad319983ddf40",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 33.3,
+      "l": 96.9,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.8,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "geste-lave-640.webp",
+      "geste-lave-1280.webp",
+      "geste-lave-1920.webp",
+      "geste-lave-mobile-640.webp"
+    ],
+    "poids": {
+      "geste-lave-640.webp": 52868,
+      "geste-lave-1280.webp": 162532,
+      "geste-lave-1920.webp": 291442,
+      "geste-lave-mobile-640.webp": 93584
+    },
+    "media": "c.media({ nom: 'geste-lave', alt: \"Patrick Campo en tenue blanche sur une coulée de lave, l'océan derrière lui\", cadrage: '49% 50%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  },
+  "geste-cote": {
+    "nom": "geste-cote",
+    "source": "recu/site/qi-gong-colonne-vertebrale.jpg",
+    "role": "ouverture",
+    "alt": "Patrick Campo, bras tendus vers l'avant, sur une colline couverte d'arbustes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f1cc9ad57e0e6ff3",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        608
+      ],
+      "cadrage": "40% 45%"
+    },
+    "cadrage": "55% 45%",
+    "sujet": {
+      "x": 45.2,
+      "y": 32.5,
+      "l": 28.7,
+      "h": 66.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 640, 1080 px (source trop petite)",
+      "agrandie 1,5 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "geste-cote-640.webp",
+      "geste-cote-1280.webp",
+      "geste-cote-1920.webp",
+      "geste-cote-mobile-608.webp"
+    ],
+    "poids": {
+      "geste-cote-640.webp": 51540,
+      "geste-cote-1280.webp": 147364,
+      "geste-cote-1920.webp": 217738,
+      "geste-cote-mobile-608.webp": 63238
+    },
+    "media": "c.media({ nom: 'geste-cote', alt: \"Patrick Campo, bras tendus vers l'avant, sur une colline couverte d'arbustes\", cadrage: '55% 45%', cadrageMobile: '40% 45%', sizes: '100vw', priorite: true })"
+  },
+  "moitie-live": {
+    "nom": "moitie-live",
+    "source": "recu/site/bienvenue-site-sante-vous.jpg",
+    "role": "galerie",
+    "alt": "Pratiquants en tuniques colorées autour de Patrick sur la terrasse d'une piscine, montagnes derrière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6f49499f5495ba10",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 27.9,
+      "l": 100,
+      "h": 19.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 624,
+      "top": 0,
+      "width": 864,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 864 px après recadrage)"
+    ],
+    "fichiers": [
+      "moitie-live-480.webp",
+      "moitie-live-640.webp",
+      "moitie-live-960.webp"
+    ],
+    "poids": {
+      "moitie-live-480.webp": 81302,
+      "moitie-live-640.webp": 136472,
+      "moitie-live-960.webp": 238040
+    },
+    "media": "c.media({ nom: 'moitie-live', alt: \"Pratiquants en tuniques colorées autour de Patrick sur la terrasse d'une piscine, montagnes derrière\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "moitie-heure": {
+    "nom": "moitie-heure",
+    "source": "recu/site/24-mouvements-tai-chi.jpg",
+    "role": "galerie",
+    "alt": "Patrick Campo en tunique mauve sur le ponton d'un lac",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5519dc4cc9759c68",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 8%",
+    "sujet": {
+      "x": 24.5,
+      "y": 10.3,
+      "l": 63.1,
+      "h": 67.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 643,
+      "top": 0,
+      "width": 864,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 864 px après recadrage)"
+    ],
+    "fichiers": [
+      "moitie-heure-480.webp",
+      "moitie-heure-640.webp",
+      "moitie-heure-960.webp"
+    ],
+    "poids": {
+      "moitie-heure-480.webp": 57636,
+      "moitie-heure-640.webp": 92082,
+      "moitie-heure-960.webp": 150146
+    },
+    "media": "c.media({ nom: 'moitie-heure', alt: \"Patrick Campo en tunique mauve sur le ponton d'un lac\", cadrage: '50% 8%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "live-cote": {
+    "nom": "live-cote",
+    "source": "recu/nettoye/qi-gong-special-defenses.jpg",
+    "role": "section-fond",
+    "alt": "Patrick Campo en posture basse sur la côte, entre les agaves, l'océan et les pentes du volcan derrière",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "09188f55dcd6d093",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        608
+      ],
+      "cadrage": "50% 45%"
+    },
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 100,
+      "top": 0,
+      "width": 1080,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1920"
+    ],
+    "avertissements": [
+      "version téléphone sans 640, 1080 px (source trop petite)",
+      "agrandie 1,19 fois (source de 1080 px après recadrage)"
+    ],
+    "fichiers": [
+      "live-cote-640.webp",
+      "live-cote-1280.webp",
+      "live-cote-mobile-608.webp"
+    ],
+    "poids": {
+      "live-cote-640.webp": 31846,
+      "live-cote-1280.webp": 69042,
+      "live-cote-mobile-608.webp": 29936
+    },
+    "media": "c.media({ nom: 'live-cote', alt: \"Patrick Campo en posture basse sur la côte, entre les agaves, l'océan et les pentes du volcan derrière\", cadrage: '50% 45%', cadrageMobile: '50% 45%', sizes: '100vw' })"
+  },
+  "fitness-jambes": {
+    "nom": "fitness-jambes",
+    "source": "recu/site/jambes-1-bis-1x10.jpg",
+    "role": "carte-service",
+    "alt": "Exercice des jambes en salle, posture du cavalier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "afc8e4dc4a89c69d",
+    "ratio": "21:9",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 0%",
+    "sujet": {
+      "x": 11.8,
+      "y": 40.1,
+      "l": 61.8,
+      "h": 59.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 146,
+      "width": 1920,
+      "height": 823,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "fitness-jambes-480.webp",
+      "fitness-jambes-640.webp",
+      "fitness-jambes-784.webp"
+    ],
+    "poids": {
+      "fitness-jambes-480.webp": 14822,
+      "fitness-jambes-640.webp": 22564,
+      "fitness-jambes-784.webp": 28642
+    },
+    "media": "c.media({ nom: 'fitness-jambes', alt: \"Exercice des jambes en salle, posture du cavalier\", cadrage: '50% 0%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
+  },
+  "fitness-equilibre": {
+    "nom": "fitness-equilibre",
+    "source": "recu/site/mollets-epaules-equilibre-retour.jpg",
+    "role": "carte-service",
+    "alt": "Montée sur la pointe des pieds, bras levés, en salle",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "509c629e38828f09",
+    "ratio": "21:9",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 0%",
+    "sujet": {
+      "x": 11,
+      "y": 6.4,
+      "l": 83.8,
+      "h": 93.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 245,
+      "width": 1920,
+      "height": 823,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "fitness-equilibre-480.webp",
+      "fitness-equilibre-640.webp",
+      "fitness-equilibre-784.webp"
+    ],
+    "poids": {
+      "fitness-equilibre-480.webp": 19884,
+      "fitness-equilibre-640.webp": 29892,
+      "fitness-equilibre-784.webp": 39228
+    },
+    "media": "c.media({ nom: 'fitness-equilibre', alt: \"Montée sur la pointe des pieds, bras levés, en salle\", cadrage: '50% 0%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
+  },
+  "fitness-psoas": {
+    "nom": "fitness-psoas",
+    "source": "recu/site/psoas-iliaque.jpg",
+    "role": "carte-service",
+    "alt": "Étirement du psoas en fente avant, en salle",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "49a1b1b2e919f319",
+    "ratio": "21:9",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 0%",
+    "sujet": {
+      "x": 86.8,
+      "y": 52.1,
+      "l": 7.3,
+      "h": 22.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 823,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "fitness-psoas-480.webp",
+      "fitness-psoas-640.webp",
+      "fitness-psoas-784.webp"
+    ],
+    "poids": {
+      "fitness-psoas-480.webp": 15088,
+      "fitness-psoas-640.webp": 23338,
+      "fitness-psoas-784.webp": 30310
+    },
+    "media": "c.media({ nom: 'fitness-psoas', alt: \"Étirement du psoas en fente avant, en salle\", cadrage: '50% 0%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
+  },
+  "patrick-equilibre": {
+    "nom": "patrick-equilibre",
+    "source": "recu/nettoye/qi-gong-renforcer-equilibre-2.jpg",
+    "role": "galerie",
+    "alt": "Patrick Campo, une main levée, en équilibre sur une pierre au bord d'une rivière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "36966dcd0828d46b",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 378,
+      "top": 0,
+      "width": 576,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,39 fois (source de 576 px après recadrage)"
+    ],
+    "fichiers": [
+      "patrick-equilibre-480.webp",
+      "patrick-equilibre-640.webp",
+      "patrick-equilibre-800.webp"
+    ],
+    "poids": {
+      "patrick-equilibre-480.webp": 82014,
+      "patrick-equilibre-640.webp": 116286,
+      "patrick-equilibre-800.webp": 150638
+    },
+    "media": "c.media({ nom: 'patrick-equilibre', alt: \"Patrick Campo, une main levée, en équilibre sur une pierre au bord d'une rivière\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "patrick-face": {
+    "nom": "patrick-face",
+    "source": "recu/site/5-comment-vaincre-sentiment.jpg",
+    "role": "galerie",
+    "alt": "Patrick Campo face à l'objectif, en tunique blanche, au milieu de la forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "a976adfcc3174f2f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 2.7,
+      "y": 0,
+      "l": 83.1,
+      "h": 71
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 451,
+      "top": 0,
+      "width": 864,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 864 px après recadrage)"
+    ],
+    "fichiers": [
+      "patrick-face-480.webp",
+      "patrick-face-640.webp",
+      "patrick-face-960.webp"
+    ],
+    "poids": {
+      "patrick-face-480.webp": 65874,
+      "patrick-face-640.webp": 98710,
+      "patrick-face-960.webp": 153682
+    },
+    "media": "c.media({ nom: 'patrick-face', alt: \"Patrick Campo face à l'objectif, en tunique blanche, au milieu de la forêt\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "live-plage": {
+    "nom": "live-plage",
+    "source": "recu/nettoye/qi-gong-reins-vessie.jpg",
+    "role": "ouverture",
+    "alt": "Patrick Campo en noir sur l'herbe, au bord d'une plage de sable noir face à la houle",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "bf498e4fd604c602",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "live-plage-640.webp",
+      "live-plage-1280.webp",
+      "live-plage-1920.webp",
+      "live-plage-mobile-640.webp"
+    ],
+    "poids": {
+      "live-plage-640.webp": 43780,
+      "live-plage-1280.webp": 118710,
+      "live-plage-1920.webp": 189326,
+      "live-plage-mobile-640.webp": 59344
+    },
+    "media": "c.media({ nom: 'live-plage', alt: \"Patrick Campo en noir sur l'herbe, au bord d'une plage de sable noir face à la houle\", cadrage: '52% 50%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  }
+}

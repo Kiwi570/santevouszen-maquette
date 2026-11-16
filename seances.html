@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les séances : Qi Gong, pleine nature et méditation · Santé Vous Zen</title>
+<meta name="description" content="Le catalogue des séances de Patrick Campo : enseignement par saison, Qi Gong de pleine nature et méditations guidées, avec leur durée réelle.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://santevouszen-maquette.vercel.app/seances">
+<style>:root{--fond:#0e1215;--texte:#f6f4ef;--voile-fond:#0e1215;--ouverture-fond:#0e1215;--menu-fond:#0e1215}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0e1215">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Santé Vous Zen">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les séances : Qi Gong, pleine nature et méditation · Santé Vous Zen">
+<meta property="og:description" content="Le catalogue des séances de Patrick Campo : enseignement par saison, Qi Gong de pleine nature et méditations guidées, avec leur durée réelle.">
+<meta property="og:url" content="https://santevouszen-maquette.vercel.app/seances">
+<meta property="og:image" content="https://santevouszen-maquette.vercel.app/assets/partage/seances-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Patrick Campo, bras levés sur une plage">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Santé Vous Zen","url":"https://santevouszen-maquette.vercel.app/","telephone":"+262692090513","email":"santevouszen@gmail.com","founder":{"@type":"Person","name":"Patrick Campo"},"address":{"@type":"PostalAddress","streetAddress":"30 bis Chemin des Benjoins","postalCode":"97490","addressLocality":"Sainte-Clotilde","addressRegion":"La Réunion","addressCountry":"FR"},"description":"Cours de Qi Gong, de méditation et de fitness seniors en ligne, avec Patrick Campo : séances à la demande et live sur Zoom.","sameAs":["https://www.youtube.com/@santevouszen974","https://www.facebook.com/patrick.campo.7/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-point" aria-hidden="true"></span><span data-voile-libelle>Les séances</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-arc" viewBox="0 0 600 260" aria-hidden="true"><path d="M60 230 C 140 40, 460 40, 540 230"/></svg>
+  <span class="ouverture-point" data-ouverture-objet></span>
+  <p class="ouverture-nom">Santé Vous Zen</p>
+  <p class="ouverture-ligne">Qi Gong · méditation · seniors</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="entete-point" aria-hidden="true"></span><span>Santé Vous Zen</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/seances" data-libelle="Les séances" aria-current="page">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/seances" class="menu-lien" data-libelle="Les séances" aria-current="page">Les séances</a></li><li style="--i:2"><a href="/fitness-seniors" class="menu-lien" data-libelle="Fitness seniors">Fitness seniors</a></li><li style="--i:3"><a href="/patrick-campo" class="menu-lien" data-libelle="Patrick Campo">Patrick Campo</a></li><li style="--i:4"><a href="/formules" class="menu-lien" data-libelle="Formules">Formules</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+262692090513">Appeler 0692 09 05 13</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="sea-ouv monde-clair" id="debut">
+  <div class="conteneur sea-ouv-tete">
+    <p class="surtitre">Le catalogue</p>
+    <h1 class="sea-titre" data-anime="lettres" data-grille="typo">107 séances, à votre heure.</h1>
+    <div class="sea-ouv-bas">
+      <p class="sea-chapo">42 séances d&#39;enseignement rangées par saison, 52 d&#39;entraînement et 13 méditations guidées, accessibles 24 h sur 24 pendant toute la durée de votre formule.</p>
+      <p class="sea-actions"><a href="/formules" class="bouton" data-libelle="Formules" data-action-principale>Voir les formules</a><span class="sea-info mono" data-info-cle>Accès 24 h sur 24 · de 84 € à 334 €</span></p>
+    </div>
+  </div>
+  <figure class="media sea-bandeau" data-fx="zoom" data-fx-force="22" data-iris-centre style="--cadrage:47% 18%;--cadrage-mobile:50% 56%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/seances-plage-mobile-608.webp 608w" sizes="100vw">
+    <img src="/assets/images/seances-plage-1280.webp" srcset="/assets/images/seances-plage-640.webp 640w, /assets/images/seances-plage-1280.webp 1280w, /assets/images/seances-plage-1920.webp 1920w" sizes="100vw" alt="Patrick, bras levés en chemise rouge, sur une plage de sable devant une baie" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<span id="enseignement"></span><span id="pleine-nature"></span>
+<section class="registre monde-clair" id="registre" data-registre data-effet="registre-seances">
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="bas" style="--px:96%;--py:6%" aria-hidden="true"><i></i></span>
+  <div class="conteneur">
+    <p class="surtitre">Le registre</p>
+    <h2 class="titre-section" data-anime="lignes">Choisissez une forme, une saison.</h2>
+    <div class="registre-filtres" role="group" aria-label="Le registre">
+      <div class="filtres-rangee" data-filtre="cat">
+        <button type="button" class="filtre" data-valeur="" aria-pressed="true">Tout</button>
+        <button type="button" class="filtre" data-valeur="enseignement" aria-pressed="false">Enseignement</button><button type="button" class="filtre" data-valeur="pleine-nature" aria-pressed="false">Pleine nature</button><button type="button" class="filtre" data-valeur="meditation" aria-pressed="false">Méditation</button>
+      </div>
+      <div class="filtres-rangee" data-filtre="saison" aria-label="Saison">
+        <button type="button" class="filtre filtre--saison" data-valeur="printemps" aria-pressed="false">Printemps</button><button type="button" class="filtre filtre--saison" data-valeur="été" aria-pressed="false">Été</button><button type="button" class="filtre filtre--saison" data-valeur="automne" aria-pressed="false">Automne</button><button type="button" class="filtre filtre--saison" data-valeur="hiver" aria-pressed="false">Hiver</button>
+      </div>
+    </div>
+    <p class="registre-compte mono" aria-live="polite"><b data-registre-n>51</b> séances affichées · <span data-registre-total></span></p>
+    <ol class="registre-liste" data-registre-liste data-replie>
+      <li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="49.4">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 1</span>
+        <span class="ls-titre">Échauffement complet Qi Gong et Tai-chi</span>
+        <span class="ls-duree mono">49:26</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="60.7">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 26</span>
+        <span class="ls-titre">Docteur Yayama, les 5 katas</span>
+        <span class="ls-duree mono">1:00:44</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="55.8">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 6</span>
+        <span class="ls-titre">Tai Chi Qi Gong 1 à 6</span>
+        <span class="ls-duree mono">55:49</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="64.2">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 10</span>
+        <span class="ls-titre">Tai Chi Qi Gong 7 à 12</span>
+        <span class="ls-duree mono">1:04:12</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="66.6">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 14</span>
+        <span class="ls-titre">Tai Chi Qi Gong 13 à 18</span>
+        <span class="ls-duree mono">1:06:36</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="66.9">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 18</span>
+        <span class="ls-titre">Les 18 mouvements du Tai Chi Qi Gong 1</span>
+        <span class="ls-duree mono">1:06:54</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="62.3">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 22</span>
+        <span class="ls-titre">Les 18 mouvements du Tai Ji Qi Gong 2</span>
+        <span class="ls-duree mono">1:02:19</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="54.4">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 30</span>
+        <span class="ls-titre">Docteur Yayama 2, séance complète</span>
+        <span class="ls-duree mono">54:25</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="46.1">
+        <span class="ls-cat mono">Enseignement · Printemps · n° 34</span>
+        <span class="ls-titre">Qi Gong du printemps</span>
+        <span class="ls-duree mono">46:06</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="54.7">
+        <span class="ls-cat mono">Enseignement · Été · n° 1</span>
+        <span class="ls-titre">Retour sur l&#39;échauffement complet</span>
+        <span class="ls-duree mono">54:41</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="57.0">
+        <span class="ls-cat mono">Enseignement · Été · n° 2</span>
+        <span class="ls-titre">Wu Qin Xi, Ba Duan Jin, les 9 petits cieux, Tai Chi Qi Gong</span>
+        <span class="ls-duree mono">57:00</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="63.1">
+        <span class="ls-cat mono">Enseignement · Été · n° 5</span>
+        <span class="ls-titre">Wu Qin Xi, Ba Duan Jin, Tai Chi Qi Gong</span>
+        <span class="ls-duree mono">1:03:04</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="62.5">
+        <span class="ls-cat mono">Enseignement · Été · n° 6</span>
+        <span class="ls-titre">Wu Qin Xi, Ba Duan Jin</span>
+        <span class="ls-duree mono">1:02:27</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="61.6">
+        <span class="ls-cat mono">Enseignement · Été · n° 7</span>
+        <span class="ls-titre">Wu Qin Xi, forme complète</span>
+        <span class="ls-duree mono">1:01:37</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="72.3">
+        <span class="ls-cat mono">Enseignement · Été · n° 8</span>
+        <span class="ls-titre">Les 9 petits cieux, forme complète</span>
+        <span class="ls-duree mono">1:12:15</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="été" data-min="59.4">
+        <span class="ls-cat mono">Enseignement · Été · n° 9</span>
+        <span class="ls-titre">Les 18 mouvements du Tai Chi Qi Gong, forme complète</span>
+        <span class="ls-duree mono">59:23</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="54.7">
+        <span class="ls-cat mono">Enseignement · Automne · n° 1</span>
+        <span class="ls-titre">Retour sur l&#39;échauffement complet</span>
+        <span class="ls-duree mono">54:41</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="67.2">
+        <span class="ls-cat mono">Enseignement · Automne · n° 2</span>
+        <span class="ls-titre">Les 8 pièces de brocart, forme complète</span>
+        <span class="ls-duree mono">1:07:14</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="60.5">
+        <span class="ls-cat mono">Enseignement · Automne · n° 3</span>
+        <span class="ls-titre">Les 18 mouvements du Tai Ji Qi Gong, forme complète</span>
+        <span class="ls-duree mono">1:00:29</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="73.7">
+        <span class="ls-cat mono">Enseignement · Automne · n° 4</span>
+        <span class="ls-titre">Qi Gong du Dr Yayama, forme complète</span>
+        <span class="ls-duree mono">1:13:39</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="58.5">
+        <span class="ls-cat mono">Enseignement · Automne · n° 5</span>
+        <span class="ls-titre">Qi Gong pour les poumons et le gros intestin</span>
+        <span class="ls-duree mono">58:30</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="65.7">
+        <span class="ls-cat mono">Enseignement · Automne · n° 6</span>
+        <span class="ls-titre">Qi Gong pour l&#39;équilibre, forme complète</span>
+        <span class="ls-duree mono">1:05:40</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="66.1">
+        <span class="ls-cat mono">Enseignement · Automne · n° 7</span>
+        <span class="ls-titre">Les 8 trésors de soie</span>
+        <span class="ls-duree mono">1:06:04</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="automne" data-min="59.4">
+        <span class="ls-cat mono">Enseignement · Automne · n° 9</span>
+        <span class="ls-titre">Qi Gong Shaolin 2, forme complète</span>
+        <span class="ls-duree mono">59:25</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="54.8">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 1</span>
+        <span class="ls-titre">Apprentissage d&#39;un échauffement complet</span>
+        <span class="ls-duree mono">54:49</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="63.2">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 2</span>
+        <span class="ls-titre">Qi Gong pour renforcer l&#39;équilibre</span>
+        <span class="ls-duree mono">1:03:14</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="58.9">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 3</span>
+        <span class="ls-titre">Ba Duan Jin, Tai Chi Qi Gong, Wu Chi</span>
+        <span class="ls-duree mono">58:53</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="65.1">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 5</span>
+        <span class="ls-titre">Ba Duan Jin, Tai Chi Qi Gong, Wu Chi (formes 5 et 6)</span>
+        <span class="ls-duree mono">1:05:07</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="65.7">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 6</span>
+        <span class="ls-titre">Qi Gong Shaolin 11, 12 et 13, Zhan Zhuang 4</span>
+        <span class="ls-duree mono">1:05:40</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="66.1">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 7</span>
+        <span class="ls-titre">Les 8 pièces de brocart complet, respiration paradoxale</span>
+        <span class="ls-duree mono">1:06:04</span>
+      </li><li class="ligne-seance" data-cat="enseignement" data-saison="hiver" data-min="72.3">
+        <span class="ls-cat mono">Enseignement · Hiver · n° 8</span>
+        <span class="ls-titre">Les 9 petits cieux, forme complète</span>
+        <span class="ls-duree mono">1:12:15</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="18.7">
+        <span class="ls-cat mono">Pleine nature · n° 4</span>
+        <span class="ls-titre">18 mouvements du Tai Ji Qi Gong, forme complète</span>
+        <span class="ls-duree mono">18:41</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="19.3">
+        <span class="ls-cat mono">Pleine nature · n° 19</span>
+        <span class="ls-titre">8 pièces de brocart (Ba Duan Jin)</span>
+        <span class="ls-duree mono">19:16</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="26.0">
+        <span class="ls-cat mono">Pleine nature · n° 5</span>
+        <span class="ls-titre">Méthode du Docteur Yayama, 5 katas</span>
+        <span class="ls-duree mono">26:00</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="27.6">
+        <span class="ls-cat mono">Pleine nature</span>
+        <span class="ls-titre">18 mouvements du Tai Ji Qi Gong, forme assise</span>
+        <span class="ls-duree mono">27:39</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="27.1">
+        <span class="ls-cat mono">Pleine nature</span>
+        <span class="ls-titre">Qi Gong des 9 petits cieux</span>
+        <span class="ls-duree mono">27:08</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="26.8">
+        <span class="ls-cat mono">Pleine nature · n° 29</span>
+        <span class="ls-titre">Qi Gong style Shaolin, les 13 Luohan</span>
+        <span class="ls-duree mono">26:48</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="29.5">
+        <span class="ls-cat mono">Pleine nature · n° 3</span>
+        <span class="ls-titre">18 mouvements du Tai Chi Qi Gong</span>
+        <span class="ls-duree mono">29:31</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="8.8">
+        <span class="ls-cat mono">Pleine nature · n° 9</span>
+        <span class="ls-titre">La danse du Dragon</span>
+        <span class="ls-duree mono">08:46</span>
+      </li><li class="ligne-seance" data-cat="pleine-nature" data-saison="" data-min="24.8">
+        <span class="ls-cat mono">Pleine nature</span>
+        <span class="ls-titre">Ba Duan Jin à Nosy Be (8 trésors de soie), à louer 3,50 €</span>
+        <span class="ls-duree mono">24:47</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="16.9">
+        <span class="ls-cat mono">Méditation · n° 1</span>
+        <span class="ls-titre">Méditation contre la douleur, physique ou émotionnelle</span>
+        <span class="ls-duree mono">16:55</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="13.6">
+        <span class="ls-cat mono">Méditation · n° 2</span>
+        <span class="ls-titre">Lâcher prise grâce au pardon</span>
+        <span class="ls-duree mono">13:38</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="14.2">
+        <span class="ls-cat mono">Méditation · n° 3</span>
+        <span class="ls-titre">Méditation par balayage corporel</span>
+        <span class="ls-duree mono">14:13</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="18.4">
+        <span class="ls-cat mono">Méditation · n° 4</span>
+        <span class="ls-titre">La respiration consciente</span>
+        <span class="ls-duree mono">18:21</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="22.2">
+        <span class="ls-cat mono">Méditation · n° 5</span>
+        <span class="ls-titre">Vaincre le sentiment de solitude</span>
+        <span class="ls-duree mono">22:14</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="18.2">
+        <span class="ls-cat mono">Méditation · n° 6</span>
+        <span class="ls-titre">Méditation Metta pour l&#39;amour bienveillant</span>
+        <span class="ls-duree mono">18:11</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="23.8">
+        <span class="ls-cat mono">Méditation · n° 7</span>
+        <span class="ls-titre">Nourrir son intériorité avec les 5 éléments</span>
+        <span class="ls-duree mono">23:46</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="12.8">
+        <span class="ls-cat mono">Méditation · n° 8</span>
+        <span class="ls-titre">Intérioriser l&#39;élément Feu</span>
+        <span class="ls-duree mono">12:45</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="13.8">
+        <span class="ls-cat mono">Méditation · n° 9</span>
+        <span class="ls-titre">L&#39;élément Espace</span>
+        <span class="ls-duree mono">13:48</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="18.0">
+        <span class="ls-cat mono">Méditation · n° 10</span>
+        <span class="ls-titre">Pacifier l&#39;esprit</span>
+        <span class="ls-duree mono">18:02</span>
+      </li><li class="ligne-seance" data-cat="meditation" data-saison="" data-min="18.7">
+        <span class="ls-cat mono">Méditation · n° 11</span>
+        <span class="ls-titre">Nourrir le corps par les 3 refuges intérieurs</span>
+        <span class="ls-duree mono">18:42</span>
+      </li>
+    </ol>
+    <p class="registre-plus"><button type="button" class="bouton bouton--contour" data-registre-plus data-plus="Voir toute la liste" data-moins="Replier la liste" aria-expanded="false">Voir toute la liste</button></p>
+    <figure class="media registre-bandeau" data-fx="parallaxe" style="--cadrage:50% 50%;aspect-ratio:21 / 7">
+  <picture>
+    <img src="/assets/images/seance-colline-784.webp" srcset="/assets/images/seance-colline-480.webp 480w, /assets/images/seance-colline-640.webp 640w, /assets/images/seance-colline-784.webp 784w" sizes="100vw" alt="Patrick bras tendus sur une colline couverte d&#39;arbustes" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <p class="registre-note">Extrait du catalogue réel : les 51 séances dont le site actuel donne le titre et la durée. Les vidéos sont réservées aux abonnés.</p>
+  </div>
+</section>
+<section class="chez monde-clair" id="meditation">
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:4%;--py:10%" aria-hidden="true"><i></i></span>
+  <div class="conteneur chez-grille">
+    <div>
+      <p class="surtitre">Chez vous</p>
+      <h2 class="titre-section" data-anime="lignes">Debout, assis, ou les yeux fermés.</h2>
+      <p data-anime>Les 18 mouvements existent aussi en forme assise. Les méditations se pratiquent allongé ou assis, de 12 à 24 minutes.</p>
+    </div>
+    <ul class="chez-photos" data-anime="cascade">
+      <li data-fx="vitesse" data-fx-force="3"><figure class="media " style="--cadrage:52% 28%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/meditation-riviere-784.webp" srcset="/assets/images/meditation-riviere-480.webp 480w, /assets/images/meditation-riviere-640.webp 640w, /assets/images/meditation-riviere-784.webp 784w" sizes="(max-width: 760px) 90vw, 22vw" alt="Patrick assis en méditation au bord d&#39;une rivière" width="784" height="588" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Au bord de la rivière</figcaption>
+</figure></li><li data-fx="vitesse" data-fx-force="3"><figure class="media " style="--cadrage:50% 36%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/meditation-plage-784.webp" srcset="/assets/images/meditation-plage-480.webp 480w, /assets/images/meditation-plage-640.webp 640w, /assets/images/meditation-plage-784.webp 784w" sizes="(max-width: 760px) 90vw, 22vw" alt="Patrick en méditation, mains jointes, sur une plage" width="784" height="588" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Sur la plage</figcaption>
+</figure></li><li data-fx="vitesse" data-fx-force="3"><figure class="media " style="--cadrage:50% 38%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/meditation-foret-784.webp" srcset="/assets/images/meditation-foret-480.webp 480w, /assets/images/meditation-foret-640.webp 640w, /assets/images/meditation-foret-784.webp 784w" sizes="(max-width: 760px) 90vw, 22vw" alt="Patrick assis en tailleur en forêt" width="784" height="588" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">En forêt</figcaption>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="fin-page monde-clair" id="commencer">
+  <figure class="media fin-page-photo" data-anime="rideau" style="--cadrage:50% 51%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/seance-riviere-foret-784.webp" srcset="/assets/images/seance-riviere-foret-480.webp 480w, /assets/images/seance-riviere-foret-640.webp 640w, /assets/images/seance-riviere-foret-784.webp 784w" sizes="(max-width: 760px) 100vw, 45vw" alt="Patrick en tenue blanche au bord d&#39;une rivière en forêt" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div>
+    <h2 class="titre-section" data-anime="lignes">Prêt à commencer ?</h2>
+    <p data-anime>Choisissez la durée de votre accès, avec ou sans le live du jeudi.</p>
+    <p data-anime><a href="/formules" class="bouton" data-libelle="Formules">Choisir ma formule</a></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Santé Vous Zen</p>
+      <p>Cours en ligne · depuis La Réunion<br><a href="tel:+262692090513">0692 09 05 13</a><br><a href="mailto:santevouszen@gmail.com">santevouszen@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/seances" data-libelle="Les séances" aria-current="page">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Pratiquer</strong></p>
+      <ul>
+        <li>Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)</li>
+        <li><a href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">Chaîne YouTube</a></li>
+        <li><a href="https://www.facebook.com/patrick.campo.7/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : inscriptions, paiements et messages sont simulés, rien n&#39;est envoyé.</p><p class="pied-legal">Mentions légales · Politique de confidentialité · CGVU : à compléter</p><p>© Santé Vous Zen · Patrick Campo</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+262692090513">Appeler</a>
+  <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+</div>
+</body>
+</html>

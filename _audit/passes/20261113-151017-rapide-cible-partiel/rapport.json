@@ -1,0 +1,160 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ouv-texte > h1.ouv-titre > span.ouv-l2:nth-of-type(2) > span.ouv-lent « lent. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > h1.ouv-titre > span.ouv-l1:nth-of-type(1) « Le geste »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-texte > p.ouv-actions:nth-of-type(4) > a.bouton:nth-of-type(1) « Choisir ma formule »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#debut > p.ouv-consigne:nth-of-type(1) « Prenez la lumière et montez lentement »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > button.ouv-poignee « Guider la trace de lumière : glisser vers le haut, »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.35:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.con-ouv-texte > p.surtitre:nth-of-type(1) « CONTACT »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.45:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.con-ouv-texte > h1.con-titre « Une question ? Appelez Patrick. »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#avec-live > span.point-fil",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.famille:nth-of-type(1) > header.famille-tete > h2.titre-section « Avec le live »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "contraste sur image",
+      "detail": "2.26:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1), ombre portée à vérifier",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > p.surtitre.ouv-sur:nth-of-type(1) « QI GONG EN LIGNE · PATRICK CAMPO »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "contraste sur image",
+      "detail": "2.30:1 sur les 10 % de la photo les moins favorables (minimum 3:1), ombre portée à vérifier",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte > h1.ouv-titre > span.ouv-l1:nth-of-type(1) « Le geste »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "contraste sur image",
+      "detail": "2.81:1 sur les 10 % de la photo les moins favorables (minimum 3:1), ombre portée à vérifier",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.ouv-texte > h1.ouv-titre > span.ouv-l2:nth-of-type(2) > span.ouv-lent « lent. »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "photo moyenne affichée en très grand",
+      "detail": "fitness-mollets (3/5, 100 % de l'écran) : une image notée 4 ou 5 à cette taille",
+      "etape": "mesures",
+      "page": "/fitness-seniors",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#serie > figure.media.serie-photo > picture > img « Exercice des mollets en groupe sur la terrasse du  »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "mesures": 24
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 4 étape(s) notée(s), 82 min de travail pour 100 min de budget, 12 min d’attente de l’utilisateur.",
+    "Journal : « aperçu de l'accueil en films (attente de la réponse notée à part) » 17 min pour 5 prévues.",
+    "Audit rapide : étapes lourdes sur /, /contact, /fitness-seniors, /formules.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Balayage des largeurs : non fait en audit rapide."
+  ],
+  "grille": []
+}

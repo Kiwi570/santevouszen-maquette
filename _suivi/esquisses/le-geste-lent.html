@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le geste lent</title>
+<style>
+@font-face{font-family:Bricolage;src:url(polices/bricolage.woff2) format("woff2");font-weight:200 800;font-stretch:75% 100%}
+@font-face{font-family:Atkinson;src:url(polices/atkinson-400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:Atkinson;src:url(polices/atkinson-700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:Mono;src:url(polices/mono.woff2) format("woff2");font-weight:100 800}
+:root{--nuit:#0e1215;--blanc:#f6f4ef;--rouge:#e0472c;--ciel:#bfe2f4}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:var(--nuit);color:var(--blanc);font-family:Atkinson,sans-serif}
+.ecran{position:relative;height:100svh;min-height:560px;overflow:hidden}
+.photo{position:absolute;inset:0}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:46% 50%;filter:saturate(1.05) contrast(1.04)}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,22,34,.78) 0,rgba(9,22,34,.35) 38%,rgba(9,22,34,0) 60%),linear-gradient(0deg,rgba(14,18,21,.55),rgba(14,18,21,0) 30%)}
+header{position:absolute;inset:0 0 auto 0;height:76px;display:flex;align-items:center;gap:32px;padding:0 48px;z-index:5;background:#0e1215}
+.marque{font-family:Bricolage;font-weight:700;font-size:21px;font-stretch:85%}
+.marque small{display:block;font-family:Mono;font-size:11px;font-weight:500;letter-spacing:.14em;color:#b8c0c4;text-transform:uppercase}
+nav{display:flex;gap:26px;margin-left:auto;font-size:16px}
+nav a{color:var(--blanc);opacity:.86}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;background:var(--rouge);color:#fff;font-weight:700;font-size:16px}
+.btn.ligne{background:rgba(14,18,21,.45);border:1.5px solid rgba(246,244,239,.7)}
+.texte{position:absolute;z-index:3;left:48px;top:150px;display:flex;flex-direction:column;gap:24px;max-width:560px}
+.sur{font-family:Mono;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--ciel)}
+h1{font-family:Bricolage;font-weight:800;font-stretch:76%;font-size:clamp(70px,9.4vw,150px);line-height:.86;letter-spacing:-.035em;text-shadow:0 4px 40px rgba(0,0,0,.25)}
+h1 em{font-style:normal;color:#fff;-webkit-text-stroke:0}
+.chapo{font-size:20px;line-height:1.5;max-width:30ch}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+.live{display:flex;align-items:center;gap:12px;font-size:16px;background:rgba(14,18,21,.72);padding:10px 16px;border-radius:12px;width:max-content}
+.live b{font-family:Mono;font-weight:600}
+.point{width:10px;height:10px;border-radius:50%;background:var(--rouge);box-shadow:0 0 0 6px rgba(224,71,44,.25)}
+svg.traces{position:absolute;inset:0;width:100%;height:100%;z-index:2;overflow:visible}
+.consigne{position:absolute;z-index:3;font-family:Mono;font-size:13px;background:rgba(14,18,21,.78);padding:9px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.25)}
+.legende{position:absolute;right:28px;bottom:22px;z-index:3;font-family:Mono;font-size:13px;text-align:right;line-height:1.6;text-shadow:0 1px 8px #000}
+@media (max-width:760px){
+ header{padding:0 20px;height:64px} nav{display:none} header .btn{margin-left:auto;min-height:44px;padding:0 16px;font-size:15px}
+ .photo img{object-position:44% 50%}
+ .photo::after{background:linear-gradient(0deg,rgba(9,16,22,.95) 0,rgba(9,16,22,.75) 42%,rgba(9,16,22,0) 64%)}
+ .photo img{object-position:40% 30%}
+ svg.traces{height:62%}
+ .texte{left:20px;right:20px;top:auto;bottom:24px;gap:12px}
+ h1{font-size:60px}
+ .chapo{font-size:16px} .sur{display:none}
+ .actions{gap:10px}
+ .live{font-size:14px}
+ .consigne{display:none}
+ .legende{display:none}
+}
+</style></head><body>
+<div class="ecran">
+ <figure class="photo"><img src="/recu/site/seance-5-methode-docteur.jpg" alt=""></figure>
+ <svg class="traces" id="traces" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+   <filter id="halo" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+   <linearGradient id="g1" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#ffd9b0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  </defs>
+ </svg>
+ <header><div class="marque">Santé Vous Zen<small>Qi Gong · Patrick Campo</small></div>
+  <nav><a>Les séances</a><a>Le live</a><a>Formules</a><a>Patrick</a><a>Contact</a></nav>
+  <a class="btn">S'abonner</a></header>
+ <div class="texte">
+  <p class="sur">Qi Gong en ligne · depuis La Réunion</p>
+  <h1>Le geste<br>lent.</h1>
+  <p class="chapo">Renforcer le corps, pacifier l'esprit&nbsp;: 107&nbsp;séances à suivre chez vous, et deux lives par semaine avec Patrick Campo.</p>
+  <div class="actions"><a class="btn">Choisir ma formule →</a><a class="btn ligne">Essayer une séance</a></div>
+  <p class="live"><span class="point"></span>Ce soir&nbsp;: <b>18&nbsp;h Paris · 21&nbsp;h Réunion</b> sur Zoom</p>
+ </div>
+ <span class="consigne" style="left:63%;top:17%">Montez lentement avec lui ↑ · trop vite, la trace s'efface</span>
+ <p class="legende">Soutenir le ciel des deux mains · coulée de lave, La Réunion</p>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg',svg=document.getElementById('traces');
+// mains de Patrick sur la photo (repère 1440x900, image en cover) : poitrine vers x 690, y 470
+function arc(x0,y0,cx,cy,x1,y1,w,col,blur){const p=document.createElementNS(NS,'path');p.setAttribute('d',`M${x0} ${y0} Q${cx} ${cy} ${x1} ${y1}`);p.setAttribute('fill','none');p.setAttribute('stroke',col);p.setAttribute('stroke-width',w);p.setAttribute('stroke-linecap','round');if(blur)p.setAttribute('filter','url(#halo)');svg.appendChild(p);return p}
+const traces=[[660,455,500,300,610,150],[715,455,880,300,775,150]];
+for(const [x0,y0,cx,cy,x1,y1] of traces){
+  arc(x0,y0,cx,cy,x1,y1,46,'rgba(255,170,110,.55)',true);
+  arc(x0,y0,cx,cy,x1,y1,14,'rgba(255,226,196,.9)',true);
+  arc(x0,y0,cx,cy,x1,y1,4,'url(#g1)',false);
+}
+// fantômes du geste : expositions successives
+for(let k=1;k<=5;k++){const t=k/6;for(const [x0,y0,cx,cy,x1,y1] of traces){const x=(1-t)*(1-t)*x0+2*(1-t)*t*cx+t*t*x1,y=(1-t)*(1-t)*y0+2*(1-t)*t*cy+t*t*y1;const c=document.createElementNS(NS,'circle');c.setAttribute('cx',x);c.setAttribute('cy',y);c.setAttribute('r',7+k);c.setAttribute('fill','#fff');c.setAttribute('opacity',.25+t*.5);c.setAttribute('filter','url(#halo)');svg.appendChild(c)}}
+for(const [,,,,x1,y1] of traces){const c=document.createElementNS(NS,'circle');c.setAttribute('cx',x1);c.setAttribute('cy',y1);c.setAttribute('r',30);c.setAttribute('fill','none');c.setAttribute('stroke','#fff');c.setAttribute('stroke-width',3);svg.appendChild(c);const d=document.createElementNS(NS,'circle');d.setAttribute('cx',x1);d.setAttribute('cy',y1);d.setAttribute('r',12);d.setAttribute('fill','#fff');svg.appendChild(d)}
+</script>
+</body></html>

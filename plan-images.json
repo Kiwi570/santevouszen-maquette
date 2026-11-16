@@ -1,0 +1,500 @@
+[
+ {
+  "source": "recu/nettoye/seance-5-methode-docteur.jpg",
+  "nom": "ouverture-lave",
+  "role": "ouverture",
+  "alt": "Patrick Campo en tenue blanche sur une coulée de lave, l'océan derrière lui",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "accueil",
+  "cadrage": [
+   48.8,
+   50
+  ]
+ },
+ {
+  "source": "recu/nettoye/qi-gong-poumons-gros.jpg",
+  "nom": "geste-ocean",
+  "role": "ouverture",
+  "alt": "Patrick, bras ouverts à hauteur de poitrine, face à l'océan et aux rochers de basalte",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "droite",
+  "cadrage": [
+   39.6,
+   61.6
+  ]
+ },
+ {
+  "source": "recu/nettoye/seance-4-18-mouvements.jpg",
+  "nom": "geste-riviere",
+  "role": "ouverture",
+  "alt": "Patrick Campo en tenue blanche au bord d'une rivière en forêt",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   48,
+   45
+  ]
+ },
+ {
+  "source": "recu/nettoye/posture-wu-chi-qi.jpg",
+  "nom": "geste-foret",
+  "role": "ouverture",
+  "alt": "Patrick debout dans la posture Wu Chi, sur un sentier de forêt",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   51,
+   50
+  ]
+ },
+ {
+  "source": "recu/nettoye/qi-gong-ba-duan.jpg",
+  "nom": "geste-lagon",
+  "role": "ouverture",
+  "alt": "Patrick en fente basse sur un ponton de bois au bord d'un lagon",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   78,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/qi-gong-pleine-nature.jpg",
+  "nom": "geste-ensemble",
+  "role": "ouverture",
+  "alt": "Un groupe de pratiquants lève le bras derrière Patrick, au-dessus d'une baie",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   60,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/qi-gong-7-formes.jpg",
+  "nom": "seances-plage",
+  "role": "ouverture",
+  "alt": "Patrick, bras levés en chemise rouge, sur une plage de sable devant une baie",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "seances",
+  "cadrage": [
+   46.5,
+   56.2
+  ]
+ },
+ {
+  "source": "recu/nettoye/seance-4-18-mouvements.jpg",
+  "nom": "seance-riviere-foret",
+  "role": "carte-service",
+  "alt": "Patrick en tenue blanche au bord d'une rivière en forêt",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/nettoye/seance-29-qi-gong.jpg",
+  "nom": "patrick-palmiers",
+  "role": "ouverture",
+  "alt": "Patrick sur une terrasse face à la mer, entre deux cocotiers",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "droite",
+  "page": "patrick-campo",
+  "cadrage": [
+   47.6,
+   63.7
+  ]
+ },
+ {
+  "source": "recu/site/qi-gong-enseignement.jpg",
+  "nom": "groupe-rochers",
+  "role": "galerie",
+  "alt": "Patrick et un groupe en blanc, bras levés sur des rochers face à la mer",
+  "beaute": 4,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/site/18-mouvements-tai-jo.jpg",
+  "nom": "groupe-stade",
+  "role": "galerie",
+  "alt": "Patrick guide une foule de pratiquants sur la pelouse d'un stade",
+  "beaute": 3,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/site/patrick-campo-enseignant-qi.png",
+  "nom": "patrick-portrait",
+  "role": "portrait",
+  "alt": "Portrait de Patrick Campo, mains jointes",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   30
+  ]
+ },
+ {
+  "source": "recu/site/fitness-muscles-seniors-sportifs-2.jpg",
+  "nom": "fitness-lac",
+  "role": "ouverture",
+  "alt": "Un groupe de seniors lève les bras avec Patrick sur une terrasse au bord d'un lac",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "fitness-seniors",
+  "cadrage": [
+   39.0,
+   41.9
+  ]
+ },
+ {
+  "source": "recu/site/mollets-retour-sang-veineux.jpg",
+  "nom": "fitness-mollets",
+  "role": "carte-service",
+  "alt": "Exercice des mollets en groupe sur la terrasse du lac",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   35
+  ],
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/etirements-generalises-seance-complete.jpg",
+  "nom": "fitness-etirements",
+  "role": "carte-service",
+  "alt": "Étirements debout dans une salle de sport",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   35
+  ],
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/fitness-sport-seniors-2.jpg",
+  "nom": "fitness-salle",
+  "role": "carte-service",
+  "alt": "Exercice d'équilibre dans une salle de sport",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   35
+  ],
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/24-mouvements-tai-chi.jpg",
+  "nom": "stage-cantal",
+  "role": "galerie",
+  "alt": "Patrick en tunique mauve sur le ponton d'un lac, stage du Cantal",
+  "beaute": 4,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/site/qi-gong-meditation-entrainement.jpg",
+  "nom": "cantal-lac",
+  "role": "section-fond",
+  "alt": "Vue d'un lac de barrage entouré de prairies et de forêts",
+  "beaute": 4
+ },
+ {
+  "source": "recu/site/bienvenue-site-sante-vous.jpg",
+  "nom": "stage-corse",
+  "role": "galerie",
+  "alt": "Pratiquants en tuniques colorées sur la terrasse d'une piscine, montagnes derrière",
+  "beaute": 4,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/site/stages-qi-gong-2026.jpg",
+  "nom": "stage-groupe",
+  "role": "galerie",
+  "alt": "Photo de groupe joyeuse des stagiaires sur une terrasse",
+  "beaute": 3,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/site/6-meditation-metta-amour.jpg",
+  "nom": "meditation-riviere",
+  "role": "carte-service",
+  "alt": "Patrick assis en méditation au bord d'une rivière",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/4-pacifier-esprit-liberez.jpg",
+  "nom": "meditation-plage",
+  "role": "carte-service",
+  "alt": "Patrick en méditation, mains jointes, sur une plage",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/1-nourrir-interiorite-5.jpg",
+  "nom": "meditation-foret",
+  "role": "carte-service",
+  "alt": "Patrick assis en tailleur en forêt",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/qi-gong-tai-chi.jpg",
+  "nom": "seance-riviere",
+  "role": "carte-service",
+  "alt": "Patrick sur un tapis rouge au milieu d'une rivière à galets",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/qi-gong-colonne-vertebrale.jpg",
+  "nom": "seance-colline",
+  "role": "carte-service",
+  "alt": "Patrick bras tendus sur une colline couverte d'arbustes",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/site/seance-19-8-pieces.jpg",
+  "nom": "seance-bambous",
+  "role": "carte-service",
+  "alt": "Patrick devant un bosquet de bambous",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/grok/grok-ocean-aube.png",
+  "nom": "grok/ocean-aube",
+  "role": "ouverture",
+  "alt": "Côte de lave noire au lever du soleil, écume blanche",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "formules",
+  "emplacement": "Ouverture de la page Formules",
+  "priorite": "indispensable",
+  "consigne_scene": "Wide photograph of the black basalt coast of a volcanic island in the Indian Ocean at sunrise, jagged black lava rocks in the foreground with white surf breaking over them, warm low sun on the horizon to the right, long golden reflections on the sea, deep blue sky fading to apricot, a calm empty area of sky and sea on the left third, no people, no buildings, no boats"
+ },
+ {
+  "source": "recu/grok/grok-ocean-aube-portrait.png",
+  "nom": "grok/ocean-aube-portrait",
+  "role": "ouverture",
+  "alt": "Côte de lave noire au lever du soleil",
+  "beaute": 4,
+  "page": "formules",
+  "emplacement": "Ouverture de la page Formules, téléphone",
+  "priorite": "indispensable",
+  "ratio": "9:16",
+  "consigne_scene": "Vertical photograph of the black basalt coast of a volcanic island at sunrise, jagged black lava rocks in the lower third with white surf, warm sun low on the horizon, golden reflections, calm sky in the upper half, no people, no buildings"
+ },
+ {
+  "source": "recu/grok/grok-lave-fougeres.png",
+  "nom": "grok/lave-fougeres",
+  "role": "section-fond",
+  "alt": "Lave ancienne où poussent de jeunes fougères",
+  "beaute": 4,
+  "page": "accueil",
+  "emplacement": "Fond de la section Patrick Campo, accueil",
+  "priorite": "indispensable",
+  "consigne_scene": "Close photograph of an old black lava flow, rough ropey basalt texture, a few young green ferns and small shrubs sprouting from the cracks, raking warm late afternoon light from the left, shallow depth of field, large calm dark area on the right, no people"
+ },
+ {
+  "source": "recu/grok/grok-crepuscule.png",
+  "nom": "grok/crepuscule",
+  "role": "section-fond",
+  "alt": "Côte de lave noire au coucher du soleil, ciel rouge et mer sombre",
+  "beaute": 4,
+  "mobile": true,
+  "page": "accueil",
+  "emplacement": "Fond de la section Le live de ce soir",
+  "priorite": "indispensable",
+  "consigne_scene": "Photograph of a calm ocean at blue hour seen from a low black lava shore, deep indigo sky with the first stars, a thin warm orange glow on the horizon, gentle waves catching the last light, very simple and dark, large empty sky area in the upper two thirds, no people, no boats, no moon"
+ },
+ {
+  "source": "recu/grok/grok-404.png",
+  "nom": "grok/404",
+  "role": "404",
+  "alt": "Champ de lave désert sous une brume légère",
+  "beaute": 4,
+  "page": "404",
+  "emplacement": "Page 404",
+  "priorite": "conseillée",
+  "consigne_scene": "Wide empty field of old grey-black lava under a light morning mist, a faint footpath of small stones fading away into the distance, a pale sky, very calm and empty, no people, no buildings"
+ },
+ {
+  "source": "recu/grok/grok-riviere-galets.png",
+  "nom": "grok/riviere-galets",
+  "role": "section-fond",
+  "alt": "Rivière claire sur des galets ronds",
+  "beaute": 4,
+  "mobile": true,
+  "page": "contact",
+  "emplacement": "Ouverture de la page Contact",
+  "priorite": "conseillée",
+  "consigne_scene": "Photograph of a clear mountain river of a volcanic island flowing over smooth round grey pebbles and large pale boulders, dense green tropical forest on steep banks, soft overcast light, calm water in the foreground, large calm area of water and stones on the left, no people, no bridge"
+ },
+ {
+  "source": "recu/nettoye/qi-gong-poumons-gros.jpg",
+  "nom": "ouverture-ocean",
+  "role": "ouverture",
+  "alt": "Patrick Campo, bras ouverts à hauteur de poitrine, face à l'océan et aux rochers de basalte",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "droite",
+  "cadrage": [
+   40,
+   50
+  ],
+  "page": "accueil"
+ },
+ {
+  "source": "recu/nettoye/seance-5-methode-docteur.jpg",
+  "nom": "geste-lave",
+  "role": "ouverture",
+  "alt": "Patrick Campo en tenue blanche sur une coulée de lave, l'océan derrière lui",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   48.8,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/qi-gong-colonne-vertebrale.jpg",
+  "nom": "geste-cote",
+  "role": "ouverture",
+  "alt": "Patrick Campo, bras tendus vers l'avant, sur une colline couverte d'arbustes",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   55,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/bienvenue-site-sante-vous.jpg",
+  "nom": "moitie-live",
+  "role": "galerie",
+  "alt": "Pratiquants en tuniques colorées autour de Patrick sur la terrasse d'une piscine, montagnes derrière",
+  "beaute": 4,
+  "ratio": "4:5",
+  "cadrage": [
+   55,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/24-mouvements-tai-chi.jpg",
+  "nom": "moitie-heure",
+  "role": "galerie",
+  "alt": "Patrick Campo en tunique mauve sur le ponton d'un lac",
+  "beaute": 4,
+  "ratio": "4:5",
+  "cadrage": [
+   56,
+   8
+  ]
+ },
+ {
+  "source": "recu/nettoye/qi-gong-special-defenses.jpg",
+  "nom": "live-cote",
+  "role": "section-fond",
+  "alt": "Patrick Campo en posture basse sur la côte, entre les agaves, l'océan et les pentes du volcan derrière",
+  "beaute": 3,
+  "mobile": true,
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/jambes-1-bis-1x10.jpg",
+  "nom": "fitness-jambes",
+  "role": "carte-service",
+  "alt": "Exercice des jambes en salle, posture du cavalier",
+  "beaute": 3,
+  "ratio": "21:9",
+  "cadrage": [
+   50,
+   0
+  ]
+ },
+ {
+  "source": "recu/site/mollets-epaules-equilibre-retour.jpg",
+  "nom": "fitness-equilibre",
+  "role": "carte-service",
+  "alt": "Montée sur la pointe des pieds, bras levés, en salle",
+  "beaute": 3,
+  "ratio": "21:9",
+  "cadrage": [
+   50,
+   0
+  ]
+ },
+ {
+  "source": "recu/site/psoas-iliaque.jpg",
+  "nom": "fitness-psoas",
+  "role": "carte-service",
+  "alt": "Étirement du psoas en fente avant, en salle",
+  "beaute": 3,
+  "ratio": "21:9",
+  "cadrage": [
+   50,
+   0
+  ]
+ },
+ {
+  "source": "recu/nettoye/qi-gong-renforcer-equilibre-2.jpg",
+  "nom": "patrick-equilibre",
+  "role": "galerie",
+  "alt": "Patrick Campo, une main levée, en équilibre sur une pierre au bord d'une rivière",
+  "beaute": 4,
+  "ratio": "4:5",
+  "cadrage": [
+   52,
+   38
+  ],
+  "largeurs": [
+   480,
+   640,
+   800
+  ]
+ },
+ {
+  "source": "recu/site/5-comment-vaincre-sentiment.jpg",
+  "nom": "patrick-face",
+  "role": "galerie",
+  "alt": "Patrick Campo face à l'objectif, en tunique blanche, au milieu de la forêt",
+  "beaute": 5,
+  "ratio": "4:5",
+  "cadrage": [
+   46,
+   34
+  ],
+  "page": "accueil"
+ },
+ {
+  "source": "recu/nettoye/qi-gong-reins-vessie.jpg",
+  "nom": "live-plage",
+  "role": "ouverture",
+  "alt": "Patrick Campo en noir sur l'herbe, au bord d'une plage de sable noir face à la houle",
+  "beaute": 5,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "cadrage": [
+   52,
+   50
+  ],
+  "page": "accueil"
+ }
+]

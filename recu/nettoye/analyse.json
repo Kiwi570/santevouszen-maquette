@@ -1,0 +1,576 @@
+{
+  "dossier": "/home/claude/work/santevouszen-maquette/recu/nettoye",
+  "date": "2026-11-13T16:22:44.786Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "posture-wu-chi-qi.jpg",
+      "nom": "posture-wu-chi-qi",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 575949,
+      "transparence": false,
+      "sujet": {
+        "x": 53.1,
+        "y": 16.7,
+        "l": 15.6,
+        "h": 72.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        53
+      ],
+      "cadrage_css": "62% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 31.5,
+        "bruit": 1.03,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8d9fc9d9a91939a4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "qi-gong-ba-duan.jpg",
+      "nom": "qi-gong-ba-duan",
+      "drapeau": null,
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 198520,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 16.7,
+        "l": 62.5,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        69,
+        67
+      ],
+      "cadrage_css": "69% 67%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 54.6,
+        "bruit": 0.96,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6e3a0c0c100645dc",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "qi-gong-poumons-gros.jpg",
+      "nom": "qi-gong-poumons-gros",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 429170,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 22.2,
+        "l": 100,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        65
+      ],
+      "cadrage_css": "49% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 47.2,
+        "bruit": 0.81,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "03011022c2d8d1cc",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "qi-gong-reins-vessie.jpg",
+      "nom": "qi-gong-reins-vessie",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 573827,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        34
+      ],
+      "cadrage_css": "36% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 50.7,
+        "bruit": 0.7,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "84cac0e98dc8cccd",
+      "drapeaux": []
+    },
+    {
+      "fichier": "qi-gong-renforcer-equilibre-2.jpg",
+      "nom": "qi-gong-renforcer-equilibre-2",
+      "drapeau": null,
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 410617,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        60
+      ],
+      "cadrage_css": "56% 60%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 61.5,
+        "bruit": 2.61,
+        "compression": 1.07,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a6a3b311430c1870",
+      "drapeaux": []
+    },
+    {
+      "fichier": "qi-gong-special-defenses.jpg",
+      "nom": "qi-gong-special-defenses",
+      "drapeau": null,
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 169864,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        47
+      ],
+      "cadrage_css": "47% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 16.7,
+        "bruit": 0.64,
+        "compression": 1.31,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "81840001aecc5cd5",
+      "drapeaux": []
+    },
+    {
+      "fichier": "seance-29-qi-gong.jpg",
+      "nom": "seance-29-qi-gong",
+      "drapeau": null,
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 208944,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        49
+      ],
+      "cadrage_css": "42% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 46.2,
+        "bruit": 1.05,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4ccdcd8cc8cdcecc",
+      "drapeaux": []
+    },
+    {
+      "fichier": "seance-4-18-mouvements.jpg",
+      "nom": "seance-4-18-mouvements",
+      "drapeau": null,
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 426559,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 5.6,
+        "l": 96.9,
+        "h": 88.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        51
+      ],
+      "cadrage_css": "54% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 42.7,
+        "bruit": 2.29,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d1e25070d2d2b2a6",
+      "drapeaux": []
+    },
+    {
+      "fichier": "seance-5-methode-docteur.jpg",
+      "nom": "seance-5-methode-docteur",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 572774,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 33.3,
+        "l": 96.9,
+        "h": 66.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        68
+      ],
+      "cadrage_css": "62% 68%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 94.4,
+        "bruit": 1.29,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7f1f4b88b088ca88",
+      "drapeaux": [
+        "calme haut"
+      ]
+    }
+  ]
+}

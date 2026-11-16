@@ -1,0 +1,111 @@
+{
+ "mission": "prix",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8639,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Menu",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer Choisir ma formule",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 6.3,
+   "adresse": "/formules",
+   "y": 0,
+   "hauteurPage": 7214,
+   "titres": [
+    "h1 Six formules, de 84 € à 334 €."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Menu",
+    "Comparer les formules",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [
+    "84 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "134 €",
+    "234 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7.5,
+   "adresse": "/formules",
+   "y": 717,
+   "hauteurPage": 7214,
+   "titres": [
+    "h2 Avec le live"
+   ],
+   "actions": [
+    "Choisir BASIC",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [
+    "134 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "134 €",
+    "234 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  }
+ ]
+}

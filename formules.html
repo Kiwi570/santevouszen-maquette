@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Formules d&#39;abonnement · Santé Vous Zen</title>
+<meta name="description" content="Six formules de 84 € à 334 €, de 4 à 12 mois, avec ou sans live Zoom : accès 24 h sur 24 aux séances d&#39;entraînement, d&#39;enseignement et de méditation.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://santevouszen-maquette.vercel.app/formules">
+<style>:root{--fond:#0e1215;--texte:#f6f4ef;--voile-fond:#0e1215;--ouverture-fond:#0e1215;--menu-fond:#0e1215}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0e1215">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Santé Vous Zen">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Formules d&#39;abonnement · Santé Vous Zen">
+<meta property="og:description" content="Six formules de 84 € à 334 €, de 4 à 12 mois, avec ou sans live Zoom : accès 24 h sur 24 aux séances d&#39;entraînement, d&#39;enseignement et de méditation.">
+<meta property="og:url" content="https://santevouszen-maquette.vercel.app/formules">
+<meta property="og:image" content="https://santevouszen-maquette.vercel.app/assets/partage/formules-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Côte de lave noire au lever du soleil">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Santé Vous Zen","url":"https://santevouszen-maquette.vercel.app/","telephone":"+262692090513","email":"santevouszen@gmail.com","founder":{"@type":"Person","name":"Patrick Campo"},"address":{"@type":"PostalAddress","streetAddress":"30 bis Chemin des Benjoins","postalCode":"97490","addressLocality":"Sainte-Clotilde","addressRegion":"La Réunion","addressCountry":"FR"},"description":"Cours de Qi Gong, de méditation et de fitness seniors en ligne, avec Patrick Campo : séances à la demande et live sur Zoom.","sameAs":["https://www.youtube.com/@santevouszen974","https://www.facebook.com/patrick.campo.7/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-point" aria-hidden="true"></span><span data-voile-libelle>Formules</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-arc" viewBox="0 0 600 260" aria-hidden="true"><path d="M60 230 C 140 40, 460 40, 540 230"/></svg>
+  <span class="ouverture-point" data-ouverture-objet></span>
+  <p class="ouverture-nom">Santé Vous Zen</p>
+  <p class="ouverture-ligne">Qi Gong · méditation · seniors</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="entete-point" aria-hidden="true"></span><span>Santé Vous Zen</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules" aria-current="page">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/seances" class="menu-lien" data-libelle="Les séances">Les séances</a></li><li style="--i:2"><a href="/fitness-seniors" class="menu-lien" data-libelle="Fitness seniors">Fitness seniors</a></li><li style="--i:3"><a href="/patrick-campo" class="menu-lien" data-libelle="Patrick Campo">Patrick Campo</a></li><li style="--i:4"><a href="/formules" class="menu-lien" data-libelle="Formules" aria-current="page">Formules</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+262692090513">Appeler 0692 09 05 13</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="for-ouv" id="debut">
+  <figure class="media for-fond" data-grok data-fx="zoom" data-fx-force="10" style="--cadrage:63% 66%;--cadrage-mobile:50% 66%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/ocean-aube-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/ocean-aube-1280.webp" srcset="/assets/images/grok/ocean-aube-640.webp 640w, /assets/images/grok/ocean-aube-1280.webp 1280w, /assets/images/grok/ocean-aube-1920.webp 1920w" sizes="100vw" alt="Côte de lave noire au lever du soleil, écume blanche" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur for-ouv-texte">
+    <p class="surtitre">Les formules</p>
+    <h1 class="for-titre" data-anime="lettres" data-grille="typo">Six formules, de 84 € à 334 €.</h1>
+    <p class="for-chapo">Toutes donnent accès 24 h sur 24 aux séances d&#39;entraînement (52), d&#39;enseignement (42) et de méditation (13). Cinq comprennent aussi des lives du jeudi sur Zoom, de 12 à 36 ; seule Bronze n&#39;en a pas.</p>
+    <p class="for-actions"><a class="bouton" href="#avec-live" data-action-principale>Comparer les formules</a><span class="mono for-info" data-info-cle data-iris-centre>À partir de 84 € pour 4 mois</span></p>
+  </div>
+</section>
+<section class="familles" id="avec-live">
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:2%;--py:2%" aria-hidden="true"><i></i></span>
+  <div class="conteneur">
+    <div class="famille">
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Avec le live</h2><p>Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick.</p></header>
+      <ol class="formules-liste" data-anime="cascade"><li class="formule" id="formule-basic" data-fx="vitesse" data-fx-force="2">
+    <p class="formule-nom mono">BASIC</p>
+    <p class="formule-prix" data-prix>134 €</p>
+    <p class="formule-duree">4 mois</p>
+    <ul>
+      <li>12 séances en direct</li>
+      <li>Entraînement (52), enseignement (42), méditation (13)</li>
+      <li class="absent">Onglet connaissance (PDF)</li>
+      <li>1 entretien téléphonique</li>
+    </ul>
+    <a class="bouton" href="/formules?formule=basic#inscription" data-choisir="basic" data-nom="BASIC" data-libelle="Formules">Choisir BASIC</a>
+  </li><li class="formule" id="formule-essentiel" data-fx="vitesse" data-fx-force="2">
+    <p class="formule-nom mono">ESSENTIEL</p>
+    <p class="formule-prix" data-prix>234 €</p>
+    <p class="formule-duree">7 mois</p>
+    <ul>
+      <li>24 séances en direct</li>
+      <li>Entraînement (52), enseignement (42), méditation (13)</li>
+      <li>Onglet connaissance (PDF)</li>
+      <li>1 entretien téléphonique</li>
+    </ul>
+    <a class="bouton" href="/formules?formule=essentiel#inscription" data-choisir="essentiel" data-nom="ESSENTIEL" data-libelle="Formules">Choisir ESSENTIEL</a>
+  </li><li class="formule" id="formule-premium" data-fx="vitesse" data-fx-force="2">
+    <p class="formule-nom mono">PREMIUM</p>
+    <p class="formule-prix" data-prix>334 €</p>
+    <p class="formule-duree">12 mois</p>
+    <ul>
+      <li>36 séances en direct</li>
+      <li>Entraînement (52), enseignement (42), méditation (13)</li>
+      <li>Onglet connaissance (PDF)</li>
+      <li>1 entretien en visio Zoom</li>
+    </ul>
+    <a class="bouton" href="/formules?formule=premium#inscription" data-choisir="premium" data-nom="PREMIUM" data-libelle="Formules">Choisir PREMIUM</a>
+  </li></ol>
+      <figure class="media famille-photo" data-fx="parallaxe" style="--cadrage:50% 43%;aspect-ratio:21 / 6">
+  <picture>
+    <img src="/assets/images/cantal-lac-1280.webp" srcset="/assets/images/cantal-lac-640.webp 640w, /assets/images/cantal-lac-1280.webp 1280w, /assets/images/cantal-lac-1920.webp 1920w" sizes="100vw" alt="Vue d&#39;un lac de barrage entouré de prairies et de forêts" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="famille" id="a-mon-heure">
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">À mon heure</h2><p>Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi.</p></header>
+      <ol class="formules-liste" data-anime="cascade"><li class="formule" id="formule-bronze" data-fx="vitesse" data-fx-force="2">
+    <p class="formule-nom mono">BRONZE</p>
+    <p class="formule-prix" data-prix>84 €</p>
+    <p class="formule-duree">4 mois</p>
+    <ul>
+      <li class="moins">Sans séance en direct</li>
+      <li>Entraînement (52), enseignement (42), méditation (13)</li>
+      <li class="absent">Onglet connaissance (PDF)</li>
+    </ul>
+    <a class="bouton" href="/formules?formule=bronze#inscription" data-choisir="bronze" data-nom="BRONZE" data-libelle="Formules">Choisir BRONZE</a>
+  </li><li class="formule" id="formule-argent" data-fx="vitesse" data-fx-force="2">
+    <p class="formule-nom mono">ARGENT</p>
+    <p class="formule-prix" data-prix>154 €</p>
+    <p class="formule-duree">7 mois</p>
+    <ul>
+      <li>12 séances en direct</li>
+      <li>Entraînement (52), enseignement (42), méditation (13)</li>
+      <li>Onglet connaissance (PDF)</li>
+      <li>1 entretien téléphonique</li>
+    </ul>
+    <a class="bouton" href="/formules?formule=argent#inscription" data-choisir="argent" data-nom="ARGENT" data-libelle="Formules">Choisir ARGENT</a>
+  </li><li class="formule" id="formule-or" data-fx="vitesse" data-fx-force="2">
+    <p class="formule-nom mono">OR</p>
+    <p class="formule-prix" data-prix>214 €</p>
+    <p class="formule-duree">12 mois</p>
+    <ul>
+      <li>12 séances en direct</li>
+      <li>Entraînement (52), enseignement (42), méditation (13)</li>
+      <li>Onglet connaissance (PDF)</li>
+      <li>1 entretien téléphonique</li>
+    </ul>
+    <a class="bouton" href="/formules?formule=or#inscription" data-choisir="or" data-nom="OR" data-libelle="Formules">Choisir OR</a>
+  </li></ol>
+    </div>
+    <p class="choix-note">Prix affichés sur le site actuel, toutes taxes comprises. Inscription simulée dans cette maquette.</p>
+  </div>
+</section>
+<section class="inscription" id="inscription">
+  <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="bas" style="--px:94%;--py:10%" aria-hidden="true"><i></i></span>
+  <div class="conteneur inscription-grille">
+    <div>
+      <p class="surtitre">Inscription</p>
+      <h2 class="titre-section" data-anime="lignes">Votre inscription</h2>
+      <p data-anime>Simulation : rien n&#39;est envoyé ni payé dans cette maquette.</p>
+      <article class="billet billet--recap" data-recap data-grille="retour" data-effet="billet-live" data-visuel>
+        <p class="billet-nom mono" data-recap-nom>ESSENTIEL</p>
+        <p class="billet-prix"><span data-recap-prix>234 €</span></p>
+        <p class="billet-duree" data-recap-duree>7 mois</p>
+      </article>
+    </div>
+    <form class="formulaire" data-formulaire novalidate>
+      <div class="champ"><label for="i-formule">Formule</label>
+        <select id="i-formule" name="formule" required data-recap-choix><option value="basic" data-prix="134" data-mois="4">BASIC · 134 € · 4 mois</option><option value="essentiel" data-prix="234" data-mois="7" selected>ESSENTIEL · 234 € · 7 mois</option><option value="premium" data-prix="334" data-mois="12">PREMIUM · 334 € · 12 mois</option><option value="bronze" data-prix="84" data-mois="4">BRONZE · 84 € · 4 mois</option><option value="argent" data-prix="154" data-mois="7">ARGENT · 154 € · 7 mois</option><option value="or" data-prix="214" data-mois="12">OR · 214 € · 12 mois</option></select></div>
+      <div class="champ"><label for="i-nom">Nom et prénom</label><input id="i-nom" name="nom" autocomplete="name" required></div>
+      <div class="champ"><label for="i-email">E-mail</label><input id="i-email" name="email" type="email" autocomplete="email" required></div>
+      <div class="champ"><label for="i-tel">Téléphone (facultatif)</label><input id="i-tel" name="tel" type="tel" autocomplete="tel"></div>
+      <div class="champ"><label for="i-message">Une question pour Patrick ? (facultatif)</label><textarea id="i-message" name="message" rows="3"></textarea></div>
+      <p class="champ-donnees">Vos données servent seulement à gérer votre inscription. La politique de confidentialité du site final précisera leur durée de conservation et vos droits.</p>
+      <button class="bouton" type="submit">Valider mon inscription</button>
+      <p data-message-envoi aria-live="polite" data-texte="Inscription simulée, rien n&#39;est envoyé. Sur le vrai site, vous paieriez ici, puis Patrick vous enverrait par e-mail votre accès aux séances et le lien Zoom du jeudi."></p>
+    </form>
+  </div>
+</section>
+<section class="faq-page" id="faq">
+  <div class="conteneur faq-grille">
+    <h2 class="titre-section" data-anime="lignes">Questions fréquentes</h2>
+    <div><details class="faq-item" data-anime><summary>Faut-il avoir déjà pratiqué ?</summary><p>Non. Les séances commencent par un échauffement complet, et les stages accueillent débutants comme pratiquants confirmés.</p></details><details class="faq-item" data-anime><summary>De quel matériel ai-je besoin ?</summary><p>Pour le Qi Gong, d&#39;un peu de place. Certains exercices de fitness seniors utilisent un bâton, une chaise ou une charge légère, et une version assise des 18 mouvements existe.</p></details><details class="faq-item" data-anime><summary>Comment se passe le live ?</summary><p>En direct sur Zoom avec Patrick, le jeudi de 18 h à 19 h 15, heure de Paris. Le lien est donné aux abonnés.</p></details><details class="faq-item" data-anime><summary>Puis-je pratiquer à mon heure ?</summary><p>Oui : les séances enregistrées sont accessibles 24 h sur 24 pendant toute la durée de la formule.</p></details><details class="faq-item" data-anime><summary>Le Qi Gong remplace-t-il un traitement ?</summary><p>Non. C&#39;est une pratique de bien-être ; en cas de doute sur votre santé, demandez l&#39;avis de votre médecin.</p></details></div>
+  </div>
+  <figure class="media faq-photo" data-fx="parallaxe" style="--cadrage:60% 45%;aspect-ratio:21 / 9;--cadrage-mobile:55% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geste-ensemble-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/geste-ensemble-1280.webp" srcset="/assets/images/geste-ensemble-640.webp 640w, /assets/images/geste-ensemble-1280.webp 1280w, /assets/images/geste-ensemble-1920.webp 1920w" sizes="100vw" alt="Un groupe de pratiquants lève le bras derrière Patrick, au-dessus d&#39;une baie" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Santé Vous Zen</p>
+      <p>Cours en ligne · depuis La Réunion<br><a href="tel:+262692090513">0692 09 05 13</a><br><a href="mailto:santevouszen@gmail.com">santevouszen@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules" aria-current="page">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Pratiquer</strong></p>
+      <ul>
+        <li>Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)</li>
+        <li><a href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">Chaîne YouTube</a></li>
+        <li><a href="https://www.facebook.com/patrick.campo.7/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : inscriptions, paiements et messages sont simulés, rien n&#39;est envoyé.</p><p class="pied-legal">Mentions légales · Politique de confidentialité · CGVU : à compléter</p><p>© Santé Vous Zen · Patrick Campo</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+262692090513">Appeler</a>
+  <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+</div>
+</body>
+</html>

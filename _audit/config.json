@@ -1,0 +1,6 @@
+{
+  "siteActuel": "santevouszen.com",
+  "pagesTypes": ["/", "/seances", "/fitness-seniors", "/patrick-campo", "/formules", "/contact"],
+  "effets": ["trace-geste", "enchainement", "plongee", "titre-lent", "point-fil", "horloge-live", "axes-posture", "billet-live", "compteur-serie", "registre-seances"],
+  "grille": { "dispenses": {} }
+}

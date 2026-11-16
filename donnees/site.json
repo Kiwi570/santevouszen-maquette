@@ -1,0 +1,15 @@
+{
+  "nom": "Santé Vous Zen",
+  "adresse": "https://santevouszen-maquette.vercel.app",
+  "siteActuel": "santevouszen.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "seances", "fitness-seniors", "patrick-campo", "formules", "contact"],
+  "actionEntete": { "page": "formules", "ancre": "" },
+  "couleurs": { "fond": "#0e1215", "texte": "#f6f4ef", "voile": "#0e1215", "theme": "#0e1215", "ouverture": "#0e1215", "menu": "#0e1215" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "0692 09 05 13", "telephoneLien": "+262692090513", "email": "santevouszen@gmail.com", "adresse": "Cours en ligne · depuis La Réunion" },
+  "polices": ["/assets/fonts/bricolage.woff2", "/assets/fonts/atkinson-400.woff2"],
+  "imagePartage": "ouverture-lave-1280.webp",
+  "curseur": false
+}

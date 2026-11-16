@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-13T14:06:05.591Z",
+  "plan": "/home/claude/work/santevouszen-maquette/plan-images.json",
+  "attendus": 7,
+  "recus": 7,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "grok-ocean-aube.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Wide photograph of the black basalt coast of a volcanic island in the Indian Ocean at sunrise, jagged black lava rocks in the foreground with white surf breaking over them, warm low sun on the horizon to the right, long golden reflections on the sea, deep blue sky fading to apricot, a calm empty area of sky and sea on the left third, no people, no buildings, no boats. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A volcanic island of the Indian Ocean landscape only, described by its real features: no tea plantation, no rice terraces, no misty farmland, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "grok-ocean-aube-portrait.png",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Vertical photograph of the black basalt coast of a volcanic island at sunrise, jagged black lava rocks in the lower third with white surf, warm sun low on the horizon, golden reflections, calm sky in the upper half, no people, no buildings. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A volcanic island of the Indian Ocean landscape only, described by its real features: no tea plantation, no rice terraces, no misty farmland, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "grok-404.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Wide empty field of old grey-black lava under a light morning mist, a faint footpath of small stones fading away into the distance, a pale sky, very calm and empty, no people, no buildings. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/ocean-aube",
+      "attendu": "grok-ocean-aube.png",
+      "fichier": "grok-ocean-aube.png",
+      "priorite": "indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Wide photograph of the black basalt coast of a volcanic island in the Indian Ocean at sunrise, jagged black lava rocks in the foreground with white surf breaking over them, warm low sun on the horizon to the right, long golden reflections on the sea, deep blue sky fading to apricot, a calm empty area of sky and sea on the left third, no people, no buildings, no boats. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A volcanic island of the Indian Ocean landscape only, described by its real features: no tea plantation, no rice terraces, no misty farmland, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/ocean-aube-portrait",
+      "attendu": "grok-ocean-aube-portrait.png",
+      "fichier": "grok-ocean-aube-portrait.png",
+      "priorite": "indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Vertical photograph of the black basalt coast of a volcanic island at sunrise, jagged black lava rocks in the lower third with white surf, warm sun low on the horizon, golden reflections, calm sky in the upper half, no people, no buildings. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A volcanic island of the Indian Ocean landscape only, described by its real features: no tea plantation, no rice terraces, no misty farmland, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/lave-fougeres",
+      "attendu": "grok-lave-fougeres.png",
+      "fichier": "grok-lave-fougeres.png",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/crepuscule",
+      "attendu": "grok-crepuscule.png",
+      "fichier": "grok-crepuscule.png",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/salon",
+      "attendu": "grok-salon.png",
+      "fichier": "grok-salon.png",
+      "priorite": "conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1200,
+      "hauteur": 1800,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/404",
+      "attendu": "grok-404.png",
+      "fichier": "grok-404.png",
+      "priorite": "conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Wide empty field of old grey-black lava under a light morning mist, a faint footpath of small stones fading away into the distance, a pale sky, very calm and empty, no people, no buildings. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and alive mood, palette of deep basalt black, ocean blue, warm white and a touch of ember red, clear tropical sunlight, tactile black lava, wet basalt and smooth river stones, set in a volcanic island of the Indian Ocean on a clear morning in the dry season, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/riviere-galets",
+      "attendu": "grok-riviere-galets.png",
+      "fichier": "grok-riviere-galets.png",
+      "priorite": "conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    }
+  ]
+}

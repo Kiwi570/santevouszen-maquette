@@ -1,0 +1,100 @@
+{
+  "client": "Santé Vous Zen",
+  "depot": "santevouszen-maquette",
+  "site_actuel": "https://www.santevouszen.com",
+  "activite": "Qi Gong, méditation et fitness seniors en ligne (Patrick Campo, La Réunion)",
+  "constat": "Le site actuel cache un trésor : des dizaines de séances tournées par Patrick seul sur la lave, l'océan et les rivières de La Réunion, et vingt ans de rééducation au centre Sainte-Clotilde. Tout est noyé dans douze rubriques, des vignettes chargées de texte et des images générées, et l'on ne voit ni quand a lieu le live, ni ce que coûte l'abonnement.",
+  "directions": [
+    {
+      "nom": "Le geste lent",
+      "idee": "Le Qi Gong comme un geste qu'on fait avec lui. Patrick en plein cadre sur la coulée de lave, et ses mains laissent une trace de lumière, comme une photo en pose longue. Le visiteur prend la trace et monte lentement avec lui ; s'il va trop vite, la trace pâlit. L'accueil avance de côté, posture après posture, d'un paysage réunionnais à l'autre, comme un enchaînement.",
+      "plan": "parcours-horizontal",
+      "palette": ["#0e1215", "#f6f4ef", "#e0472c", "#bfe2f4"],
+      "polices": ["Bricolage Grotesque", "Atkinson Hyperlegible", "JetBrains Mono"],
+      "grille": {
+        "objet": "la trace de lumière des mains de Patrick, à monter lentement (soutenir le ciel), qui pâlit si l'on va trop vite",
+        "fil": "la même trace lumineuse passe d'une posture à l'autre et relie les pages",
+        "voile": "un point de lumière qui grandit depuis le clic, et la page s'ouvre sur les mains de la posture suivante",
+        "forme_voile": "iris",
+        "familles": ["lumiere-pointeur", "typo-geante", "plongee", "defilement-horizontal"],
+        "signature": "lumiere-pointeur",
+        "modernes": ["trace de lumière en pose longue qui suit la main, sur la vraie photo", "titre « lent » dont la largeur s'étire quand on ralentit", "plongée dans la lave jusqu'à l'océan de la posture suivante"]
+      },
+      "modules": ["tarifs-a-rouleaux", "agenda-des-dates"],
+      "deja_vu_voulu": "défilement horizontal : c'est le plan même de la direction (un enchaînement de postures), seule famille reprise",
+      "sections": [
+        { "role": "ouverture", "reprend": "winsbike-maquette/top", "plus": "pas une lampe sur un établi : la lumière naît des mains de Patrick sur sa vraie photo, et le visiteur la guide" },
+        { "role": "méthode", "reprend": "brice-bourdon-maquette/approche", "plus": "la rééducation et le Qi Gong réunis : la posture analysée sur la photo (axes, appuis, souffle), sans aucune promesse de soin" },
+        { "role": "tarifs", "reprend": "iprof-maquette/tarifs-prices", "plus": "les six formules réelles, rangées par durée (4, 7, 12 mois), lives et séances comptés, prix qui roulent" },
+        { "role": "agenda", "reprend": "observatoire-des-cse-maquette/calendrier", "plus": "le prochain live calculé (jeudi et dimanche, 18 h Paris) et affiché à l'heure de Paris et de La Réunion" }
+      ],
+      "ancrage": [
+        { "element": "Patrick seul sur la coulée de lave, l'océan derrière", "source": "photo:seance-5-methode-docteur.jpg" },
+        { "element": "les séances de pleine nature tournées sur le littoral et les rivières de La Réunion", "source": "photo:qi-gong-poumons-gros.jpg" },
+        { "element": "« Soutenir le ciel des deux mains », première des 8 pièces de brocart", "source": "photo:soutenir-ciel-2-mains.jpg" },
+        { "element": "20 ans d'enseignement en médecine physique et réadaptation, centre Sainte-Clotilde depuis 2003", "source": "site:/à-propos" },
+        { "element": "live Zoom le jeudi et le dimanche à 18 h, heure de Paris", "source": "site:/" }
+      ],
+      "invente": ["la trace lumineuse des mains (pose longue)", "la règle « trop vite, la trace pâlit » qui fait sentir la lenteur"]
+    },
+    {
+      "nom": "Le ballon de souffle",
+      "idee": "Un seul objet reste à l'écran sur tout l'accueil : le ballon que l'on tient dans la posture debout (Zhan Zhuang, « tenir le ballon »), une sphère de lumière en 3D posée entre les mains de Patrick face à l'océan. On l'ouvre en écartant, on la ferme en relâchant ; elle respire seule. À chaque section elle prend la matière d'un des cinq éléments des méditations, sur une vraie photo : lave, océan, rivière, ciel.",
+      "plan": "objet-unique",
+      "palette": ["#0d1418", "#0f3346", "#fbf3e4", "#ff7a4d"],
+      "polices": ["Syne", "Figtree"],
+      "grille": {
+        "objet": "la sphère de souffle en 3D, qu'on ouvre en écartant et qu'on ferme en relâchant, qui respire seule",
+        "fil": "la même sphère descend la page et change de matière à chaque section (terre, eau, bois, feu, métal)",
+        "voile": "une vague d'océan qui monte, couvre, puis se retire sur la page suivante",
+        "forme_voile": "vague",
+        "familles": ["3d", "ambiance-qui-change", "curseur-vivant", "webgl"],
+        "signature": "3d",
+        "modernes": ["sphère WebGL qui se dilate et se contracte à la main", "couleur et lumière de la page qui suivent l'élément de la section", "curseur devenu une petite bulle de souffle que la sphère attire"]
+      },
+      "modules": ["formulaire-par-etapes", "tarifs-a-rouleaux"],
+      "deja_vu_voulu": "WebGL : seul moyen de rendre la sphère comme un vrai objet de lumière, seule famille reprise",
+      "sections": [
+        { "role": "ouverture", "reprend": "icc-maquette/hero", "plus": "la sphère se pose entre les mains de Patrick sur la vraie photo de l'océan, et on la manipule" },
+        { "role": "offre", "reprend": "willowcamp-maquette/facons", "plus": "les trois pratiques (Qi Gong, méditation, fitness seniors) comme trois états de la sphère" },
+        { "role": "tarifs", "reprend": "esaie-55-1-maquette/parrainage-formules", "plus": "la sphère grossit avec la durée de la formule choisie (4, 7, 12 mois)" },
+        { "role": "contact", "reprend": "myrtille-et-compagnie-maquette/demander-une-communication-formulaire", "plus": "la demande part dans la sphère, qui se referme" }
+      ],
+      "ancrage": [
+        { "element": "Patrick face à l'océan, les bras ouverts à hauteur de poitrine", "source": "photo:qi-gong-poumons-gros.jpg" },
+        { "element": "la séance « Tenir le ballon, Zhan Zhuang »", "source": "photo:tenir-ballon-zhan-zhuang.jpg" },
+        { "element": "méditations des cinq éléments (feu, espace, air, eau) d'après Tenzin Wangyal Rinpoché", "source": "site:/about-1" },
+        { "element": "accroche réelle : renforcer votre Corps et pacifier votre Esprit", "source": "site:/" }
+      ],
+      "invente": ["la sphère de lumière elle-même", "sa matière qui change avec l'élément de chaque section"]
+    },
+    {
+      "nom": "Le registre des formes",
+      "idee": "Le catalogue comme une grande liste typographique : les formes réelles (18 mouvements, 8 pièces de brocart, 9 petits cieux, 5 animaux, Dr Yayama, 13 Luohan) inscrites sur un tambour qu'on fait tourner à la main. La forme au centre montre sa vraie photo, ses durées et son nombre de séances ; un clic plonge dans la photo jusqu'à la séance.",
+      "plan": "index",
+      "palette": ["#f7f6f2", "#141414", "#d63a22", "#5d5d58"],
+      "polices": ["Archivo", "JetBrains Mono"],
+      "grille": {
+        "objet": "le tambour des formes, à faire tourner à la main avec élan",
+        "fil": "le repère rouge du tambour, qui reste à la même hauteur et marque chaque section",
+        "voile": "une bande d'encre qui ferme l'écran comme un registre qu'on referme",
+        "forme_voile": "rideau",
+        "familles": ["carrousel", "typo-geante", "plongee"],
+        "signature": "carrousel",
+        "modernes": ["tambour typographique en 3D tourné à la main", "largeur des lettres qui s'élargit au centre (police variable)", "plongée dans la photo de la forme choisie"]
+      },
+      "modules": ["catalogue-filtres-flip", "tarifs-a-rouleaux"],
+      "sections": [
+        { "role": "ouverture", "reprend": "surffm-maquette/hero", "plus": "le titre géant devient une liste vraie, celle des formes enseignées, et se fait tourner" },
+        { "role": "outil-interactif", "reprend": "libre-solidaire-maquette/reseau", "plus": "les 107 séances filtrées par forme, durée, debout ou assis" },
+        { "role": "tarifs", "reprend": "talon-libre-maquette/annexe-tarifs", "plus": "comparateur des six formules, lignes du registre qui s'allument" }
+      ],
+      "ancrage": [
+        { "element": "Patrick en Tai Ji sur le ponton du lac, stage du Cantal", "source": "photo:24-mouvements-tai-chi.jpg" },
+        { "element": "liste réelle des formes et de leurs durées (18:41, 19:16, 26:00…)", "source": "site:/about-1-1" },
+        { "element": "42 séances d'enseignement, 52 d'entraînement, 13 méditations", "source": "site:/formules" }
+      ],
+      "invente": ["le tambour typographique"]
+    }
+  ]
+}

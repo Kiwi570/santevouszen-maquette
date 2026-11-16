@@ -1,0 +1,223 @@
+{
+  "avertissements": [
+    "logo pris dans assets/images (logo-clair.svg) : aucun logo dans donnees/images.json, vérifier que ce n'est pas celui du socle"
+  ],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "ouverture-ocean-1280.webp",
+      "poids": 79214,
+      "sujet": {
+        "x": 600,
+        "y": 140,
+        "l": 600,
+        "h": 490
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/riviere-galets-1280.webp",
+      "poids": 89826,
+      "sujet": {
+        "x": 600,
+        "y": 28,
+        "l": 600,
+        "h": 573
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "fitness-seniors",
+      "langue": "fr",
+      "fichier": "assets/partage/fitness-seniors-fr.jpg",
+      "gabarit": "plein",
+      "image": "fitness-lac-1280.webp",
+      "poids": 102451,
+      "sujet": {
+        "x": 142,
+        "y": 153,
+        "l": 653,
+        "h": 169
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 468,
+          "l": 498,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 547,
+          "l": 498,
+          "h": 35
+        },
+        {
+          "x": 1072,
+          "y": 518,
+          "l": 64,
+          "h": 64
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "formules",
+      "langue": "fr",
+      "fichier": "assets/partage/formules-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/ocean-aube-1280.webp",
+      "poids": 68943,
+      "sujet": {
+        "x": 600,
+        "y": 140,
+        "l": 600,
+        "h": 490
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "patrick-campo",
+      "langue": "fr",
+      "fichier": "assets/partage/patrick-campo-fr.jpg",
+      "gabarit": "droite",
+      "image": "patrick-palmiers-1280.webp",
+      "poids": 71810,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "seances",
+      "langue": "fr",
+      "fichier": "assets/partage/seances-fr.jpg",
+      "gabarit": "droite",
+      "image": "seances-plage-1280.webp",
+      "poids": 62826,
+      "sujet": {
+        "x": 798,
+        "y": 149,
+        "l": 200,
+        "h": 410
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

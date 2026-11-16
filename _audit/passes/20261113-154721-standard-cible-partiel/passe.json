@@ -1,0 +1,16 @@
+{
+ "id": "20261113-154721-standard-cible-partiel",
+ "date": "2026-11-13T15:49:20.175Z",
+ "niveau": "standard",
+ "pages": "/404,/contact,/fitness-seniors,/formules,/patrick-campo,/seances",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 2,
+ "aRegarder": 3,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

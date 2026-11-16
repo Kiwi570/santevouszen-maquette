@@ -1,0 +1,330 @@
+{
+ "commun": {
+  "navigation": "Navigation principale",
+  "menu": "Menu",
+  "fermer": "Fermer",
+  "langueAutre": "Autre langue",
+  "actionEntete": "S'abonner",
+  "appeler": "Appeler",
+  "sommaire": "Sommaire",
+  "confort": "Pratiquer",
+  "retourHaut": "Retour en haut",
+  "maquette": "Maquette de démonstration : inscriptions, paiements et messages sont simulés, rien n'est envoyé.",
+  "evitement": "Aller au contenu",
+  "mentionIa": "Illustration générée",
+  "pause": "Pause",
+  "lecture": "Lecture",
+  "introLigne": "Qi Gong · méditation · seniors",
+  "legal": "Mentions légales · Politique de confidentialité · CGVU : à compléter",
+  "youtube": "Chaîne YouTube",
+  "facebook": "Facebook",
+  "liveCourt": "Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)"
+ },
+ "pages": {
+  "accueil": {
+   "titre": "Santé Vous Zen : Qi Gong en ligne avec Patrick Campo",
+   "description": "Qi Gong, méditation et fitness seniors en ligne avec Patrick Campo : 107 séances à suivre chez vous et un live sur Zoom chaque jeudi, depuis La Réunion.",
+   "nav": "Accueil",
+   "partageAlt": "Patrick Campo sur une coulée de lave, face à l'océan",
+   "accroche": "Le geste lent"
+  },
+  "seances": {
+   "titre": "Les séances : Qi Gong, pleine nature et méditation · Santé Vous Zen",
+   "description": "Le catalogue des séances de Patrick Campo : enseignement par saison, Qi Gong de pleine nature et méditations guidées, avec leur durée réelle.",
+   "nav": "Les séances",
+   "partageAlt": "Patrick Campo, bras levés sur une plage",
+   "accroche": "107 séances, à votre heure"
+  },
+  "fitness-seniors": {
+   "titre": "Fitness seniors : renforcement, équilibre et étirements · Santé Vous Zen",
+   "description": "Trois modules de fitness pour seniors avec Patrick Campo : renforcement musculaire, sport et équilibre, étirements généralisés, avec peu de matériel.",
+   "nav": "Fitness seniors",
+   "partageAlt": "Un groupe de seniors en séance au bord d'un lac",
+   "accroche": "Un muscle à la fois"
+  },
+  "patrick-campo": {
+   "titre": "Patrick Campo : 20 ans de rééducation, 15 ans de Qi Gong · Santé Vous Zen",
+   "description": "Le parcours de Patrick Campo : enseignant en médecine physique et réadaptation, Qi Gong énergétique au centre Sainte-Clotilde depuis 2003, diplômes.",
+   "nav": "Patrick Campo",
+   "partageAlt": "Patrick Campo sur une terrasse face à la mer",
+   "accroche": "Qui vous guide"
+  },
+  "formules": {
+   "titre": "Formules d'abonnement · Santé Vous Zen",
+   "description": "Six formules de 84 € à 334 €, de 4 à 12 mois, avec ou sans live Zoom : accès 24 h sur 24 aux séances d'entraînement, d'enseignement et de méditation.",
+   "nav": "Formules",
+   "partageAlt": "Côte de lave noire au lever du soleil",
+   "accroche": "Choisir sa formule"
+  },
+  "contact": {
+   "titre": "Contact · Santé Vous Zen",
+   "description": "Joindre Patrick Campo : téléphone, e-mail, chaîne YouTube et formulaire.",
+   "nav": "Contact",
+   "partageAlt": "Rivière claire sur des galets",
+   "accroche": "Une question ?"
+  },
+  "404": {
+   "titre": "Page introuvable · Santé Vous Zen",
+   "description": "Cette page n'existe pas.",
+   "nav": "Page introuvable",
+   "partageAlt": "Page introuvable",
+   "accroche": "Page introuvable"
+  }
+ },
+ "accueil": {
+  "ouv": {
+   "sur": "Qi Gong en ligne · Patrick Campo",
+   "titre1": "Le geste",
+   "titre2": "lent.",
+   "chapo": "Renforcer le corps, pacifier l'esprit : 107 séances à suivre chez vous, et le live du jeudi avec Patrick Campo.",
+   "action": "Choisir ma formule",
+   "essai": "Essayer gratuitement",
+   "live": "Live Zoom chaque jeudi · 18 h Paris",
+   "legende": "Soutenir le ciel des deux mains · Ba Duan Jin, sur le ponton de Nosy Be (Madagascar)",
+   "consigne": "Montez la souris, lentement : ses bras montent avec vous",
+   "poignee": "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+   "alt": "Patrick Campo en tenue blanche sur un ponton de bois face au lagon de Nosy Be, les mains devant le ventre, au début du geste « soutenir le ciel des deux mains »",
+   "vite": "Plus lentement… le geste se brouille",
+   "fin": "Vous soutenez le ciel des deux mains : la première des 8 pièces de brocart",
+   "consigneDoigt": "Glissez la poignée vers le haut, lentement"
+  },
+  "ench": {
+   "region": "L'enchaînement : six séances tournées dehors",
+   "aide": "Faites défiler : six postures, six paysages",
+   "aideDoigt": "Glissez : six postures, six paysages →"
+  },
+  "facons": {
+   "sur": "Comment pratiquer",
+   "titre": "Avec lui en direct, ou à votre heure",
+   "live": {
+    "chiffre": "Jeudi 18 h Paris · 21 h Réunion",
+    "titre": "Le live sur Zoom",
+    "texte": "Une heure et quart en direct avec Patrick, chaque jeudi de la saison.",
+    "lien": "Formules avec live"
+   },
+   "demande": {
+    "chiffre": "42 + 52",
+    "titre": "Séances à la demande",
+    "texte": "Enseignement rangé par saison et entraînement de pleine nature, 24 h sur 24.",
+    "lien": "Voir les séances"
+   },
+   "meditation": {
+    "chiffre": "13",
+    "titre": "Méditations guidées",
+    "texte": "Pleine conscience, balayage corporel, respiration consciente, les cinq éléments.",
+    "lien": "Les méditations"
+   },
+   "fitness": {
+    "chiffre": "3 modules",
+    "titre": "Fitness seniors",
+    "texte": "Renforcement, équilibre et étirements, avec un bâton ou une chaise.",
+    "lien": "Le fitness seniors"
+   }
+  },
+  "live": {
+   "sur": "Le rendez-vous",
+   "titre": "Le jeudi, on pratique ensemble.",
+   "texte": "Programme d'automne 2026 : 12 séances en direct sur Zoom, chaque jeudi du 3 septembre au 3 décembre, de 18 h à 19 h 15, heure de Paris.",
+   "statut": "Le live a lieu le jeudi à 18 h, heure de Paris.",
+   "action": "Rejoindre le live",
+   "paris": "à Paris",
+   "reunion": "à La Réunion",
+   "saison": "Programme d'automne, du 3 septembre au 3 décembre 2026",
+   "jour": "Jeudi, 18 h à Paris",
+   "heures": "21 h chez Patrick, à La Réunion"
+  },
+  "patrick": {
+   "sur": "Qui vous guide",
+   "titre": "Vingt ans à remettre les corps en mouvement.",
+   "texte": "Patrick Campo enseigne la médecine physique et la réadaptation depuis 20 ans, et le Qi Gong énergétique depuis 15 ans. Au centre de rééducation Sainte-Clotilde, à Saint-Denis de La Réunion, il accompagne depuis 2003 des personnes à haut risque cardiovasculaire et rénal.",
+   "c1": "ans en médecine physique et réadaptation",
+   "c2": "ans d'enseignement du Qi Gong",
+   "c3": "au centre Sainte-Clotilde",
+   "axe1": "axe du corps",
+   "axe2": "appuis",
+   "lien": "Son parcours"
+  },
+  "choix": {
+   "sur": "Les formules",
+   "titre": "Combien de temps voulez-vous pratiquer ?",
+   "mode": "Votre façon",
+   "avec": "Avec le live",
+   "sans": "À mon heure",
+   "duree": "Durée de l'accès",
+   "choisir": "Choisir cette formule",
+   "comparer": "Comparer les six formules",
+   "note": "Prix affichés sur le site actuel, toutes taxes comprises. Inscription simulée dans cette maquette.",
+   "aide": "Glissez : plus l'accès est long, plus ses mains montent",
+   "alt": "Patrick Campo sur le ponton de Nosy Be : les mains au ventre, au visage ou jointes au-dessus de la tête selon la durée choisie"
+  },
+  "appel": {
+   "titre": "Essayez avant de vous abonner.",
+   "texte": "La chaîne YouTube Santé Vous ZEN propose des séances en accès libre. Une question ? Patrick répond au téléphone.",
+   "youtube": "Une séance gratuite sur YouTube",
+   "tel": "Appeler le 0692 09 05 13"
+  }
+ },
+ "introuvable": {
+  "titre": "Ce geste n'existe pas encore.",
+  "texte": "La page demandée est introuvable. Reprenez l'enchaînement depuis le début.",
+  "retour": "Revenir à l'accueil"
+ },
+ "seances": {
+  "sur": "Le catalogue",
+  "titre": "107 séances, à votre heure.",
+  "chapo": "42 séances d'enseignement rangées par saison, 52 d'entraînement et 13 méditations guidées, accessibles 24 h sur 24 pendant toute la durée de votre formule.",
+  "action": "Voir les formules",
+  "info": "Accès 24 h sur 24 · de 84 € à 334 €",
+  "registre": {
+   "sur": "Le registre",
+   "titre": "Choisissez une forme, une saison.",
+   "tous": "Tout",
+   "enseignement": "Enseignement",
+   "pleine-nature": "Pleine nature",
+   "meditation": "Méditation",
+   "printemps": "Printemps",
+   "été": "Été",
+   "automne": "Automne",
+   "hiver": "Hiver",
+   "saisons": "Saison",
+   "compte": "séances affichées",
+   "note": "Extrait du catalogue réel : les 51 séances dont le site actuel donne le titre et la durée. Les vidéos sont réservées aux abonnés.",
+   "plus": "Voir toute la liste",
+   "moins": "Replier la liste"
+  },
+  "chez": {
+   "sur": "Chez vous",
+   "titre": "Debout, assis, ou les yeux fermés.",
+   "texte": "Les 18 mouvements existent aussi en forme assise. Les méditations se pratiquent allongé ou assis, de 12 à 24 minutes.",
+   "m1": "Au bord de la rivière",
+   "m2": "Sur la plage",
+   "m3": "En forêt"
+  },
+  "appel": {
+   "titre": "Prêt à commencer ?",
+   "texte": "Choisissez la durée de votre accès, avec ou sans le live du jeudi.",
+   "action": "Choisir ma formule"
+  }
+ },
+ "fitness": {
+  "sur": "Fitness seniors",
+  "titre": "Un muscle à la fois.",
+  "chapo": "Trois modules filmés au bord d'un lac et en salle : renforcement, équilibre, étirements. Peu de matériel : un bâton, une chaise, une charge légère.",
+  "action": "Voir les formules",
+  "info": "3 modules · 18 à 43 min · un bâton, une chaise",
+  "serie": {
+   "titre": "Comptez la série avec lui",
+   "texte": "Mollets et retour du sang veineux : 1 série de 20, en montant sur la pointe des pieds, bras levés.",
+   "bouton": "Je monte sur la pointe des pieds",
+   "fini": "Série terminée : 20 sur 20. Respirez.",
+   "reprendre": "Recommencer"
+  },
+  "modules": {
+   "sur": "Les trois modules",
+   "titre": "Ce qu'il y a dans chaque séance.",
+   "duree": "Durée",
+   "cibles": "Travail",
+   "materiel": "Matériel"
+  },
+  "prudence": "Ces séances sont une activité physique adaptée, pas un soin. En cas de doute sur votre santé, demandez l'avis de votre médecin avant de commencer.",
+  "appel": {
+   "titre": "Pour suivre le fitness seniors, choisissez votre formule.",
+   "action": "Choisir ma formule"
+  }
+ },
+ "patrick": {
+  "sur": "Qui vous guide",
+  "titre": "Patrick Campo",
+  "chapo": "Enseignant en médecine physique et réadaptation depuis 20 ans, et en Qi Gong énergétique depuis 15 ans, à La Réunion.",
+  "action": "Lui poser une question",
+  "info": "Centre de rééducation Sainte-Clotilde depuis 2003",
+  "parcours": {
+   "sur": "Le parcours",
+   "titre": "La rééducation, puis le souffle."
+  },
+  "diplomes": {
+   "sur": "Les diplômes",
+   "titre": "Ce qu'il a étudié."
+  },
+  "but": {
+   "titre": "« La grande connaissance de soi-même. »",
+   "texte": "C'est, selon Patrick, le but ultime du Qi Gong. Il étudie la pensée chinoise (Yi Jing, alternance du yin et du yang) et pratique au quotidien la philosophie bouddhiste."
+  },
+  "groupe": {
+   "sur": "Sur le terrain",
+   "titre": "Seul face à la caméra, ou devant une foule.",
+   "g1": "Un grand rassemblement sur la pelouse d'un stade",
+   "g2": "Bras levés sur les rochers, face à la mer",
+   "g3": "Stage du Cantal, juin 2026"
+  },
+  "appel": {
+   "titre": "Pratiquer avec lui.",
+   "action": "Voir les formules",
+   "contact": "Le contacter"
+  }
+ },
+ "formules": {
+  "sur": "Les formules",
+  "titre": "Six formules, de 84 € à 334 €.",
+  "chapo": "Toutes donnent accès 24 h sur 24 aux séances d'entraînement (52), d'enseignement (42) et de méditation (13). Cinq comprennent aussi des lives du jeudi sur Zoom, de 12 à 36 ; seule Bronze n'en a pas.",
+  "action": "Comparer les formules",
+  "info": "À partir de 84 € pour 4 mois",
+  "avec": {
+   "titre": "Avec le live",
+   "texte": "Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick."
+  },
+  "libre": {
+   "titre": "À mon heure",
+   "texte": "Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi."
+  },
+  "mois": "mois",
+  "live": "séances en direct",
+  "sansLive": "Sans séance en direct",
+  "connaissance": "Onglet connaissance (PDF)",
+  "choisir": "Choisir",
+  "conseil": "La plus choisie",
+  "inscription": {
+   "sur": "Inscription",
+   "titre": "Votre inscription",
+   "texte": "Simulation : rien n'est envoyé ni payé dans cette maquette.",
+   "formule": "Formule",
+   "nom": "Nom et prénom",
+   "email": "E-mail",
+   "tel": "Téléphone (facultatif)",
+   "message": "Une question pour Patrick ? (facultatif)",
+   "envoyer": "Valider mon inscription",
+   "donnees": "Vos données servent seulement à gérer votre inscription. La politique de confidentialité du site final précisera leur durée de conservation et vos droits.",
+   "envoye": "Inscription simulée, rien n'est envoyé. Sur le vrai site, vous paieriez ici, puis Patrick vous enverrait par e-mail votre accès aux séances et le lien Zoom du jeudi."
+  },
+  "faq": {
+   "titre": "Questions fréquentes"
+  }
+ },
+ "contact": {
+  "sur": "Contact",
+  "titre": "Une question ? Appelez Patrick.",
+  "chapo": "Pour choisir une formule, savoir si le Qi Gong vous convient ou vous inscrire à un stage.",
+  "email": "Écrire un e-mail",
+  "form": {
+   "titre": "Ou laissez un message",
+   "nom": "Nom et prénom",
+   "email": "E-mail",
+   "tel": "Téléphone (facultatif)",
+   "sujet": "Sujet",
+   "s1": "Choisir une formule",
+   "s2": "Les prochains stages (dates sur demande)",
+   "s3": "Le fitness seniors",
+   "s4": "Autre question",
+   "message": "Message",
+   "envoyer": "Envoyer",
+   "donnees": "Vos données servent seulement à vous répondre. La politique de confidentialité du site final précisera leur durée de conservation et vos droits."
+  },
+  "reseaux": {
+   "titre": "Ailleurs",
+   "youtube": "Séances en accès libre sur YouTube",
+   "facebook": "Facebook de Patrick Campo"
+  },
+  "zone": "Patrick enseigne depuis La Réunion. Le live du jeudi est à 18 h, heure de Paris : 21 h à La Réunion quand Paris est à l'heure d'hiver, 20 h à l'heure d'été.",
+  "envoye": "Message simulé, rien n'est envoyé. Sur le vrai site, il arriverait à Patrick, qui vous répond par e-mail ou par téléphone."
+ }
+}

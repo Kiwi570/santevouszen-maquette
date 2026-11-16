@@ -1,0 +1,7 @@
+# Corrections du regard 2 (REFAIRE, 3,2)
+
+1. **Chronophotographie de la vraie séance** : fait. Après accord de l'utilisateur, extrait de la vidéo publique « Ba Duan Jin, Soutenir le ciel des 2 mains, enseignement 1 » (chaîne de Patrick). Douze images du geste (les mains montent du ventre jusqu'au-dessus de la tête), détourées, superposées en pose longue sur un fond de basalte : l'image en cours nette, les précédentes en fantômes clairs, une lumière chaude qui grandit derrière lui. Le geste se joue seul en 2 s, puis respire ; le visiteur le fait monter en glissant (souris partout sur la silhouette, poignée au doigt), trop vite les fantômes se brouillent. Le fond de la vidéo (décor incrusté) est retiré : aucun faux lieu. Les vraies photos de pleine nature suivent dans le parcours.
+2. **Parcours et durée** : à moitié. Une seule vidéo publique trouvée : les panneaux gardent le ruban (trois couches, 90 px de halo) qu'on guide à la souris, avec la légende qui s'allume ; la durée reste l'arc lumineux à poignée.
+3. **Téléphone** : fait. Même chronophotographie dans la moitié haute, titre sous les pieds.
+4. **Images du milieu** : fait. Le live passe sur une image nette (océan à l'aube, bord franc à gauche), les moitiés sur deux photos 1920 (groupe en Corse, Patrick sur le ponton du Cantal), le panneau de la rivière sur qi-gong-tai-chi, le panneau 4 sur la colline (colonne vertébrale).
+5. **Finitions** : fait. Vide guide-formules resserré, guide en moitié pleine hauteur, « Essayez avant de vous abonner » dans le ciel au-dessus du groupe.
