@@ -21,10 +21,11 @@ export default (c) => {
     <p class="surtitre ouv-sur masque-ecran-tres-bas">${c.t('accueil.ouv.sur')}</p>
     <h1 class="ouv-titre" data-grille="typo"><span class="ouv-l1">${c.t('accueil.ouv.titre1')}</span> <span class="ouv-l2"><span class="ouv-lent" data-effet="titre-lent">${c.t('accueil.ouv.titre2')}</span></span></h1>
     <p class="ouv-chapo masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.ouv.chapo')}</p>
+    <p class="ouv-public">${c.t('accueil.ouv.public')}</p>
     <p class="ouv-live" data-info-cle data-anime="gsap"><span class="pastille" aria-hidden="true"></span><span data-live-court>${c.t('accueil.ouv.live')}</span></p>
     <p class="ouv-actions" data-anime="gsap">
       ${c.lien('formules', { ancre: 'avec-live', classe: 'bouton', texte: c.t('accueil.ouv.action'), attrs: 'data-action-principale data-survol="magnetique"' })}
-      <a class="lien-fleche ouv-essai masque-ecran-tres-bas" href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">${c.t('accueil.ouv.essai')}</a>
+      <a class="lien-fleche ouv-essai masque-ecran-tres-bas" href="https://www.youtube.com/watch?v=H2ZrM1Zx5Lc" target="_blank" rel="noopener">${c.t('accueil.ouv.essai')}</a>
     </p>
   </div>
   <p class="ouv-legende masque-ecran-bas">${c.t('accueil.ouv.legende')}</p>
@@ -57,7 +58,7 @@ export default (c) => {
       </ol>
       <p class="etapes-actions">${c.lien('formules', { ancre: 'avec-live', classe: 'bouton', texte: c.t('accueil.etapes.action') })} <span>${c.t('accueil.etapes.question')} <a href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></span></p>
     </div>
-    ${img(c, 'geste-lagon', { classe: 'etapes-photo', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
+    ${img(c, 'meditation-plage', { classe: 'etapes-photo', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
   </div>
   <p class="etapes-suite mono" aria-hidden="true">${c.t('accueil.etapes.suite')} ↓</p>
 </section>
@@ -73,6 +74,7 @@ export default (c) => {
           <p class="ench-desc">${p.texte}</p>
           <p class="ench-meta" data-meta><span>${p.seance}</span>${p.duree ? html`<span class="mono">${p.duree}</span>` : ''}</p>
           ${p.jeu ? html`<p class="ench-jeu mono" data-jeu>${p.jeu}</p>` : ''}
+          <p class="ench-lien">${c.lien(p.lien[0], { ancre: p.lien[1] || undefined, params: p.lien[2] || undefined, classe: 'lien-fleche', texte: p.voir || c.t('accueil.ench.voir') })}</p>
         </div>
       </article>`)}
     </div>
@@ -99,8 +101,8 @@ export default (c) => {
     <h2 class="titre-section" data-anime="lignes">${c.t('accueil.patrick.titre')}</h2>
     <p data-anime>${c.t('accueil.patrick.texte')}</p>
     <ul class="patrick-chiffres" data-anime="cascade">
-      <li><b class="mono" data-compteur="20">20</b><span>${c.t('accueil.patrick.c1')}</span></li>
-      <li><b class="mono" data-compteur="15">15</b><span>${c.t('accueil.patrick.c2')}</span></li>
+      <li><b class="mono">20</b><span>${c.t('accueil.patrick.c1')}</span></li>
+      <li><b class="mono">15</b><span>${c.t('accueil.patrick.c2')}</span></li>
       <li><b class="mono">2003</b><span>${c.t('accueil.patrick.c3')}</span></li>
     </ul>
     <p data-anime>${c.lien('patrick-campo', { classe: 'bouton bouton--contour', texte: c.t('accueil.patrick.lien') })}</p>
@@ -157,7 +159,7 @@ export default (c) => {
     <h2 class="titre-section" data-anime="lignes">${c.t('accueil.appel.titre')}</h2>
     <p data-anime>${c.t('accueil.appel.texte')}</p>
     <p class="appel-actions" data-anime>
-      <a class="bouton" href="https://www.youtube.com/@santevouszen974" target="_blank" rel="noopener">${c.t('accueil.appel.youtube')}</a>
+      <a class="bouton" href="https://www.youtube.com/watch?v=H2ZrM1Zx5Lc" target="_blank" rel="noopener">${c.t('accueil.appel.youtube')}</a>
       <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.t('accueil.appel.tel')}</a>
     </p>
   </div>

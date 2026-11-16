@@ -7,7 +7,7 @@ export const page = { cle: 'patrick-campo', fichier: 'patrick-campo', imageParta
 
 export default (c) => html`
 <section class="pat-ouv" id="debut">
-  ${img(c, 'grok/lave-fougeres', { classe: 'pat-fond', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}
+  ${img(c, 'ouverture-lave', { classe: 'pat-fond', sizes: '100vw', alt: '', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}
   <div class="pat-ouv-grille conteneur">
     <div class="pat-ouv-texte">
       <p class="surtitre">${c.t('patrick.sur')}</p>
@@ -17,14 +17,7 @@ export default (c) => html`
       <p class="pat-info mono" data-info-cle>${c.t('patrick.info')}</p>
     </div>
     <figure class="pat-portrait">
-      ${img(c, 'patrick-equilibre', { priorite: true, classe: 'pat-photo', sizes: '(max-width: 760px) 100vw, 42vw', ratio: '4 / 5', attrs: 'data-iris-centre' })}
-      <svg class="axes" viewBox="0 0 100 125" aria-hidden="true" data-fx="trace" data-effet="axes-posture">
-        <path data-fx-trait d="M49 20 L50 64 L46 112"/>
-        <path data-fx-trait d="M28 64 L72 64"/>
-        <path data-fx-trait d="M34 112 L64 112"/>
-        <path data-fx-trait class="axes-arc" d="M52 32 C 66 26, 70 16, 60 10"/>
-      </svg>
-      <figcaption class="axes-legende"><span>${c.t('accueil.patrick.axe1')}</span><span>${c.t('accueil.patrick.axe2')}</span></figcaption>
+      ${img(c, 'geste-foret', { priorite: true, classe: 'pat-photo', sizes: '(max-width: 760px) 100vw, 42vw', ratio: '4 / 5', attrs: 'data-iris-centre' })}
     </figure>
   </div>
 </section>
@@ -41,7 +34,7 @@ export default (c) => html`
         ${c.donnees.parcours.map((p) => html`<li><p class="frise-date mono">${p.date}</p><h3>${p.titre}</h3><p>${p.texte}</p></li>`)}
       </ol>
     </div>
-    ${img(c, 'patrick-portrait', { classe: 'frise-portrait', sizes: '(max-width: 760px) 60vw, 25vw', ratio: '1 / 1', attrs: 'data-anime="rideau"' })}
+    ${img(c, 'stage-groupe', { classe: 'frise-portrait', sizes: '(max-width: 760px) 90vw, 30vw', ratio: '4 / 3', attrs: 'data-anime="rideau"' })}
     </div>
   </div>
 </section>

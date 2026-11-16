@@ -1,27 +1,25 @@
 # Rapport d’audit
 
-Projet : `santevouszen-maquette` · 16/11/2026 15:41:44 · 1 min · 2 page(s) · audit standard ciblé sur /,/formules (étapes : films)
+Projet : `santevouszen-maquette` · 16/11/2026 16:49:09 · 1 min · 1 page(s) · audit standard ciblé sur / (étapes : fichiers, mesures, mouvement)
 
 ## Résumé
 
 - Statut : **tout a tourné, aucun échec**
-- Passe : `20261116-144042-standard-cible-partiel` · version ?v=2
+- Passe : `20261116-154801-standard-cible-partiel` · version ?v=3
 - Échecs : **0**
-- À regarder : **6**
+- À regarder : **4**
 - Non lancé : **0**
-- Contrôles passés : films d’ouverture (4), films de transition (4)
+- Contrôles passés : vercel.json (1), .vercelignore (1), robots.txt (1), numéro de version (1), langues (1), mesures (11), balayage (1), mouvement (2), effets du plan (14), souris immobile (2)
 
-## Passes de cette version (?v=2)
+## Passes de cette version (?v=3)
 
 Chaque passe garde son rapport dans `_audit/passes/` : une relance ciblée ne fait pas disparaître la preuve d’une passe plus large.
 
 | Passe | Niveau | Pages | Étapes | Échecs | À regarder | Non lancé | Statut |
 |---|---|---|---|---:|---:|---:|---|
-| 20261116-135531-standard | standard | toutes | toutes | 7 | 12 | 5 | échecs |
-| 20261116-141452-standard | standard | toutes | toutes | 6 | 17 | 2 | échecs |
-| 20261116-143745-standard-cible-partiel | standard | /formules,/contact | fichiers, mesures | 2 | 2 | 0 | échecs |
-| 20261116-143923-standard-cible-partiel | standard | /,/formules,/contact | fichiers, mesures | 0 | 2 | 0 | complet |
-| **20261116-144042-standard-cible-partiel** (celle-ci) | standard | /,/formules | films | 0 | 6 | 0 | complet |
+| 20261116-152114-standard | standard | toutes | toutes | 2 | 18 | 1 | échecs |
+| 20261116-154234-standard-cible-partiel | standard | / | fichiers, mesures, mouvement | 1 | 4 | 0 | échecs |
+| **20261116-154801-standard-cible-partiel** (celle-ci) | standard | / | fichiers, mesures, mouvement | 0 | 4 | 0 | complet |
 
 ## Échecs
 
@@ -29,20 +27,18 @@ Aucun.
 
 ## À regarder
 
-### retour arrière : changement brusque (3)
+### journal du projet (1)
 
-- **retour arrière : changement brusque** — `/` — à 395 ms (différence 37 %) (films/retour-arrière-1366.png) _(1366×768 retour arrière)_
-- **retour arrière : changement brusque** — `/` — à 78 ms (différence 53 %) (films/retour-arrière-390.png) _(390×844 retour arrière)_
-- **retour arrière : changement brusque** — `/` — à 129 ms (différence 30 %) (films/retour-arrière-390.png) _(390×844 retour arrière)_
+- **journal du projet** — aucune entrée pour la version 3 de donnees/site.json
 
-### au retour arrière, élément qui réapparaît en s’animant (1)
+### photo moyenne affichée en très grand (2)
 
-- **au retour arrière, élément qui réapparaît en s’animant** — `/` — section#debut > figure.pose.ouv-figure > canvas.pose-toile _(1366×768 retour arrière, 390×844 retour arrière)_
+- **photo moyenne affichée en très grand** — `/` — div.conteneur.etapes-grille > figure.media.etapes-photo > picture > img « Patrick en méditation, mains jointes, sur une plag » — meditation-plage (3/5, 61 % de l'écran) : une image notée 4 ou 5 à cette taille _(390×844 normal)_
+- **photo moyenne affichée en très grand** — `/` — div.conteneur.etapes-grille > figure.media.etapes-photo > picture > img « Patrick en méditation, mains jointes, sur une plag » — meditation-plage (3/5, 41 % de l'écran) : une image notée 4 ou 5 à cette taille _(1366×768 normal)_
 
-### retour avant : changement brusque (2)
+### effet qui ne bouge pas au défilement (1)
 
-- **retour avant : changement brusque** — `/seances` — à 43 ms (différence 28 %) (films/retour-avant-1366.png) _(1366×768 retour avant)_
-- **retour avant : changement brusque** — `/seances` — à 40 ms (différence 21 %) (films/retour-avant-390.png) _(390×844 retour avant)_
+- **effet qui ne bouge pas au défilement** — `/` — a.bouton — billet-live : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section _(1366×768 normal, 390×844 normal)_
 
 ## Non lancé
 
@@ -51,13 +47,9 @@ Tout a été lancé.
 
 ## Repères
 
-- Audit standard : étapes lourdes sur /, /formules.
+- Numéro de version des fichiers : ?v=3
+- Audit standard : étapes lourdes sur /.
 - Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.
-- Ouverture / (1366×768) : 2815 ms depuis le premier octet
-- Ouverture /formules (1366×768) : 2529 ms depuis le premier octet
-- film de l'ouverture /formules 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)
-- Ouverture / (390×844) : 2694 ms depuis le premier octet
-- Ouverture /formules (390×844) : 2527 ms depuis le premier octet
 
 ## Fichiers
 

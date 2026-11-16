@@ -1,0 +1,942 @@
+{
+ "mission": "an-patrick",
+ "taille": "390x844",
+ "depart": "/patrick-campo",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.9,
+   "adresse": "/patrick-campo",
+   "y": 0,
+   "hauteurPage": 6065,
+   "titres": [
+    "h1 Patrick Campo"
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Menu",
+    "Lui poser une question",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.5,
+   "adresse": "/patrick-campo",
+   "y": 717,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 La rééducation, puis le souffle.",
+    "h3 Centre de rééducation Sainte-Clotilde",
+    "h3 Médecine physique et réadaptation"
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.5,
+   "adresse": "/patrick-campo",
+   "y": 717,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 La rééducation, puis le souffle.",
+    "h3 Centre de rééducation Sainte-Clotilde",
+    "h3 Médecine physique et réadaptation"
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7,
+   "adresse": "/patrick-campo",
+   "y": 1434,
+   "hauteurPage": 6065,
+   "titres": [
+    "h3 Médecine physique et réadaptation",
+    "h3 Qi Gong énergétique",
+    "h3 Grands projets associatifs",
+    "h3 Santé Vous Zen"
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7,
+   "adresse": "/patrick-campo",
+   "y": 1434,
+   "hauteurPage": 6065,
+   "titres": [
+    "h3 Médecine physique et réadaptation",
+    "h3 Qi Gong énergétique",
+    "h3 Grands projets associatifs",
+    "h3 Santé Vous Zen"
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 8.2,
+   "adresse": "/patrick-campo",
+   "y": 2151,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 Ce qu'il a étudié."
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 8.2,
+   "adresse": "/patrick-campo",
+   "y": 2151,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 Ce qu'il a étudié."
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  },
+  {
+   "k": 7,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 9.4,
+   "adresse": "/patrick-campo",
+   "y": 2868,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 Seul face à la caméra, ou devant une foule."
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 8,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 9.4,
+   "adresse": "/patrick-campo",
+   "y": 2868,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 Seul face à la caméra, ou devant une foule."
+   ],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-8.png"
+  },
+  {
+   "k": 9,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 10.8,
+   "adresse": "/patrick-campo",
+   "y": 3585,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 10,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 10.8,
+   "adresse": "/patrick-campo",
+   "y": 3585,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-10.png"
+  },
+  {
+   "k": 11,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 12.1,
+   "adresse": "/patrick-campo",
+   "y": 4302,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 Pratiquer avec lui."
+   ],
+   "actions": [
+    "Voir les formules",
+    "Le contacter",
+    "0692 09 05 13",
+    "santevouszen@gmail.com"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 12,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 12.1,
+   "adresse": "/patrick-campo",
+   "y": 4302,
+   "hauteurPage": 6065,
+   "titres": [
+    "h2 Pratiquer avec lui."
+   ],
+   "actions": [
+    "Voir les formules",
+    "Le contacter",
+    "0692 09 05 13",
+    "santevouszen@gmail.com"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-12.png"
+  },
+  {
+   "k": 13,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 13.3,
+   "adresse": "/patrick-campo",
+   "y": 5019,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 14,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 13.3,
+   "adresse": "/patrick-campo",
+   "y": 5019,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-14.png"
+  },
+  {
+   "k": 15,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 14.3,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 16,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 14.3,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-16.png"
+  },
+  {
+   "k": 17,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 15.1,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 18,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 15.1,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-18.png"
+  },
+  {
+   "k": 19,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 15.8,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 20,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 15.8,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-20.png"
+  },
+  {
+   "k": 21,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 11,
+   "secondes": 16.5,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 22,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 11,
+   "secondes": 16.5,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-22.png"
+  },
+  {
+   "k": 23,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 12,
+   "secondes": 17.2,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 24,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 12,
+   "secondes": 17.2,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-24.png"
+  },
+  {
+   "k": 25,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 13,
+   "secondes": 17.9,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 26,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 13,
+   "secondes": 17.9,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-26.png"
+  },
+  {
+   "k": 27,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 14,
+   "secondes": 18.6,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 28,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 14,
+   "secondes": 18.6,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-28.png"
+  },
+  {
+   "k": 29,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 15,
+   "secondes": 19.3,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 30,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 15,
+   "secondes": 19.3,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-30.png"
+  },
+  {
+   "k": 31,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 16,
+   "secondes": 20,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 32,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 16,
+   "secondes": 20,
+   "adresse": "/patrick-campo",
+   "y": 5221,
+   "hauteurPage": 6065,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-32.png"
+  }
+ ]
+}

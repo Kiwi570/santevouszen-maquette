@@ -1,12 +1,12 @@
 [
  {
   "nom": "ordinateur",
-  "seul": 12,
-  "souris": 3
+  "seul": 13,
+  "souris": 1
  },
  {
   "nom": "telephone",
-  "seul": 11,
+  "seul": 13,
   "souris": 0
  }
 ]

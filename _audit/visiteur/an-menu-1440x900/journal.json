@@ -1,0 +1,105 @@
+{
+ "mission": "an-menu",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 9175,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 3",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.6,
+   "adresse": "/",
+   "y": 2295,
+   "hauteurPage": 9175,
+   "titres": [
+    "h3 Pratiquez chez vous",
+    "h2 Méthode du Dr Yayama les 5 katas"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "0692 09 05 13"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.6,
+   "adresse": "/",
+   "y": 2295,
+   "hauteurPage": 9175,
+   "titres": [
+    "h3 Pratiquez chez vous",
+    "h2 Méthode du Dr Yayama les 5 katas"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "0692 09 05 13"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  }
+ ]
+}

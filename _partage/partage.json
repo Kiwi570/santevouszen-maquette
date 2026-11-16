@@ -43,11 +43,11 @@
       "langue": "fr",
       "fichier": "assets/partage/contact-fr.jpg",
       "gabarit": "droite",
-      "image": "geste-lagon-1280.webp",
-      "poids": 68227,
+      "image": "ouverture-ocean-1280.webp",
+      "poids": 79785,
       "sujet": {
         "x": 600,
-        "y": 105,
+        "y": 140,
         "l": 600,
         "h": 490
       },
@@ -149,7 +149,7 @@
       "fichier": "assets/partage/patrick-campo-fr.jpg",
       "gabarit": "droite",
       "image": "patrick-palmiers-1280.webp",
-      "poids": 71810,
+      "poids": 71915,
       "sujet": {
         "x": 600,
         "y": 0,

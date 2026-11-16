@@ -2,11 +2,11 @@
 import { html } from '../../outils/gabarit.mjs';
 import { img, point } from '../gabarits/outils.mjs';
 
-export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'geste-lagon-1280.webp' };
+export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'ouverture-ocean-1280.webp' };
 
 export default (c) => html`
 <section class="con-ouv" id="debut">
-  ${img(c, 'geste-lagon', { priorite: true, classe: 'con-fond', sizes: '100vw', alt: c.s('contact.horloges.alt'), attrs: 'data-fx="zoom" data-fx-force="8"' })}
+  ${img(c, 'ouverture-ocean', { priorite: true, classe: 'con-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="8"' })}
   <div class="conteneur con-ouv-texte">
     <p class="surtitre">${c.t('contact.sur')}</p>
     <h1 class="con-titre" data-anime="lettres" data-grille="typo">${c.t('contact.titre')}</h1>
@@ -36,7 +36,7 @@ export default (c) => html`
       <div class="champ"><label for="c-message">${c.t('contact.form.message')}</label><textarea id="c-message" name="message" rows="5" required></textarea></div>
       <p class="champ-donnees">${c.t('contact.form.donnees')}</p>
       <button class="bouton" type="submit" data-grille="retour">${c.t('contact.form.envoyer')}</button>
-      <p data-message-envoi aria-live="polite" data-texte="${c.s('contact.envoye')}"></p>
+      <p data-message-envoi tabindex="-1" aria-live="polite" data-texte="${c.s('contact.envoye')}"></p>
     </form>
     <aside class="con-cote">
       ${img(c, 'geste-riviere', { sizes: '(max-width: 760px) 100vw, 35vw', ratio: '4 / 5', attrs: 'data-anime="rideau"' })}

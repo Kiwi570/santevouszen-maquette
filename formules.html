@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#0e1215">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -55,7 +55,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <meta property="og:image" content="https://santevouszen-maquette.vercel.app/assets/partage/formules-fr.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Côte de lave noire au lever du soleil">
+<meta property="og:image:alt" content="Patrick Campo penché sur un ponton de bois, face au lagon de Nosy Be">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Santé Vous Zen","url":"https://santevouszen-maquette.vercel.app/","telephone":"+262692090513","email":"santevouszen@gmail.com","founder":{"@type":"Person","name":"Patrick Campo"},"address":{"@type":"PostalAddress","streetAddress":"30 bis Chemin des Benjoins","postalCode":"97490","addressLocality":"Sainte-Clotilde","addressRegion":"La Réunion","addressCountry":"FR"},"description":"Cours de Qi Gong, de méditation et de fitness seniors en ligne, avec Patrick Campo : séances à la demande et live sur Zoom.","sameAs":["https://www.youtube.com/@santevouszen974","https://www.facebook.com/patrick.campo.7/"]}</script>
 </head>
@@ -77,7 +77,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ul><li><a href="/seances" data-libelle="Les séances">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules" aria-current="page">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
     </nav>
     <div class="entete-actions">
-      <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+      <a class="bouton" href="/formules" data-libelle="Formules">Choisir ma formule</a>
       <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
       <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
     </div>
@@ -120,14 +120,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ol class="duree-reperes"><li>4 mois</li><li class="actif">7 mois</li><li>12 mois</li></ol>
       <p class="for-duree-sortie" aria-live="polite"><b data-fd-nom>ESSENTIEL</b> <span class="for-duree-prix" data-fd-prix>234 €</span> <span data-fd-live>24 lives du jeudi</span> <a class="lien-fleche" href="#formule-essentiel" data-fd-lien>Voir cette formule</a></p>
     </div>
-    <p class="for-actions"><a class="bouton" href="#avec-live" data-action-principale>Comparer les formules</a><span class="mono for-info" data-info-cle data-iris-centre>À partir de 84 € pour 4 mois</span></p>
+    <p class="for-actions"><a class="bouton" href="#avec-live" data-action-principale>Choisir ma formule</a><span class="mono for-info" data-info-cle data-iris-centre>À partir de 84 € pour 4 mois</span></p>
   </div>
 </section>
 <section class="familles" id="avec-live">
   <span class="point-fil" data-grille="fil" data-effet="point-fil" data-arc="haut" style="--px:2%;--py:2%" aria-hidden="true"><i></i></span>
   <div class="conteneur">
     <div class="famille">
-      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Avec le live</h2><p>Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick.</p></header>
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Le live chaque jeudi</h2><p>Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick.</p></header>
       <ol class="formules-liste" data-anime="cascade"><li class="formule" id="formule-basic" data-fx="vitesse" data-fx-force="2">
     <p class="formule-nom mono">BASIC</p>
     <p class="formule-prix" data-prix>134 €</p>
@@ -169,7 +169,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
     </div>
     <div class="famille" id="a-mon-heure">
-      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">À mon heure</h2><p>Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi.</p></header>
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Plutôt à votre heure</h2><p>Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi.</p></header>
       <ol class="formules-liste" data-anime="cascade"><li class="formule" id="formule-bronze" data-fx="vitesse" data-fx-force="2">
     <p class="formule-nom mono">BRONZE</p>
     <p class="formule-prix" data-prix>84 €</p>
@@ -229,7 +229,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <div class="champ"><label for="i-message">Une question pour Patrick ? (facultatif)</label><textarea id="i-message" name="message" rows="3"></textarea></div>
       <p class="champ-donnees">Vos données servent seulement à gérer votre inscription. La politique de confidentialité du site final précisera leur durée de conservation et vos droits.</p>
       <button class="bouton" type="submit">Valider mon inscription</button>
-      <p data-message-envoi aria-live="polite" data-texte="Inscription simulée, rien n&#39;est envoyé. Sur le vrai site, vous paieriez ici, puis Patrick vous enverrait par e-mail votre accès aux séances et le lien Zoom du jeudi."></p>
+      <p data-message-envoi tabindex="-1" aria-live="polite" data-texte="Inscription simulée, rien n&#39;est envoyé. Sur le vrai site, vous paieriez ici, puis Patrick vous enverrait par e-mail votre accès aux séances et le lien Zoom du jeudi."></p>
     </form>
   </div>
 </section>
@@ -269,7 +269,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+262692090513">Appeler</a>
-  <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+  <a class="bouton" href="/formules" data-libelle="Formules">Les formules</a>
 </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#0e1215">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -77,7 +77,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ul><li><a href="/seances" data-libelle="Les séances" aria-current="page">Les séances</a></li><li><a href="/fitness-seniors" data-libelle="Fitness seniors">Fitness seniors</a></li><li><a href="/patrick-campo" data-libelle="Patrick Campo">Patrick Campo</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
     </nav>
     <div class="entete-actions">
-      <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+      <a class="bouton" href="/formules" data-libelle="Formules">Choisir ma formule</a>
       <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
       <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
     </div>
@@ -111,7 +111,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h1 class="sea-titre" data-anime="lettres" data-grille="typo">107 séances, à votre heure.</h1>
     <div class="sea-ouv-bas">
       <p class="sea-chapo">42 séances d&#39;enseignement rangées par saison, 52 d&#39;entraînement et 13 méditations guidées, accessibles 24 h sur 24 pendant toute la durée de votre formule.</p>
-      <p class="sea-actions"><a href="/formules" class="bouton" data-libelle="Formules" data-action-principale>Voir les formules</a><span class="sea-info mono" data-info-cle>Accès 24 h sur 24 · de 84 € à 334 €</span></p>
+      <p class="sea-actions"><a href="/formules" class="bouton" data-libelle="Formules" data-action-principale>Choisir ma formule</a><span class="sea-info mono" data-info-cle>Accès 24 h sur 24 · de 84 € à 334 €</span></p>
     </div>
   </div>
   <figure class="media sea-bandeau" data-fx="zoom" data-fx-force="22" data-iris-centre style="--cadrage:47% 18%;--cadrage-mobile:50% 56%">
@@ -135,7 +135,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <button type="button" class="filtre filtre--saison" data-valeur="printemps" aria-pressed="false">Printemps</button><button type="button" class="filtre filtre--saison" data-valeur="été" aria-pressed="false">Été</button><button type="button" class="filtre filtre--saison" data-valeur="automne" aria-pressed="false">Automne</button><button type="button" class="filtre filtre--saison" data-valeur="hiver" aria-pressed="false">Hiver</button>
       </div>
     </div>
-    <p class="registre-compte mono" aria-live="polite"><b data-registre-n>51</b> séances affichées · <span data-registre-total></span></p>
+    <p class="registre-compte mono" aria-live="polite"><b data-registre-n>51</b> séances affichées sur les 107 du catalogue (le site actuel ne donne pas le titre de toutes) · <span data-registre-total></span></p>
     <p class="registre-apercu-aide mono">Survolez une séance : son lieu apparaît</p>
     <ol class="registre-liste" data-registre-liste data-replie data-effet="index-survol">
       <li class="ligne-seance" data-cat="enseignement" data-saison="printemps" data-min="49.4">
@@ -428,7 +428,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+262692090513">Appeler</a>
-  <a class="bouton" href="/formules" data-libelle="Formules">S&#39;abonner</a>
+  <a class="bouton" href="/formules" data-libelle="Formules">Les formules</a>
 </div>
 </body>
 </html>

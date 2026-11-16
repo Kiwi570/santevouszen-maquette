@@ -1,0 +1,17 @@
+{
+ "id": "20261116-154801-standard-cible-partiel",
+ "date": "2026-11-16T15:49:09.823Z",
+ "niveau": "standard",
+ "pages": "/",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "mouvement"
+ ],
+ "version": "3",
+ "echecs": 0,
+ "aRegarder": 4,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

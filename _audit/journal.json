@@ -148,6 +148,45 @@
     }
    ],
    "attentes": []
+  },
+  {
+   "version": 3,
+   "perimetre": [
+    "toutes les pages"
+   ],
+   "etapes": [
+    {
+     "etape": "photos encadrées entre les sections plein écran",
+     "budget": 15,
+     "debut": "2026-11-16T15:49:00+01:00",
+     "fin": "2026-11-16T15:55:00+01:00"
+    },
+    {
+     "etape": "audit complet et analyse indépendante de tout le site",
+     "budget": 45,
+     "debut": "2026-11-16T15:55:00+01:00",
+     "fin": "2026-11-16T16:25:00+01:00"
+    },
+    {
+     "etape": "corrections de l'analyse (25 points)",
+     "budget": 45,
+     "debut": "2026-11-16T16:10:00+01:00",
+     "fin": "2026-11-16T16:30:00+01:00"
+    },
+    {
+     "etape": "audit standard de la v3 et corrections",
+     "budget": 30,
+     "debut": "2026-11-16T16:30:00+01:00",
+     "fin": "2026-11-16T16:46:00+01:00"
+    },
+    {
+     "etape": "livraison",
+     "budget": 5,
+     "debut": "2026-11-16T16:46:00+01:00",
+     "fin": "2026-11-16T16:50:00+01:00"
+    }
+   ],
+   "attentes": []
   }
  ]
 }

@@ -1,0 +1,412 @@
+{
+ "mission": "an-inscription2",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 10358,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Menu",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer S'abonner",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.6,
+   "adresse": "/formules",
+   "y": 0,
+   "hauteurPage": 7243,
+   "titres": [
+    "h1 Six formules, de 84 € à 334 €."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Menu",
+    "Voir cette formule",
+    "Comparer les formules",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [
+    "234 €",
+    "84 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "defiler 2",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 8,
+   "adresse": "/formules",
+   "y": 1434,
+   "hauteurPage": 7243,
+   "titres": [],
+   "actions": [
+    "Choisir BASIC",
+    "Choisir ESSENTIEL",
+    "Appeler",
+    "S'abonner"
+   ],
+   "prixVus": [
+    "234 €",
+    "334 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "cliquer Choisir ESSENTIEL",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 10.2,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4074,
+   "hauteurPage": 7243,
+   "titres": [
+    "h2 Votre inscription"
+   ],
+   "actions": [],
+   "prixVus": [
+    "234 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "remplir Nom=Marie Payet",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 10.2,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4074,
+   "hauteurPage": 7243,
+   "titres": [
+    "h2 Votre inscription"
+   ],
+   "actions": [],
+   "prixVus": [
+    "234 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 5,
+   "geste": "remplir E-mail=marie@exemple.fr",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 10.2,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4074,
+   "hauteurPage": 7243,
+   "titres": [
+    "h2 Votre inscription"
+   ],
+   "actions": [],
+   "prixVus": [
+    "234 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 11.3,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4791,
+   "hauteurPage": 7243,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [
+    "Valider mon inscription"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 7,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 11.3,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4791,
+   "hauteurPage": 7243,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [
+    "Valider mon inscription"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-7.png"
+  },
+  {
+   "k": 8,
+   "geste": "cliquer Valider mon inscription",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 13.5,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4791,
+   "hauteurPage": 7346,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [
+    "Valider mon inscription"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 9,
+   "geste": "attendre 2500",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 16,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4791,
+   "hauteurPage": 7346,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [
+    "Valider mon inscription"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 10,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 16,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 4791,
+   "hauteurPage": 7346,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [
+    "Valider mon inscription"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-10.png"
+  },
+  {
+   "k": 11,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 17.2,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 5508,
+   "hauteurPage": 7346,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 12,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 17.2,
+   "adresse": "/formules?formule=essentiel#inscription",
+   "y": 5508,
+   "hauteurPage": 7346,
+   "titres": [
+    "h2 Questions fréquentes"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "334 €",
+    "234 €",
+    "134 €",
+    "154 €",
+    "214 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-12.png"
+  }
+ ]
+}

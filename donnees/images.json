@@ -414,7 +414,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "9bddf47be143515b",
+    "empreinte": "5dae0df2f19c539b",
     "ratio": "16:9",
     "largeurs": [
       640,
@@ -1091,58 +1091,58 @@
   },
   "fitness-etirements": {
     "nom": "fitness-etirements",
-    "source": "recu/site/etirements-generalises-seance-complete.jpg",
+    "source": "recu/nettoye/etirements-generalises-seance-complete-haut.jpg",
     "role": "carte-service",
     "alt": "Étirements debout dans une salle de sport",
     "grok": false,
     "mention": null,
-    "beaute": 3,
-    "empreinte": "e40ab4749439d6f7",
-    "ratio": "4:3",
+    "beaute": 4,
+    "empreinte": "602c35adf00bddc1",
+    "ratio": "16:9",
     "largeurs": [
       480,
       640,
       784
     ],
     "mobile": null,
-    "cadrage": "50% 35%",
+    "cadrage": "50% 30%",
     "sujet": {
-      "x": 22.3,
-      "y": 48.2,
-      "l": 62.3,
-      "h": 42.5
+      "x": 0,
+      "y": 7.7,
+      "l": 100,
+      "h": 84.6
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.32,
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.2,
-        "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
-        "score": 0.16,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "bas",
-        "score": 0.09,
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 240,
+      "left": 288,
       "top": 0,
-      "width": 1440,
-      "height": 1080,
+      "width": 1344,
+      "height": 756,
       "source": [
         1920,
-        1080
+        756
       ]
     },
     "faible": false,
@@ -1154,21 +1154,21 @@
       "fitness-etirements-784.webp"
     ],
     "poids": {
-      "fitness-etirements-480.webp": 25086,
-      "fitness-etirements-640.webp": 36700,
-      "fitness-etirements-784.webp": 48576
+      "fitness-etirements-480.webp": 15550,
+      "fitness-etirements-640.webp": 23606,
+      "fitness-etirements-784.webp": 30212
     },
-    "media": "c.media({ nom: 'fitness-etirements', alt: \"Étirements debout dans une salle de sport\", cadrage: '50% 35%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+    "media": "c.media({ nom: 'fitness-etirements', alt: \"Étirements debout dans une salle de sport\", cadrage: '50% 30%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 9' })"
   },
   "fitness-salle": {
     "nom": "fitness-salle",
-    "source": "recu/site/fitness-sport-seniors-2.jpg",
+    "source": "recu/nettoye/fitness-sport-seniors-2-haut.jpg",
     "role": "carte-service",
     "alt": "Exercice d'équilibre dans une salle de sport",
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "9094ba141f4f4d9e",
+    "empreinte": "c35d1ceae7f00aa5",
     "ratio": "4:3",
     "largeurs": [
       480,
@@ -1176,44 +1176,44 @@
       784
     ],
     "mobile": null,
-    "cadrage": "51% 35%",
+    "cadrage": "50% 30%",
     "sujet": {
       "x": 0,
-      "y": 52.9,
-      "l": 87.9,
-      "h": 33.1
+      "y": 0,
+      "l": 100,
+      "h": 92.3
     },
     "zones_calmes": [
       {
-        "cote": "haut",
-        "score": 0.26,
+        "cote": "gauche",
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.19,
+        "score": 0,
         "ton": "moyen"
       },
       {
-        "cote": "gauche",
-        "score": 0.12,
-        "ton": "moyen"
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
       },
       {
         "cote": "bas",
-        "score": 0.06,
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 230,
+      "left": 456,
       "top": 0,
-      "width": 1440,
-      "height": 1080,
+      "width": 1008,
+      "height": 756,
       "source": [
         1920,
-        1080
+        756
       ]
     },
     "faible": false,
@@ -1225,11 +1225,11 @@
       "fitness-salle-784.webp"
     ],
     "poids": {
-      "fitness-salle-480.webp": 24922,
-      "fitness-salle-640.webp": 36186,
-      "fitness-salle-784.webp": 47250
+      "fitness-salle-480.webp": 16078,
+      "fitness-salle-640.webp": 23180,
+      "fitness-salle-784.webp": 30002
     },
-    "media": "c.media({ nom: 'fitness-salle', alt: \"Exercice d'équilibre dans une salle de sport\", cadrage: '51% 35%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+    "media": "c.media({ nom: 'fitness-salle', alt: \"Exercice d'équilibre dans une salle de sport\", cadrage: '50% 30%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
   },
   "stage-cantal": {
     "nom": "stage-cantal",
@@ -2889,13 +2889,13 @@
   },
   "fitness-jambes": {
     "nom": "fitness-jambes",
-    "source": "recu/site/jambes-1-bis-1x10.jpg",
+    "source": "recu/nettoye/jambes-1-bis-1x10-haut.jpg",
     "role": "carte-service",
     "alt": "Exercice des jambes en salle, posture du cavalier",
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "afc8e4dc4a89c69d",
+    "empreinte": "d59477363984e1d3",
     "ratio": "21:9",
     "largeurs": [
       480,
@@ -2903,44 +2903,44 @@
       784
     ],
     "mobile": null,
-    "cadrage": "50% 0%",
+    "cadrage": "50% 30%",
     "sujet": {
-      "x": 11.8,
-      "y": 40.1,
-      "l": 61.8,
-      "h": 59.8
+      "x": 0,
+      "y": 7.7,
+      "l": 100,
+      "h": 84.6
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.34,
+        "score": 0.17,
         "ton": "clair"
       },
       {
-        "cote": "droite",
-        "score": 0.18,
+        "cote": "gauche",
+        "score": 0,
         "ton": "moyen"
       },
       {
-        "cote": "gauche",
-        "score": 0.09,
+        "cote": "droite",
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "bas",
-        "score": 0.05,
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 0,
-      "top": 146,
-      "width": 1920,
-      "height": 823,
+      "left": 78,
+      "top": 0,
+      "width": 1764,
+      "height": 756,
       "source": [
         1920,
-        1080
+        756
       ]
     },
     "faible": false,
@@ -2952,21 +2952,21 @@
       "fitness-jambes-784.webp"
     ],
     "poids": {
-      "fitness-jambes-480.webp": 14822,
-      "fitness-jambes-640.webp": 22564,
-      "fitness-jambes-784.webp": 28642
+      "fitness-jambes-480.webp": 12368,
+      "fitness-jambes-640.webp": 19104,
+      "fitness-jambes-784.webp": 24218
     },
-    "media": "c.media({ nom: 'fitness-jambes', alt: \"Exercice des jambes en salle, posture du cavalier\", cadrage: '50% 0%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
+    "media": "c.media({ nom: 'fitness-jambes', alt: \"Exercice des jambes en salle, posture du cavalier\", cadrage: '50% 30%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
   },
   "fitness-equilibre": {
     "nom": "fitness-equilibre",
-    "source": "recu/site/mollets-epaules-equilibre-retour.jpg",
+    "source": "recu/nettoye/mollets-epaules-equilibre-retour-haut.jpg",
     "role": "carte-service",
     "alt": "Montée sur la pointe des pieds, bras levés, en salle",
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "509c629e38828f09",
+    "empreinte": "65c6973acf582c46",
     "ratio": "21:9",
     "largeurs": [
       480,
@@ -2974,28 +2974,28 @@
       784
     ],
     "mobile": null,
-    "cadrage": "50% 0%",
+    "cadrage": "50% 30%",
     "sujet": {
-      "x": 11,
-      "y": 6.4,
-      "l": 83.8,
-      "h": 93.6
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 92.3
     },
     "zones_calmes": [
       {
-        "cote": "haut",
-        "score": 0.19,
-        "ton": "moyen"
-      },
-      {
         "cote": "gauche",
-        "score": 0.02,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.02,
+        "score": 0,
         "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
       },
       {
         "cote": "bas",
@@ -3005,13 +3005,13 @@
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 0,
-      "top": 245,
-      "width": 1920,
-      "height": 823,
+      "left": 78,
+      "top": 0,
+      "width": 1764,
+      "height": 756,
       "source": [
         1920,
-        1080
+        756
       ]
     },
     "faible": false,
@@ -3023,21 +3023,21 @@
       "fitness-equilibre-784.webp"
     ],
     "poids": {
-      "fitness-equilibre-480.webp": 19884,
-      "fitness-equilibre-640.webp": 29892,
-      "fitness-equilibre-784.webp": 39228
+      "fitness-equilibre-480.webp": 14022,
+      "fitness-equilibre-640.webp": 21204,
+      "fitness-equilibre-784.webp": 27624
     },
-    "media": "c.media({ nom: 'fitness-equilibre', alt: \"Montée sur la pointe des pieds, bras levés, en salle\", cadrage: '50% 0%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
+    "media": "c.media({ nom: 'fitness-equilibre', alt: \"Montée sur la pointe des pieds, bras levés, en salle\", cadrage: '50% 30%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
   },
   "fitness-psoas": {
     "nom": "fitness-psoas",
-    "source": "recu/site/psoas-iliaque.jpg",
+    "source": "recu/nettoye/psoas-iliaque-haut.jpg",
     "role": "carte-service",
     "alt": "Étirement du psoas en fente avant, en salle",
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "49a1b1b2e919f319",
+    "empreinte": "c59f0df4b854618f",
     "ratio": "21:9",
     "largeurs": [
       480,
@@ -3045,44 +3045,44 @@
       784
     ],
     "mobile": null,
-    "cadrage": "50% 0%",
+    "cadrage": "50% 30%",
     "sujet": {
-      "x": 86.8,
-      "y": 52.1,
-      "l": 7.3,
-      "h": 22.4
+      "x": 0,
+      "y": 7.7,
+      "l": 100,
+      "h": 84.6
     },
     "zones_calmes": [
       {
-        "cote": "haut",
-        "score": 0.26,
+        "cote": "gauche",
+        "score": 0,
         "ton": "clair"
       },
       {
         "cote": "droite",
-        "score": 0.22,
+        "score": 0,
         "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
       },
       {
         "cote": "bas",
-        "score": 0.21,
+        "score": 0,
         "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
-        "score": 0.2,
-        "ton": "clair"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 0,
+      "left": 78,
       "top": 0,
-      "width": 1920,
-      "height": 823,
+      "width": 1764,
+      "height": 756,
       "source": [
         1920,
-        1080
+        756
       ]
     },
     "faible": false,
@@ -3094,11 +3094,11 @@
       "fitness-psoas-784.webp"
     ],
     "poids": {
-      "fitness-psoas-480.webp": 15088,
-      "fitness-psoas-640.webp": 23338,
-      "fitness-psoas-784.webp": 30310
+      "fitness-psoas-480.webp": 14238,
+      "fitness-psoas-640.webp": 21828,
+      "fitness-psoas-784.webp": 28314
     },
-    "media": "c.media({ nom: 'fitness-psoas', alt: \"Étirement du psoas en fente avant, en salle\", cadrage: '50% 0%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
+    "media": "c.media({ nom: 'fitness-psoas', alt: \"Étirement du psoas en fente avant, en salle\", cadrage: '50% 30%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '21 / 9' })"
   },
   "patrick-equilibre": {
     "nom": "patrick-equilibre",

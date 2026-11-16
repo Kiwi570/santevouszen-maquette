@@ -75,7 +75,7 @@ export default (c) => {
       <div class="champ"><label for="i-message">${c.t('formules.inscription.message')}</label><textarea id="i-message" name="message" rows="3"></textarea></div>
       <p class="champ-donnees">${c.t('formules.inscription.donnees')}</p>
       <button class="bouton" type="submit">${c.t('formules.inscription.envoyer')}</button>
-      <p data-message-envoi aria-live="polite" data-texte="${c.s('formules.inscription.envoye')}"></p>
+      <p data-message-envoi tabindex="-1" aria-live="polite" data-texte="${c.s('formules.inscription.envoye')}"></p>
     </form>
   </div>
 </section>

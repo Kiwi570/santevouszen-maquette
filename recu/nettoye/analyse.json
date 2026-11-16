@@ -1,6 +1,6 @@
 {
   "dossier": "/home/claude/work/santevouszen-maquette/recu/nettoye",
-  "date": "2026-11-13T16:22:44.786Z",
+  "date": "2026-11-16T15:17:04.341Z",
   "detection": "mesures sharp seulement",
   "planches": [
     "planche.jpg"
@@ -8,6 +8,254 @@
   "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
   "doublons": [],
   "images": [
+    {
+      "fichier": "etirements-generalises-seance-complete-haut.jpg",
+      "nom": "etirements-generalises-seance-complete-haut",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 756,
+      "ratio": "2.54",
+      "ratio_valeur": 2.54,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 254722,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 7.7,
+        "l": 100,
+        "h": 84.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        60
+      ],
+      "cadrage_css": "46% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 32.4,
+        "bruit": 0.65,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "039183c32c272d9a",
+      "drapeaux": []
+    },
+    {
+      "fichier": "fitness-sport-seniors-2-haut.jpg",
+      "nom": "fitness-sport-seniors-2-haut",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 756,
+      "ratio": "2.54",
+      "ratio_valeur": 2.54,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 231876,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 92.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        55
+      ],
+      "cadrage_css": "46% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 33.7,
+        "bruit": 0.53,
+        "compression": 1.41,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "998181c5242525a5",
+      "drapeaux": []
+    },
+    {
+      "fichier": "jambes-1-bis-1x10-haut.jpg",
+      "nom": "jambes-1-bis-1x10-haut",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 756,
+      "ratio": "2.54",
+      "ratio_valeur": 2.54,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 228649,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 7.7,
+        "l": 100,
+        "h": 84.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        62
+      ],
+      "cadrage_css": "49% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 32.7,
+        "bruit": 0.57,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "039383c32c27239c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "mollets-epaules-equilibre-retour-haut.jpg",
+      "nom": "mollets-epaules-equilibre-retour-haut",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 756,
+      "ratio": "2.54",
+      "ratio_valeur": 2.54,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 254434,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 92.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        55
+      ],
+      "cadrage_css": "45% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 34.3,
+        "bruit": 0.58,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "998181459627285a",
+      "drapeaux": []
+    },
     {
       "fichier": "posture-wu-chi-qi.jpg",
       "nom": "posture-wu-chi-qi",
@@ -68,6 +316,68 @@
       },
       "lisible": null,
       "empreinte": "8d9fc9d9a91939a4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "psoas-iliaque-haut.jpg",
+      "nom": "psoas-iliaque-haut",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 756,
+      "ratio": "2.54",
+      "ratio_valeur": 2.54,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 256532,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 7.7,
+        "l": 100,
+        "h": 84.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        58
+      ],
+      "cadrage_css": "47% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 35.6,
+        "bruit": 0.53,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0181814534372a9a",
       "drapeaux": []
     },
     {

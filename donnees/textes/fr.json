@@ -4,7 +4,7 @@
   "menu": "Menu",
   "fermer": "Fermer",
   "langueAutre": "Autre langue",
-  "actionEntete": "S'abonner",
+  "actionEntete": "Choisir ma formule",
   "appeler": "Appeler",
   "sommaire": "Sommaire",
   "confort": "Pratiquer",
@@ -18,14 +18,15 @@
   "legal": "Mentions légales · Politique de confidentialité · CGVU : à compléter",
   "youtube": "Chaîne YouTube",
   "facebook": "Facebook",
-  "liveCourt": "Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)"
+  "liveCourt": "Live Zoom le jeudi, 18 h-19 h 15 (heure de Paris)",
+  "actionBarre": "Les formules"
  },
  "pages": {
   "accueil": {
    "titre": "Santé Vous Zen : Qi Gong en ligne avec Patrick Campo",
    "description": "Qi Gong, méditation et fitness seniors en ligne avec Patrick Campo : 107 séances à suivre chez vous et un live sur Zoom chaque jeudi, depuis La Réunion.",
    "nav": "Accueil",
-   "partageAlt": "Patrick Campo sur une coulée de lave, face à l'océan",
+   "partageAlt": "Patrick Campo, bras ouverts face à l'océan et aux rochers de basalte",
    "accroche": "Le geste lent"
   },
   "seances": {
@@ -43,7 +44,7 @@
    "accroche": "Un muscle à la fois"
   },
   "patrick-campo": {
-   "titre": "Patrick Campo : 20 ans de rééducation, 15 ans de Qi Gong · Santé Vous Zen",
+   "titre": "Patrick Campo : plus de 20 ans de rééducation, 15 ans de Qi Gong · Santé Vous Zen",
    "description": "Le parcours de Patrick Campo : enseignant en médecine physique et réadaptation, Qi Gong énergétique au centre Sainte-Clotilde depuis 2003, diplômes.",
    "nav": "Patrick Campo",
    "partageAlt": "Patrick Campo sur une terrasse face à la mer",
@@ -53,14 +54,14 @@
    "titre": "Formules d'abonnement · Santé Vous Zen",
    "description": "Six formules de 84 € à 334 €, de 4 à 12 mois, avec ou sans live Zoom : accès 24 h sur 24 aux séances d'entraînement, d'enseignement et de méditation.",
    "nav": "Formules",
-   "partageAlt": "Côte de lave noire au lever du soleil",
+   "partageAlt": "Patrick Campo penché sur un ponton de bois, face au lagon de Nosy Be",
    "accroche": "Choisir sa formule"
   },
   "contact": {
    "titre": "Contact · Santé Vous Zen",
    "description": "Joindre Patrick Campo : téléphone, e-mail, chaîne YouTube et formulaire.",
    "nav": "Contact",
-   "partageAlt": "Rivière claire sur des galets",
+   "partageAlt": "Patrick Campo, bras ouverts face à l'océan et aux rochers de basalte",
    "accroche": "Une question ?"
   },
   "404": {
@@ -86,12 +87,14 @@
    "alt": "Patrick Campo en tenue blanche sur un ponton de bois face au lagon de Nosy Be, les mains devant le ventre, au début du geste « soutenir le ciel des deux mains »",
    "vite": "Plus lentement… le geste se brouille",
    "fin": "Vous soutenez le ciel des deux mains : la première des 8 pièces de brocart",
-   "consigneDoigt": "Glissez la poignée vers le haut, lentement"
+   "consigneDoigt": "Glissez la poignée vers le haut, lentement",
+   "public": "Pour débutants et seniors · formules dès 84 €"
   },
   "ench": {
    "region": "Quatre séances tournées dehors",
    "aide": "Faites défiler : quatre séances, quatre paysages",
-   "aideDoigt": "Glissez : quatre séances, quatre paysages →"
+   "aideDoigt": "Glissez : quatre séances, quatre paysages →",
+   "voir": "Voir la séance dans le catalogue"
   },
   "facons": {
    "sur": "Comment pratiquer",
@@ -126,7 +129,7 @@
    "titre": "Le jeudi, on pratique ensemble.",
    "texte": "Programme d'automne 2026 : 12 séances en direct sur Zoom, chaque jeudi du 3 septembre au 3 décembre, de 18 h à 19 h 15, heure de Paris.",
    "statut": "Le live a lieu le jeudi à 18 h, heure de Paris.",
-   "action": "Rejoindre le live",
+   "action": "Choisir une formule avec live",
    "paris": "à Paris",
    "reunion": "à La Réunion",
    "saison": "Programme d'automne, du 3 septembre au 3 décembre 2026",
@@ -135,9 +138,9 @@
   },
   "patrick": {
    "sur": "Qui vous guide",
-   "titre": "Vingt ans à remettre les corps en mouvement.",
-   "texte": "Patrick Campo enseigne la médecine physique et la réadaptation depuis 20 ans, et le Qi Gong énergétique depuis 15 ans. Au centre de rééducation Sainte-Clotilde, à Saint-Denis de La Réunion, il accompagne depuis 2003 des personnes à haut risque cardiovasculaire et rénal.",
-   "c1": "ans en médecine physique et réadaptation",
+   "titre": "Plus de vingt ans à remettre les corps en mouvement.",
+   "texte": "Patrick Campo enseigne la médecine physique et la réadaptation depuis plus de 20 ans, et le Qi Gong énergétique depuis 15 ans. Au centre de rééducation Sainte-Clotilde, à Saint-Denis de La Réunion, il accompagne depuis 2003 des personnes à haut risque cardiovasculaire et rénal.",
+   "c1": "ans et plus en médecine physique et réadaptation",
    "c2": "ans d'enseignement du Qi Gong",
    "c3": "au centre Sainte-Clotilde",
    "axe1": "axe du corps",
@@ -148,8 +151,8 @@
    "sur": "Les formules",
    "titre": "Combien de temps voulez-vous pratiquer ?",
    "mode": "Votre façon",
-   "avec": "Avec le live",
-   "sans": "À mon heure",
+   "avec": "Le live chaque jeudi",
+   "sans": "Plutôt à mon heure",
    "duree": "Durée de l'accès",
    "choisir": "Choisir cette formule",
    "comparer": "Comparer les six formules",
@@ -159,7 +162,7 @@
   },
   "appel": {
    "titre": "Essayez avant de vous abonner.",
-   "texte": "La chaîne YouTube Santé Vous ZEN propose des séances en accès libre. Une question ? Patrick répond au téléphone.",
+   "texte": "Une séance complète en accès libre : le Ba Duan Jin avec Patrick, sur le ponton de Nosy Be. Une question ? Patrick répond au téléphone.",
    "youtube": "Une séance gratuite sur YouTube",
    "tel": "Appeler le 0692 09 05 13"
   },
@@ -214,7 +217,7 @@
   "sur": "Le catalogue",
   "titre": "107 séances, à votre heure.",
   "chapo": "42 séances d'enseignement rangées par saison, 52 d'entraînement et 13 méditations guidées, accessibles 24 h sur 24 pendant toute la durée de votre formule.",
-  "action": "Voir les formules",
+  "action": "Choisir ma formule",
   "info": "Accès 24 h sur 24 · de 84 € à 334 €",
   "registre": {
    "sur": "Le registre",
@@ -232,7 +235,8 @@
    "note": "Extrait du catalogue réel : les 51 séances dont le site actuel donne le titre et la durée. Les vidéos sont réservées aux abonnés.",
    "plus": "Voir toute la liste",
    "moins": "Replier la liste",
-   "apercu": "Survolez une séance : son lieu apparaît"
+   "apercu": "Survolez une séance : son lieu apparaît",
+   "ecart": "sur les 107 du catalogue (le site actuel ne donne pas le titre de toutes)"
   },
   "chez": {
    "sur": "Chez vous",
@@ -277,7 +281,7 @@
  "patrick": {
   "sur": "Qui vous guide",
   "titre": "Patrick Campo",
-  "chapo": "Enseignant en médecine physique et réadaptation depuis 20 ans, et en Qi Gong énergétique depuis 15 ans, à La Réunion.",
+  "chapo": "Enseignant en médecine physique et réadaptation depuis plus de 20 ans, et en Qi Gong énergétique depuis 15 ans, à La Réunion.",
   "action": "Lui poser une question",
   "info": "Centre de rééducation Sainte-Clotilde depuis 2003",
   "parcours": {
@@ -309,14 +313,14 @@
   "sur": "Les formules",
   "titre": "Six formules, de 84 € à 334 €.",
   "chapo": "Toutes donnent accès 24 h sur 24 aux séances d'entraînement (52), d'enseignement (42) et de méditation (13). Cinq comprennent aussi des lives du jeudi sur Zoom, de 12 à 36 ; seule Bronze n'en a pas.",
-  "action": "Comparer les formules",
+  "action": "Choisir ma formule",
   "info": "À partir de 84 € pour 4 mois",
   "avec": {
-   "titre": "Avec le live",
+   "titre": "Le live chaque jeudi",
    "texte": "Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick."
   },
   "libre": {
-   "titre": "À mon heure",
+   "titre": "Plutôt à votre heure",
    "texte": "Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi."
   },
   "mois": "mois",
@@ -353,7 +357,7 @@
  "contact": {
   "sur": "Contact",
   "titre": "Une question ? Appelez Patrick.",
-  "chapo": "Pour choisir une formule, savoir si le Qi Gong vous convient ou vous inscrire à un stage.",
+  "chapo": "Pour choisir une formule, savoir si le Qi Gong vous convient ou connaître les prochaines dates de stage.",
   "email": "Écrire un e-mail",
   "form": {
    "titre": "Ou laissez un message",

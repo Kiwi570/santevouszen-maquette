@@ -1,5 +1,35 @@
 # Journal des versions · Santé Vous Zen
 
+## v3 · 16 novembre 2026
+
+Après l'audit complet et l'analyse de tout le site (`_audit/analyse-complete.md`) :
+- **Rythme** : plus jamais deux photos plein écran à la suite. Seuls l'ouverture, le parcours des séances et l'appel final restent en plein cadre. Le rendez-vous du jeudi, Patrick et les formules ont leur photo encadrée, sur fond uni, en alternance.
+- **Premier écran de l'accueil** : « Pour débutants et seniors · formules dès 84 € », et sur téléphone le surtitre « Qi Gong en ligne » et une consigne pour la poignée. Au doigt, après la démonstration, les mains redescendent et attendent qu'on les fasse monter.
+- **Parcours des séances** : chaque panneau a son lien (« Voir la séance dans le catalogue », « Demander les prochaines dates »). Voile sombre sous les textes, surtitres lisibles. La galerie se recalcule une fois les images chargées.
+- **Photos** : le ponton de Nosy Be ne sert plus qu'à l'ouverture et au choix de la durée.
+  - « Comment ça marche » : Patrick en méditation sur la plage.
+  - Contact : le littoral de basalte.
+  - Patrick Campo : ouverture sur Wu Chi en forêt, fond flou de la coulée de lave (plus d'image générée), photo de stage dans la frise.
+  - Fitness : les bandeaux rouges incrustés des vidéos sont retirés des vignettes. La série se compte sur Patrick de face.
+- **Textes et libellés** :
+  - une seule action, « Choisir ma formule » (« Les formules » dans la barre du téléphone) ;
+  - « Choisir une formule avec live » au lieu de « Rejoindre le live » ;
+  - « plus de 20 ans » au lieu de « 20 ans » (il est à Sainte-Clotilde depuis 2003) ;
+  - familles de formules renommées « Le live chaque jeudi » et « Plutôt à votre heure » ;
+  - le registre dit qu'il montre 51 des 107 séances ;
+  - le contact ne propose plus de « s'inscrire à un stage » ;
+  - l'essai gratuit pointe vers une vraie séance (Ba Duan Jin à Nosy Be).
+- **Typographie** : le Q des titres vient d'Atkinson (il se lisait « Oi Gong »), et les heures ne se coupent plus (« 21 h »).
+- **Téléphone** :
+  - les six formules en carrousel au lieu de cinq écrans de cartes ;
+  - pied de page sans le sommaire en double ;
+  - « 01 / 04 » sur une ligne ;
+  - Patrick entier dans le panneau des stages.
+- **Animations** :
+  - les chiffres de Patrick s'affichent justes, sans compteur qui passe par de faux nombres ;
+  - les lignes du registre ne se décalent plus en vague ;
+  - l'anneau du fitness ne se remplit plus à moitié tout seul.
+
 ## v2 · 16 novembre 2026
 
 Ce qui a changé depuis la v1 (comparaison fichier par fichier avec le zip de la v1) :

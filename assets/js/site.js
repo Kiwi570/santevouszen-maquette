@@ -1,6 +1,6 @@
 /* Santé Vous Zen · « Le geste lent ». Effets propres au client (chacun marqué data-effet="nom-du-plan").
    Le socle gère l'ouverture, le voile en iris, l'en-tête, le menu, les boucles, les mesures et les effets génériques. */
-import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=2';
+import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=3';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -185,7 +185,7 @@ function chrono() {
     if (st.auto && typeof st.lance === 'number' && !st.saisi && !st.survol) {
       const u = t - st.lance;
       const ph = ((u - 2.2) * 0.11) % 1;
-      st.cible = u < 2.2 ? 1 : 1 - 0.75 * (1 - Math.abs(2 * ph - 1)); // respiration lente, à vitesse égale
+      st.cible = u < 2.2 ? 1 : fin ? 1 - 0.75 * (1 - Math.abs(2 * ph - 1)) : u < 4.4 ? 0.12 : 0.12 + 0.05 * Math.sin(u * 1.4); // respiration lente ; au doigt, les mains redescendent et attendent
     }
     const maxV = st.saisi || st.survol ? 0.9 : 0.5;
     st.p += clamp(st.cible - st.p, -maxV * dt, maxV * dt);
@@ -208,11 +208,12 @@ function chrono() {
   }
   if (fin) {
     ouv.addEventListener('pointermove', (e) => {
-      if (st.lance === null || st.saisi || e.target.closest('.ouv-texte, .entete')) return;
+      if (st.lance === null || st.saisi || e.target.closest('.entete')) return;
       const f = fig.getBoundingClientRect(), z = P.zone(), x = e.clientX - f.left, y = e.clientY - f.top;
       /* Partout sauf sur le texte (et la marge du bord, par où la souris entre) : là, le geste continue de respirer seul. Souris arrêtée sur lui : les bras restent où elle les a mis. */
       const bt = $('.ouv-texte', ouv).getBoundingClientRect(), dansTexte = e.clientX >= bt.left - 12 && e.clientX <= bt.right + 12 && e.clientY >= bt.top - 12;
-      if (dansTexte || x < bt.left - f.left - 12) { lacherSurvol(); return; } // tout l'écran, sauf le bloc de texte et la marge du bord
+      if (x < bt.left - f.left - 12) { lacherSurvol(); return; } // la marge du bord, par où la souris entre : il continue de respirer
+      if (dansTexte) { st.survol = false; st.auto = false; clearTimeout(attente); attente = setTimeout(() => { if (!st.survol && !st.saisi && !st.fini) { st.auto = true; st.reprendre = true; } }, 5000); return; } // sur le texte : il se pose, le temps de lire
       st.survol = true; st.auto = false;
       st.cible = clamp((z.y + z.h * 0.5 - y) / (z.h * 0.42), 0, 1);
       mesureVitesse(e.clientY);
@@ -286,6 +287,7 @@ function enchainement() {
       p.classList.toggle('geste-fait', s.f > 0.97);
     });
   });
+  window.addEventListener('load', () => window.ScrollTrigger.refresh());
   const mm = gsap.matchMedia();
   mm.add('(min-width: 761px)', () => {
     const st = window.ScrollTrigger.create({
@@ -367,7 +369,7 @@ function prochainLive(L, maintenant = new Date()) {
   }
   return { etat: 'fini' };
 }
-const fmtHeure = (date, zone) => new Intl.DateTimeFormat('fr-FR', { timeZone: zone, hour: '2-digit', minute: '2-digit' }).format(date).replace(':', ' h ').replace(/ h 00$/, ' h');
+const fmtHeure = (date, zone) => new Intl.DateTimeFormat('fr-FR', { timeZone: zone, hour: '2-digit', minute: '2-digit' }).format(date).replace(':', '\u00a0h\u00a0').replace(/\u00a0h\u00a000$/, '\u00a0h');
 const fmtJour = (date) => new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', weekday: 'long', day: 'numeric', month: 'long' }).format(date);
 function texteLive(L) {
   const p = prochainLive(L);
@@ -394,7 +396,7 @@ function horlogeLive() {
     if (t.p && t.p.debut) {
       const j = fmtJour(t.p.debut);
       jour.textContent = j.charAt(0).toUpperCase() + j.slice(1);
-      heures.textContent = `${fmtHeure(t.p.debut, 'Europe/Paris')} à Paris · ${fmtHeure(t.p.debut, 'Indian/Reunion')} chez Patrick`;
+      heures.textContent = `${fmtHeure(t.p.debut, 'Europe/Paris')}\u00a0à\u00a0Paris · ${fmtHeure(t.p.debut, 'Indian/Reunion')}\u00a0chez\u00a0Patrick`;
     }
   };
   maj();
@@ -614,11 +616,6 @@ function registre() {
     appliquer(true);
   }));
   appliquer(false);
-  /* Le registre glisse un peu au défilement : chaque ligne arrive comme un geste. */
-  if (gsap && window.ScrollTrigger) {
-    gsap.fromTo($('[data-registre-liste]', sec), { x: 0 }, { x: 0, scrollTrigger: { trigger: sec, start: 'top bottom', end: 'bottom top', scrub: true,
-      onUpdate: (s) => { lignes.forEach((l, i) => { if (!l.hidden && i < 40) l.style.transform = `translateX(${(Math.sin(s.progress * Math.PI * 2 + i * 0.35) * 6).toFixed(1)}px)`; }); } } });
-  }
 }
 
 /* ---------- Fitness : compter la série avec Patrick ---------- */
@@ -636,11 +633,6 @@ function serie() {
     if (n === total) { msg.textContent = sec.dataset.fini; b.hidden = true; r.hidden = false; if (gsap) gsap.fromTo(anneau, { scale: 1 }, { scale: 1.06, transformOrigin: '50% 50%', yoyo: true, repeat: 1, duration: 0.3 }); r.focus(); }
   });
   r.addEventListener('click', () => { n = 0; maj(); msg.textContent = ''; r.hidden = true; b.hidden = false; b.focus(); });
-  /* L'anneau se remplit seul une première fois au défilement, pour montrer le geste. */
-  if (gsap && window.ScrollTrigger) {
-    window.ScrollTrigger.create({ trigger: sec, start: 'top 70%', end: 'bottom 30%', scrub: true,
-      onUpdate: (s) => { if (n === 0) anneau.style.strokeDashoffset = `${L * (1 - Math.sin(s.progress * Math.PI) * 0.35)}`; } });
-  }
   maj();
 }
 

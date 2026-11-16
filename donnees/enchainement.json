@@ -11,7 +11,12 @@
   "cote": "gauche",
   "jeu": "Passez la souris de gauche à droite : il déroule le kata",
   "pose": "lave",
-  "alt": "Patrick Campo en blanc sur la coulée de lave, face à l'océan, pendant un kata de la méthode du Dr Yayama"
+  "alt": "Patrick Campo en blanc sur la coulée de lave, face à l'océan, pendant un kata de la méthode du Dr Yayama",
+  "lien": [
+   "seances",
+   "pleine-nature",
+   ""
+  ]
  },
  {
   "pose": "ocean",
@@ -25,7 +30,12 @@
   "geste": "",
   "cote": "gauche",
   "alt": "Patrick Campo en blanc sur l'herbe du littoral, la mer qui déferle derrière lui, les mains qui s'ouvrent devant la poitrine",
-  "jeu": "Passez la souris : la poitrine s'ouvre avec ses mains"
+  "jeu": "Passez la souris : la poitrine s'ouvre avec ses mains",
+  "lien": [
+   "seances",
+   "",
+   "cat=enseignement&saison=automne"
+  ]
  },
  {
   "image": "geste-riviere",
@@ -37,7 +47,12 @@
   "texte": "L'enchaînement complet, du souffle initial jusqu'à l'harmonisation du ciel et de la terre, au bruit de l'eau.",
   "geste": "arc",
   "cote": "gauche",
-  "jeu": ""
+  "jeu": "",
+  "lien": [
+   "seances",
+   "pleine-nature",
+   ""
+  ]
  },
  {
   "image": "geste-ensemble",
@@ -49,6 +64,12 @@
   "texte": "Une semaine de pratique en plein air, pour débutants comme confirmés. Prochaines dates sur demande.",
   "geste": "lever",
   "cote": "gauche",
-  "jeu": ""
+  "jeu": "",
+  "lien": [
+   "contact",
+   "",
+   ""
+  ],
+  "voir": "Demander les prochaines dates"
  }
 ]

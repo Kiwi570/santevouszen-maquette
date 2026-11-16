@@ -118,7 +118,7 @@ function barre(c) {
   const a = c.site.actionEntete;
   return html`<div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')}</a>
-  ${a ? html`<a class="bouton" href="${c.url(a.page, a.ancre || '')}" data-libelle="${c.libelle(a.page)}">${c.t('commun.actionEntete')}</a>` : ''}
+  ${a ? html`<a class="bouton" href="${c.url(a.page, a.ancre || '')}" data-libelle="${c.libelle(a.page)}">${c.t('commun.actionBarre')}</a>` : ''}
 </div>`;
 }
 

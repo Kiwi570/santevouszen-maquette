@@ -76,6 +76,10 @@
   "cadrage": [
    60,
    45
+  ],
+  "cadrage_mobile": [
+   50,
+   45
   ]
  },
  {
@@ -168,26 +172,26 @@
   "ratio": "4:3"
  },
  {
-  "source": "recu/site/etirements-generalises-seance-complete.jpg",
+  "source": "recu/nettoye/etirements-generalises-seance-complete-haut.jpg",
   "nom": "fitness-etirements",
   "role": "carte-service",
   "alt": "Étirements debout dans une salle de sport",
-  "beaute": 3,
+  "beaute": 4,
   "cadrage": [
    50,
-   35
+   30
   ],
-  "ratio": "4:3"
+  "ratio": "16:9"
  },
  {
-  "source": "recu/site/fitness-sport-seniors-2.jpg",
+  "source": "recu/nettoye/fitness-sport-seniors-2-haut.jpg",
   "nom": "fitness-salle",
   "role": "carte-service",
   "alt": "Exercice d'équilibre dans une salle de sport",
   "beaute": 3,
   "cadrage": [
    50,
-   35
+   30
   ],
   "ratio": "4:3"
  },
@@ -418,7 +422,7 @@
   ]
  },
  {
-  "source": "recu/site/jambes-1-bis-1x10.jpg",
+  "source": "recu/nettoye/jambes-1-bis-1x10-haut.jpg",
   "nom": "fitness-jambes",
   "role": "carte-service",
   "alt": "Exercice des jambes en salle, posture du cavalier",
@@ -426,11 +430,11 @@
   "ratio": "21:9",
   "cadrage": [
    50,
-   0
+   30
   ]
  },
  {
-  "source": "recu/site/mollets-epaules-equilibre-retour.jpg",
+  "source": "recu/nettoye/mollets-epaules-equilibre-retour-haut.jpg",
   "nom": "fitness-equilibre",
   "role": "carte-service",
   "alt": "Montée sur la pointe des pieds, bras levés, en salle",
@@ -438,11 +442,11 @@
   "ratio": "21:9",
   "cadrage": [
    50,
-   0
+   30
   ]
  },
  {
-  "source": "recu/site/psoas-iliaque.jpg",
+  "source": "recu/nettoye/psoas-iliaque-haut.jpg",
   "nom": "fitness-psoas",
   "role": "carte-service",
   "alt": "Étirement du psoas en fente avant, en salle",
@@ -450,7 +454,7 @@
   "ratio": "21:9",
   "cadrage": [
    50,
-   0
+   30
   ]
  },
  {

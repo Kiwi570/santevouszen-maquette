@@ -39,7 +39,7 @@ export default (c) => {
         ${saisons.map((k) => html`<button type="button" class="filtre filtre--saison" data-valeur="${k}" aria-pressed="false">${c.t(`seances.registre.${k}`)}</button>`)}
       </div>
     </div>
-    <p class="registre-compte mono" aria-live="polite"><b data-registre-n>${S.length}</b> ${c.t('seances.registre.compte')} · <span data-registre-total></span></p>
+    <p class="registre-compte mono" aria-live="polite"><b data-registre-n>${S.length}</b> ${c.t('seances.registre.compte')} ${c.t('seances.registre.ecart')} · <span data-registre-total></span></p>
     <p class="registre-apercu-aide mono">${c.t('seances.registre.apercu')}</p>
     <ol class="registre-liste" data-registre-liste data-replie data-effet="index-survol">
       ${S.map((s) => html`<li class="ligne-seance" data-cat="${s.cat}" data-saison="${s.saison || ''}" data-min="${minutes(s.duree).toFixed(1)}">

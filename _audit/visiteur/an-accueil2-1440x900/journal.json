@@ -1,0 +1,904 @@
+{
+ "mission": "an-accueil2",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 9175,
+   "titres": [
+    "h1 Le geste lent."
+   ],
+   "actions": [
+    "Santé Vous Zen",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "S'abonner",
+    "Faire monter les bras de Patrick : glisser vers le haut, lentement",
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 756,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Le Qi Gong avec Patrick, chez vous.",
+    "h3 À la demande, 24 h sur 24",
+    "h3 Le live sur Zoom",
+    "h3 Fitness seniors"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 756,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Le Qi Gong avec Patrick, chez vous.",
+    "h3 À la demande, 24 h sur 24",
+    "h3 Le live sur Zoom",
+    "h3 Fitness seniors"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "Essayer gratuitement"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5,
+   "adresse": "/",
+   "y": 1530,
+   "hauteurPage": 9175,
+   "titres": [
+    "h3 À la demande, 24 h sur 24",
+    "h3 Le live sur Zoom",
+    "h3 Fitness seniors",
+    "h2 Trois étapes, sans vous déplacer.",
+    "h3 Choisissez votre formule",
+    "h3 Recevez votre accès",
+    "h3 Pratiquez chez vous"
+   ],
+   "actions": [
+    "Voir les séances",
+    "Les formules avec live",
+    "Le fitness seniors"
+   ],
+   "prixVus": [
+    "84 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5,
+   "adresse": "/",
+   "y": 1530,
+   "hauteurPage": 9175,
+   "titres": [
+    "h3 À la demande, 24 h sur 24",
+    "h3 Le live sur Zoom",
+    "h3 Fitness seniors",
+    "h2 Trois étapes, sans vous déplacer.",
+    "h3 Choisissez votre formule",
+    "h3 Recevez votre accès",
+    "h3 Pratiquez chez vous"
+   ],
+   "actions": [
+    "Voir les séances",
+    "Les formules avec live",
+    "Le fitness seniors"
+   ],
+   "prixVus": [
+    "84 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.8,
+   "adresse": "/",
+   "y": 2294,
+   "hauteurPage": 9175,
+   "titres": [
+    "h3 Pratiquez chez vous",
+    "h2 Méthode du Dr Yayama les 5 katas"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "0692 09 05 13"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.8,
+   "adresse": "/",
+   "y": 2294,
+   "hauteurPage": 9175,
+   "titres": [
+    "h3 Pratiquez chez vous",
+    "h2 Méthode du Dr Yayama les 5 katas"
+   ],
+   "actions": [
+    "Choisir ma formule",
+    "0692 09 05 13"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  },
+  {
+   "k": 7,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 6.6,
+   "adresse": "/",
+   "y": 3046,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Qi Gong des poumons et du gros intestin"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 8,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 6.6,
+   "adresse": "/",
+   "y": 3046,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Qi Gong des poumons et du gros intestin"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-8.png"
+  },
+  {
+   "k": 9,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 7.6,
+   "adresse": "/",
+   "y": 3754,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Les 18 mouvements du Tai Ji Qi Gong"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 10,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 7.6,
+   "adresse": "/",
+   "y": 3754,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Les 18 mouvements du Tai Ji Qi Gong"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-10.png"
+  },
+  {
+   "k": 11,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 8.6,
+   "adresse": "/",
+   "y": 4590,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Les stages Cantal et Corse-du-Sud",
+    "h2 Jeudi 19 novembre 18 h à Paris · 21 h chez Patrick"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 12,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 8.6,
+   "adresse": "/",
+   "y": 4590,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Les stages Cantal et Corse-du-Sud",
+    "h2 Jeudi 19 novembre 18 h à Paris · 21 h chez Patrick"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-12.png"
+  },
+  {
+   "k": 13,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 9.3,
+   "adresse": "/",
+   "y": 5355,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Jeudi 19 novembre 18 h à Paris · 21 h chez Patrick"
+   ],
+   "actions": [
+    "Rejoindre le live"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 14,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 9.3,
+   "adresse": "/",
+   "y": 5355,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Jeudi 19 novembre 18 h à Paris · 21 h chez Patrick"
+   ],
+   "actions": [
+    "Rejoindre le live"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-14.png"
+  },
+  {
+   "k": 15,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 10.1,
+   "adresse": "/",
+   "y": 6119,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Vingt ans à remettre les corps en mouvement."
+   ],
+   "actions": [
+    "Son parcours"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 16,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 10.1,
+   "adresse": "/",
+   "y": 6119,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Vingt ans à remettre les corps en mouvement."
+   ],
+   "actions": [
+    "Son parcours"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-16.png"
+  },
+  {
+   "k": 17,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 10.8,
+   "adresse": "/",
+   "y": 6885,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Combien de temps voulez-vous pratiquer ?"
+   ],
+   "actions": [
+    "Choisir cette formule",
+    "Comparer les six formules"
+   ],
+   "prixVus": [
+    "234 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 18,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 10.8,
+   "adresse": "/",
+   "y": 6885,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Combien de temps voulez-vous pratiquer ?"
+   ],
+   "actions": [
+    "Choisir cette formule",
+    "Comparer les six formules"
+   ],
+   "prixVus": [
+    "234 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-18.png"
+  },
+  {
+   "k": 19,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 11.6,
+   "adresse": "/",
+   "y": 7649,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Essayez avant de vous abonner."
+   ],
+   "actions": [
+    "Une séance gratuite sur YouTube",
+    "Appeler le 0692 09 05 13"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 20,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 11.6,
+   "adresse": "/",
+   "y": 7649,
+   "hauteurPage": 9175,
+   "titres": [
+    "h2 Essayez avant de vous abonner."
+   ],
+   "actions": [
+    "Une séance gratuite sur YouTube",
+    "Appeler le 0692 09 05 13"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-20.png"
+  },
+  {
+   "k": 21,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 11,
+   "secondes": 12.3,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 22,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 11,
+   "secondes": 12.3,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-22.png"
+  },
+  {
+   "k": 23,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 12,
+   "secondes": 13,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 24,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 12,
+   "secondes": 13,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-24.png"
+  },
+  {
+   "k": 25,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 13,
+   "secondes": 13.7,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 26,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 13,
+   "secondes": 13.7,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-26.png"
+  },
+  {
+   "k": 27,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 14,
+   "secondes": 14.5,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 28,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 14,
+   "secondes": 14.5,
+   "adresse": "/",
+   "y": 8275,
+   "hauteurPage": 9175,
+   "titres": [],
+   "actions": [
+    "0692 09 05 13",
+    "santevouszen@gmail.com",
+    "Accueil",
+    "Les séances",
+    "Fitness seniors",
+    "Patrick Campo",
+    "Formules",
+    "Contact",
+    "Chaîne YouTube",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "0692 09 05 13"
+   ],
+   "prixDansLaPage": [
+    "84 €",
+    "234 €"
+   ],
+   "telephones": [
+    "0692 09 05 13"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-28.png"
+  }
+ ]
+}

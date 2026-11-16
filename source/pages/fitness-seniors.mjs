@@ -31,7 +31,7 @@ export default (c) => html`
       <button type="button" class="bouton bouton--contour serie-reprendre" data-serie-reprendre hidden>${c.t('fitness.serie.reprendre')}</button>
     </div>
   </div>
-  ${img(c, 'fitness-mollets', { classe: 'serie-photo', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '16 / 9', attrs: 'data-fx="zoom"' })}
+  ${img(c, 'fitness-etirements', { classe: 'serie-photo', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '16 / 9', attrs: 'data-fx="zoom"' })}
 </section>
 
 <section class="modules monde-chaud" id="modules">
