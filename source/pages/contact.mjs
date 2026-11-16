@@ -9,7 +9,7 @@ export default (c) => html`
   ${img(c, 'ouverture-ocean', { priorite: true, classe: 'con-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="8"' })}
   <div class="conteneur con-ouv-texte">
     <p class="surtitre">${c.t('contact.sur')}</p>
-    <h1 class="con-titre" data-anime="lettres" data-grille="typo">${c.t('contact.titre')}</h1>
+    <h1 class="con-titre" data-anime="lignes" data-grille="typo">${c.t('contact.titre')}</h1>
     <p class="con-chapo">${c.t('contact.chapo')}</p>
     <p><a class="con-tel" href="tel:${c.site.contact.telephoneLien}" data-action-principale data-iris-centre>${c.site.contact.telephone}</a></p>
     <p class="con-mail" data-info-cle><a href="mailto:${c.site.contact.email}">${c.site.contact.email}</a></p>
@@ -24,7 +24,6 @@ export default (c) => html`
 </section>
 
 <section class="con-form" id="message">
-  ${point(2, 2)}
   <div class="conteneur con-grille">
     <form class="formulaire" data-formulaire novalidate>
       <h2 class="titre-section" data-anime="lignes">${c.t('contact.form.titre')}</h2>

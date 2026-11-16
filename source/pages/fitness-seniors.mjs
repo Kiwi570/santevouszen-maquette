@@ -9,7 +9,7 @@ export default (c) => html`
 <section class="fit-ouv monde-chaud" id="debut">
   <div class="fit-ouv-texte">
     <p class="surtitre">${c.t('fitness.sur')}</p>
-    <h1 class="fit-titre" data-anime="lettres" data-grille="typo">${c.t('fitness.titre')}</h1>
+    <h1 class="fit-titre" data-anime="lignes" data-grille="typo">${c.t('fitness.titre')}</h1>
     <p class="fit-chapo">${c.t('fitness.chapo')}</p>
     <p class="fit-actions">${c.lien('formules', { classe: 'bouton', texte: c.t('fitness.action'), attrs: 'data-action-principale' })}<span class="mono fit-info" data-info-cle>${c.t('fitness.info')}</span></p>
   </div>
@@ -17,7 +17,6 @@ export default (c) => html`
 </section>
 
 <section class="serie monde-chaud" id="serie" data-serie data-effet="compteur-serie" data-fini="${c.s('fitness.serie.fini')}">
-  ${point(3, 5)}
   <div class="conteneur serie-grille">
     <div>
       <h2 class="titre-section" data-anime="lignes">${c.t('fitness.serie.titre')}</h2>

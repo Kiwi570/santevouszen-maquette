@@ -25,7 +25,7 @@ export default (c) => {
   ${pose(c, 'ouv', { classe: 'for-pose', alt: c.s('formules.duree.alt'), priorite: true, attrs: 'data-fantomes="non" data-effet="duree-ouverture"' })}
   <div class="conteneur for-ouv-texte">
     <p class="surtitre">${c.t('formules.sur')}</p>
-    <h1 class="for-titre" data-anime="lettres" data-grille="typo">${c.t('formules.titre')}</h1>
+    <h1 class="for-titre" data-anime="lignes" data-grille="typo">${c.t('formules.titre')}</h1>
     <p class="for-chapo">${c.t('formules.chapo')}</p>
     <div class="for-duree" data-grille="manipuler">
       <p class="for-duree-titre mono">${c.t('formules.duree.titre')}</p>
@@ -38,7 +38,6 @@ export default (c) => {
 </section>
 
 <section class="familles" id="avec-live">
-  ${point(2, 2)}
   <div class="conteneur">
     <div class="famille">
       <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">${c.t('formules.avec.titre')}</h2><p>${c.t('formules.avec.texte')}</p></header>
@@ -54,7 +53,6 @@ export default (c) => {
 </section>
 
 <section class="inscription" id="inscription">
-  ${point(94, 10, 'bas')}
   <div class="conteneur inscription-grille">
     <div>
       <p class="surtitre">${c.t('formules.inscription.sur')}</p>

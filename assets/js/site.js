@@ -1,6 +1,6 @@
 /* Santé Vous Zen · « Le geste lent ». Effets propres au client (chacun marqué data-effet="nom-du-plan").
    Le socle gère l'ouverture, le voile en iris, l'en-tête, le menu, les boucles, les mesures et les effets génériques. */
-import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=3';
+import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=4';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -292,6 +292,8 @@ function enchainement() {
   mm.add('(min-width: 761px)', () => {
     const st = window.ScrollTrigger.create({
       trigger: sec, start: 'top top', end: 'bottom bottom', scrub: 0.6, invalidateOnRefresh: true,
+      /* À l'arrêt du défilement, la piste se pose toujours sur un panneau entier : jamais de texte coupé au bord. */
+      snap: n > 1 ? { snapTo: 1 / (n - 1), duration: { min: 0.35, max: 0.9 }, delay: 0.12, ease: 'power2.inOut' } : false,
       onRefresh: () => poses.forEach((q) => q && q.mesurer()),
       onUpdate(s) {
         const x = s.progress * (n - 1);
@@ -543,7 +545,7 @@ function horloges() {
     });
     const el = $('[data-h-prochain]', box);
     if (p.etat === 'direct') el.textContent = 'Le live est en cours sur Zoom';
-    else if (p.debut) el.textContent = `Prochain live : ${fmtJour(p.debut)}, ${fmtHeure(p.debut, 'Europe/Paris')} à Paris, ${fmtHeure(p.debut, 'Indian/Reunion')} à La Réunion`;
+    else if (p.debut) el.textContent = `Prochain live\u00a0: ${fmtJour(p.debut)}, ${fmtHeure(p.debut, 'Europe/Paris')} à Paris, ${fmtHeure(p.debut, 'Indian/Reunion')} à La Réunion`;
     else el.textContent = "Le programme d'hiver sera annoncé ici";
   }
   maj(); setInterval(maj, 15000);

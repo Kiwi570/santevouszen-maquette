@@ -11,7 +11,7 @@ export default (c) => html`
   <div class="pat-ouv-grille conteneur">
     <div class="pat-ouv-texte">
       <p class="surtitre">${c.t('patrick.sur')}</p>
-      <h1 class="pat-titre" data-anime="lettres" data-grille="typo">${c.t('patrick.titre')}</h1>
+      <h1 class="pat-titre" data-anime="lignes" data-grille="typo">${c.t('patrick.titre')}</h1>
       <p class="pat-chapo">${c.t('patrick.chapo')}</p>
       <p class="pat-actions">${c.lien('contact', { classe: 'bouton', texte: c.t('patrick.action'), attrs: 'data-action-principale' })}</p>
       <p class="pat-info mono" data-info-cle>${c.t('patrick.info')}</p>
@@ -23,7 +23,6 @@ export default (c) => html`
 </section>
 
 <section class="parcours" id="parcours">
-  ${point(4, 8)}
   <div class="conteneur">
     <p class="surtitre">${c.t('patrick.parcours.sur')}</p>
     <h2 class="titre-section" data-anime="lignes">${c.t('patrick.parcours.titre')}</h2>
@@ -57,7 +56,6 @@ export default (c) => html`
 </section>
 
 <section class="terrain" id="terrain">
-  ${point(95, 10, 'bas')}
   <div class="conteneur">
     <p class="surtitre">${c.t('patrick.groupe.sur')}</p>
     <h2 class="titre-section" data-anime="lignes">${c.t('patrick.groupe.titre')}</h2>

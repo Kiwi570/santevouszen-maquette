@@ -15,7 +15,7 @@ export default (c) => {
 <section class="sea-ouv monde-clair" id="debut">
   <div class="conteneur sea-ouv-tete">
     <p class="surtitre">${c.t('seances.sur')}</p>
-    <h1 class="sea-titre" data-anime="lettres" data-grille="typo">${c.t('seances.titre')}</h1>
+    <h1 class="sea-titre" data-anime="lignes" data-grille="typo">${c.t('seances.titre')}</h1>
     <div class="sea-ouv-bas">
       <p class="sea-chapo">${c.t('seances.chapo')}</p>
       <p class="sea-actions">${c.lien('formules', { classe: 'bouton', texte: c.t('seances.action'), attrs: 'data-action-principale' })}<span class="sea-info mono" data-info-cle>${c.t('seances.info')}</span></p>
@@ -26,7 +26,6 @@ export default (c) => {
 
 <span id="enseignement"></span><span id="pleine-nature"></span>
 <section class="registre monde-clair" id="registre" data-registre data-effet="registre-seances">
-  ${point(96, 6, 'bas')}
   <div class="conteneur">
     <p class="surtitre">${c.t('seances.registre.sur')}</p>
     <h2 class="titre-section" data-anime="lignes">${c.t('seances.registre.titre')}</h2>
@@ -56,7 +55,6 @@ export default (c) => {
 </section>
 
 <section class="chez monde-clair" id="meditation">
-  ${point(4, 10)}
   <div class="conteneur chez-grille">
     <div>
       <p class="surtitre">${c.t('seances.chez.sur')}</p>

@@ -13,7 +13,6 @@
   "enchainement",
   "plongee",
   "titre-lent",
-  "point-fil",
   "horloge-live",
   "billet-live",
   "compteur-serie",
@@ -25,6 +24,8 @@
   "index-survol"
  ],
  "grille": {
-  "dispenses": {}
+  "dispenses": {
+   "fil": "points lumineux retirés en v4 : le client les lisait comme des taches ; le fil d'une section à l'autre passe par la pose longue et les liens de l'enchaînement"
+  }
  }
 }

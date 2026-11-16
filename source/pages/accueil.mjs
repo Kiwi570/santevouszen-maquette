@@ -32,7 +32,6 @@ export default (c) => {
 </section>
 
 <section class="offre" id="pratiquer">
-  ${point(6, 8)}
   <div class="conteneur">
     <p class="surtitre">${c.t('accueil.offre.sur')}</p>
     <h2 class="titre-section" data-anime="lignes">${c.t('accueil.offre.titre')}</h2>
@@ -96,7 +95,6 @@ export default (c) => {
 <section class="patrick patrick--moitie" id="patrick">
   ${img(c, 'patrick-equilibre', { classe: 'patrick-moitie-photo', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
   <div class="patrick-texte">
-    ${point(8, 8)}
     <p class="surtitre">${c.t('accueil.patrick.sur')}</p>
     <h2 class="titre-section" data-anime="lignes">${c.t('accueil.patrick.titre')}</h2>
     <p data-anime>${c.t('accueil.patrick.texte')}</p>
@@ -110,7 +108,6 @@ export default (c) => {
 </section>
 
 <section class="choix choix--pose" id="formules" data-choix='${json(F)}'>
-  ${point(94, 16, 'bas')}
   <div class="duree-cote">
     ${pose(c, 'ouv', { classe: 'duree-pose', alt: c.s('accueil.choix.alt'), attrs: 'data-variante="tel" data-fantomes="non" data-effet="trace-duree"' })}
   </div>

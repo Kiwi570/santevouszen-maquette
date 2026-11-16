@@ -1,5 +1,17 @@
 # Journal des versions · Santé Vous Zen
 
+## v4 · 16 novembre 2026
+
+Après les retours du client (lettres des titres, transitions, petits bugs), avec un balayage de chaque page sur ordinateur et téléphone :
+- **Titres des ouvertures** (Séances, Fitness, Patrick, Formules, Contact) : ils n'arrivent plus lettre par lettre. Le découpage en lettres changeait l'approche des caractères et pouvait faire sauter le titre d'une ligne. Ils montent maintenant ligne par ligne derrière un masque, au moment où la page se découvre, sans recomposer le texte.
+- **Transitions de page** : le nom de la page d'arrivée sur le voile était sombre sur sombre. Il est maintenant blanc, en gras. Le voile s'ouvre aussi un peu plus vite.
+- **Parcours des séances (accueil)** : à l'arrêt du défilement, la piste se pose toujours sur un panneau entier. Avant, elle pouvait s'arrêter entre deux panneaux, avec le titre coupé au bord de l'écran. Sur téléphone, le voile sombre sous le texte est renforcé : le titre restait peu lisible sur la chemise blanche ou le ciel.
+- **Points lumineux retirés** : les petits points brillants posés au bord des sections se lisaient comme des taches.
+- **Formulaires** : la bande rouge vide sous « Envoyer » et « Valider mon inscription » n'apparaît plus avant l'envoi.
+- **Séances** : le compteur « 51 séances affichées » reste sur une ligne avec son nombre, sur téléphone.
+- **404** : interligne du titre resserré.
+- **Typographie** : espace insécable avant les deux-points de « Prochain live : ».
+
 ## v3 · 16 novembre 2026
 
 Après l'audit complet et l'analyse de tout le site (`_audit/analyse-complete.md`) :

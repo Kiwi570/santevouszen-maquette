@@ -187,6 +187,33 @@
     }
    ],
    "attentes": []
+  },
+  {
+   "version": 4,
+   "perimetre": [
+    "toutes les pages"
+   ],
+   "etapes": [
+    {
+     "etape": "retours client : titres lettre à lettre, voile illisible, petits bugs (balayage ordinateur et téléphone)",
+     "budget": 40,
+     "debut": "2026-11-16T17:16:00+01:00",
+     "fin": "2026-11-16T17:50:00+01:00"
+    },
+    {
+     "etape": "audit standard de la v4",
+     "budget": 30,
+     "debut": "2026-11-16T17:50:00+01:00",
+     "fin": "2026-11-16T18:12:00+01:00"
+    },
+    {
+     "etape": "livraison",
+     "budget": 5,
+     "debut": "2026-11-16T18:12:00+01:00",
+     "fin": "2026-11-16T18:16:00+01:00"
+    }
+   ],
+   "attentes": []
   }
  ]
 }
