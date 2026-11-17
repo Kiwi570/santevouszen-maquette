@@ -1,13 +1,19 @@
 {
- "id": "20261116-165340-standard",
- "date": "2026-11-16T17:12:31.307Z",
+ "id": "20261117-124824-standard-cible-partiel",
+ "date": "2026-11-17T12:50:32.072Z",
  "niveau": "standard",
- "pages": "toutes",
- "etapes": "toutes",
- "version": "4",
+ "pages": "/",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "ecran",
+  "mouvement",
+  "fluidite"
+ ],
+ "version": "5",
  "echecs": 0,
- "aRegarder": 19,
- "nonLances": 1,
+ "aRegarder": 5,
+ "nonLances": 0,
  "manquants": 0,
  "statut": "complet"
 }

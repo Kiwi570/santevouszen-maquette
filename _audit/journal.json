@@ -214,6 +214,27 @@
     }
    ],
    "attentes": []
+  },
+  {
+   "version": 5,
+   "perimetre": [
+    "/"
+   ],
+   "etapes": [
+    {
+     "etape": "consignes du premier écran : messages tenus, phrase de fin atteignable",
+     "budget": 20,
+     "debut": "2026-11-17T13:45:00+01:00",
+     "fin": "2026-11-17T13:58:00+01:00"
+    },
+    {
+     "etape": "audit ciblé de l'accueil et livraison",
+     "budget": 10,
+     "debut": "2026-11-17T13:58:00+01:00",
+     "fin": "2026-11-17T14:05:00+01:00"
+    }
+   ],
+   "attentes": []
   }
  ]
 }

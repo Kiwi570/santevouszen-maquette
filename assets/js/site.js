@@ -1,6 +1,6 @@
 /* Santé Vous Zen · « Le geste lent ». Effets propres au client (chacun marqué data-effet="nom-du-plan").
    Le socle gère l'ouverture, le voile en iris, l'en-tête, le menu, les boucles, les mesures et les effets génériques. */
-import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=4';
+import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=5';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -177,7 +177,19 @@ function chrono() {
     if (py !== dernierePy) { dernierePy = py; poignee.style.setProperty('--py', py); }
   }
   window.addEventListener('resize', () => { rep = null; });
-  function dire(cle) { if (consigne.dataset.cle === cle) return; consigne.dataset.cle = cle; consigne.textContent = textes[cle]; boite.classList.toggle('alerte', cle === 'vite'); boite.classList.toggle('discret', fin && cle === 'base'); }
+  /* Chaque message reste affiché assez longtemps pour être lu (tenu) : sans cela, « plus lentement » et la phrase
+     de fin étaient remplacés à l'image suivante et ne faisaient que clignoter. */
+  let tenu = 0;
+  const maintenant = () => performance.now() / 1000;
+  function dire(cle, duree = 0) {
+    if (consigne.dataset.cle === cle) { if (duree) tenu = Math.max(tenu, maintenant() + duree); return; }
+    if (maintenant() < tenu && cle === 'base') return;
+    tenu = duree ? maintenant() + duree : 0;
+    const avant = consigne.dataset.cle;
+    consigne.dataset.cle = cle; consigne.textContent = textes[cle];
+    boite.classList.toggle('alerte', cle === 'vite'); boite.classList.toggle('discret', fin && cle === 'base');
+    if (avant && cle !== 'base' && boite.animate) boite.animate([{ opacity: 0, transform: 'translateY(-6px)' }, { opacity: 1, transform: 'none' }], { duration: 320, easing: 'ease-out' });
+  }
   dire('base');
   boucle(fig, (dt, t) => {
     if (st.lance === true) st.lance = t;
@@ -191,9 +203,13 @@ function chrono() {
     st.p += clamp(st.cible - st.p, -maxV * dt, maxV * dt);
     st.flou += ((st.vitesse > 1.4 ? 1 : 0) - st.flou) * Math.min(1, dt * 5);
     st.vitesse *= Math.pow(0.02, dt);
-    if (st.saisi || st.survol) dire(st.vitesse > 1.4 ? 'vite' : 'base');
-    if (st.p > 0.985 && !st.auto && !st.fini) { st.fini = t; dire('fin'); }
-    if (st.fini && t - st.fini > 6 && !st.saisi && !st.survol) { st.fini = 0; st.auto = true; st.lance = t - 2.3; dire('base'); }
+    if (st.p > 0.97 && !st.auto && !st.fini) { st.fini = t; dire('fin', 6); }
+    if (st.fini) {
+      /* La phrase de fin reste au moins 6 s ; si les bras redescendent ensuite, on revient à la consigne. */
+      if (t - st.fini > 6 && st.p < 0.9) { st.fini = 0; dire('base'); }
+      else if (t - st.fini > 6 && !st.saisi && !st.survol) { st.fini = 0; st.auto = true; st.lance = t - 2.3; dire('base'); }
+    } else if ((st.saisi || st.survol) && st.vitesse > 1.4) dire('vite', 2.6);
+    else dire('base');
     placer();
     P.dessiner(st.p, st.flou);
   });
@@ -215,7 +231,7 @@ function chrono() {
       if (x < bt.left - f.left - 12) { lacherSurvol(); return; } // la marge du bord, par où la souris entre : il continue de respirer
       if (dansTexte) { st.survol = false; st.auto = false; clearTimeout(attente); attente = setTimeout(() => { if (!st.survol && !st.saisi && !st.fini) { st.auto = true; st.reprendre = true; } }, 5000); return; } // sur le texte : il se pose, le temps de lire
       st.survol = true; st.auto = false;
-      st.cible = clamp((z.y + z.h * 0.5 - y) / (z.h * 0.42), 0, 1);
+      st.cible = clamp((z.y + z.h * 0.5 - y) / (z.h * 0.34), 0, 1); // bras au ciel bien avant l'en-tête : la phrase de fin s'atteint sans viser
       mesureVitesse(e.clientY);
     });
     ouv.addEventListener('pointerleave', lacherSurvol);
@@ -224,7 +240,7 @@ function chrono() {
   let y0 = 0, p0 = 0;
   poignee.addEventListener('pointerdown', (e) => { st.saisi = true; st.auto = false; y0 = e.clientY; p0 = st.p; st.cible = st.p; dernierY = e.clientY; dernierT = performance.now(); document.documentElement.classList.add('saisie-trace'); try { poignee.setPointerCapture(e.pointerId); } catch {} e.preventDefault(); });
   poignee.addEventListener('pointermove', (e) => { if (!st.saisi) return; st.cible = clamp(p0 + (y0 - e.clientY) / (P.zone().h * 0.4), 0, 1); mesureVitesse(e.clientY); });
-  const lacher = () => { if (!st.saisi) return; st.saisi = false; document.documentElement.classList.remove('saisie-trace'); if (!st.fini) dire('base'); };
+  const lacher = () => { if (!st.saisi) return; st.saisi = false; document.documentElement.classList.remove('saisie-trace'); };
   poignee.addEventListener('pointerup', lacher); poignee.addEventListener('pointercancel', lacher);
   poignee.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowUp' || e.key === 'ArrowRight') { st.auto = false; st.cible = clamp(st.cible + 0.1, 0, 1); e.preventDefault(); }

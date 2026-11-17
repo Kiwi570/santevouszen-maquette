@@ -1,5 +1,12 @@
 # Journal des versions · Santé Vous Zen
 
+## v5 · 17 novembre 2026
+
+- **Premier écran de l'accueil, consignes à la souris** :
+  - « Plus lentement… le geste se brouille » apparaissait puis disparaissait aussitôt. Il reste maintenant affiché 2,5 s environ, puis s'efface en fondu.
+  - La phrase de fin (« Vous soutenez le ciel des deux mains… ») était remplacée à l'image suivante. Elle reste maintenant au moins 6 s.
+  - Les bras atteignent le ciel sans avoir à viser le bord de l'en-tête : avant, il fallait placer la souris dans une bande de quelques pixels pour voir la phrase de fin.
+
 ## v4 · 16 novembre 2026
 
 Après les retours du client (lettres des titres, transitions, petits bugs), avec un balayage de chaque page sur ordinateur et téléphone :

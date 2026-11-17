@@ -1022,3 +1022,5 @@ html:not(.js) .for-duree { display: none; }
   .ench-panneau::after { background: linear-gradient(0deg, rgba(8, 14, 20, .95) 0, rgba(8, 14, 20, .8) 40%, rgba(8, 14, 20, .45) 62%, rgba(8, 14, 20, 0) 82%); }
 }
 .introuvable h1 { line-height: .9; }
+/* Consigne du premier écran : elle apparaît et s'efface en douceur, jamais d'un coup. */
+.ouv-consigne { transition: opacity .5s var(--courbe), border-color .4s; }
