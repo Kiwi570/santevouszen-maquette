@@ -40,12 +40,11 @@ export default (c) => {
 <section class="familles" id="avec-live">
   <div class="conteneur">
     <div class="famille">
-      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">${c.t('formules.avec.titre')}</h2><p>${c.t('formules.avec.texte')}</p></header>
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">${c.t('formules.avec.titre')}</h2><p>${c.t('formules.avec.texte')}</p>${img(c, 'live-plage', { classe: 'famille-vignette', sizes: '(max-width: 760px) 40vw, 260px', ratio: '4 / 3' })}</header>
       <ol class="formules-liste" data-anime="cascade">${F.filter((f) => f.famille === 'live').map(carte)}</ol>
-      ${img(c, 'cantal-lac', { classe: 'famille-photo', sizes: '100vw', ratio: '21 / 6', attrs: 'data-fx="parallaxe"' })}
     </div>
     <div class="famille" id="a-mon-heure">
-      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">${c.t('formules.libre.titre')}</h2><p>${c.t('formules.libre.texte')}</p></header>
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">${c.t('formules.libre.titre')}</h2><p>${c.t('formules.libre.texte')}</p>${img(c, 'meditation-foret', { classe: 'famille-vignette', sizes: '(max-width: 760px) 40vw, 260px', ratio: '4 / 3' })}</header>
       <ol class="formules-liste" data-anime="cascade">${F.filter((f) => f.famille === 'libre').map(carte)}</ol>
     </div>
     <p class="choix-note">${c.t('accueil.choix.note')}</p>

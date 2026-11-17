@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="6">
+<html lang="fr" data-v="7">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=6">
-<link rel="stylesheet" href="/assets/css/site.css?v=6">
-<link rel="modulepreload" href="/assets/js/site.js?v=6">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=6">
+<link rel="stylesheet" href="/assets/css/socle.css?v=7">
+<link rel="stylesheet" href="/assets/css/site.css?v=7">
+<link rel="modulepreload" href="/assets/js/site.js?v=7">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=7">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=6"></script>
+<script type="module" src="/assets/js/site.js?v=7"></script>
 <meta name="theme-color" content="#0e1215">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -126,7 +126,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="familles" id="avec-live">
   <div class="conteneur">
     <div class="famille">
-      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Le live chaque jeudi</h2><p>Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick.</p></header>
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Le live chaque jeudi</h2><p>Les séances à la demande, plus 12, 24 ou 36 lives du jeudi avec Patrick.</p><figure class="media famille-vignette" style="--cadrage:52% 50%;aspect-ratio:4 / 3;--cadrage-mobile:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/live-plage-mobile-640.webp 640w" sizes="(max-width: 760px) 40vw, 260px">
+    <img src="/assets/images/live-plage-1280.webp" srcset="/assets/images/live-plage-640.webp 640w, /assets/images/live-plage-1280.webp 1280w, /assets/images/live-plage-1920.webp 1920w" sizes="(max-width: 760px) 40vw, 260px" alt="Patrick Campo en noir sur l&#39;herbe, au bord d&#39;une plage de sable noir face à la houle" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure></header>
       <ol class="formules-liste" data-anime="cascade"><li class="formule" id="formule-basic" data-fx="vitesse" data-fx-force="2">
     <p class="formule-nom mono">BASIC</p>
     <p class="formule-prix" data-prix>134 €</p>
@@ -161,14 +165,13 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </ul>
     <a class="bouton" href="/formules?formule=premium#inscription" data-choisir="premium" data-nom="PREMIUM" data-libelle="Formules">Choisir PREMIUM</a>
   </li></ol>
-      <figure class="media famille-photo" data-fx="parallaxe" style="--cadrage:50% 43%;aspect-ratio:21 / 6">
-  <picture>
-    <img src="/assets/images/cantal-lac-1280.webp" srcset="/assets/images/cantal-lac-640.webp 640w, /assets/images/cantal-lac-1280.webp 1280w, /assets/images/cantal-lac-1920.webp 1920w" sizes="100vw" alt="Vue d&#39;un lac de barrage entouré de prairies et de forêts" width="1280" height="853" loading="lazy" decoding="async">
-  </picture>
-</figure>
     </div>
     <div class="famille" id="a-mon-heure">
-      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Plutôt à votre heure</h2><p>Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi.</p></header>
+      <header class="famille-tete"><h2 class="titre-section" data-anime="lignes">Plutôt à votre heure</h2><p>Pratiquez votre Qi Gong quand vous le souhaitez. Argent et Or comprennent aussi 12 lives du jeudi.</p><figure class="media famille-vignette" style="--cadrage:50% 38%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/meditation-foret-784.webp" srcset="/assets/images/meditation-foret-480.webp 480w, /assets/images/meditation-foret-640.webp 640w, /assets/images/meditation-foret-784.webp 784w" sizes="(max-width: 760px) 40vw, 260px" alt="Patrick assis en tailleur en forêt" width="784" height="588" loading="lazy" decoding="async">
+  </picture>
+</figure></header>
       <ol class="formules-liste" data-anime="cascade"><li class="formule" id="formule-bronze" data-fx="vitesse" data-fx-force="2">
     <p class="formule-nom mono">BRONZE</p>
     <p class="formule-prix" data-prix>84 €</p>
@@ -263,6 +266,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </ul>
     </div>
   </div>
+  <p class="pied-signature" aria-hidden="true" data-signature><span>Le geste</span> <span class="pied-lent" data-signature-lent>lent.</span></p>
   <div class="conteneur pied-bas"><p>Maquette de démonstration : inscriptions, paiements et messages sont simulés, rien n&#39;est envoyé.</p><p class="pied-legal">Mentions légales · Politique de confidentialité · CGVU : à compléter</p><p>© Santé Vous Zen · Patrick Campo</p></div>
 </footer>
 <div data-barre-fixe>

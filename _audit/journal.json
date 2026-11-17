@@ -250,6 +250,39 @@
     }
    ],
    "attentes": []
+  },
+  {
+   "version": 7,
+   "perimetre": [
+    "toutes les pages"
+   ],
+   "etapes": [
+    {
+     "etape": "analyse finale page par page, ordinateur et téléphone",
+     "budget": 30,
+     "debut": "2026-11-17T20:13:00+01:00",
+     "fin": "2026-11-17T20:40:00+01:00"
+    },
+    {
+     "etape": "corrections et signature du pied de page",
+     "budget": 40,
+     "debut": "2026-11-17T20:40:00+01:00",
+     "fin": "2026-11-17T21:05:00+01:00"
+    },
+    {
+     "etape": "audit complet de la v7",
+     "budget": 50,
+     "debut": "2026-11-17T21:05:00+01:00",
+     "fin": "2026-11-17T21:20:00+01:00"
+    },
+    {
+     "etape": "livraison",
+     "budget": 5,
+     "debut": "2026-11-17T21:20:00+01:00",
+     "fin": "2026-11-17T21:25:00+01:00"
+    }
+   ],
+   "attentes": []
   }
  ]
 }

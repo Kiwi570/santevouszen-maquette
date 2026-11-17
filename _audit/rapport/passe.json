@@ -1,17 +1,13 @@
 {
- "id": "20261117-125746-standard-cible-partiel",
- "date": "2026-11-17T12:58:29.841Z",
+ "id": "20261117-195544-standard",
+ "date": "2026-11-17T20:15:08.113Z",
  "niveau": "standard",
- "pages": "/",
- "etapes": [
-  "fichiers",
-  "ecran",
-  "mouvement"
- ],
- "version": "6",
+ "pages": "toutes",
+ "etapes": "toutes",
+ "version": "7",
  "echecs": 0,
- "aRegarder": 2,
- "nonLances": 0,
+ "aRegarder": 16,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

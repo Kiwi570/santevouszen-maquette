@@ -110,6 +110,7 @@ function pied(c) {
       </ul>
     </div>
   </div>
+  <p class="pied-signature" aria-hidden="true" data-signature><span>Le geste</span> <span class="pied-lent" data-signature-lent>lent.</span></p>
   <div class="conteneur pied-bas"><p>${c.t('commun.maquette')}</p><p class="pied-legal">${c.t('commun.legal')}</p><p>© ${c.site.nom} · Patrick Campo</p></div>
 </footer>`;
 }

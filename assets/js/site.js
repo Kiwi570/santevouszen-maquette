@@ -1,6 +1,6 @@
 /* Santé Vous Zen · « Le geste lent ». Effets propres au client (chacun marqué data-effet="nom-du-plan").
    Le socle gère l'ouverture, le voile en iris, l'en-tête, le menu, les boucles, les mesures et les effets génériques. */
-import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=6';
+import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=7';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -285,6 +285,16 @@ function enchainement() {
   /* On charge une pose quand son panneau approche. */
   const charge = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { const i = +e.target.dataset.panneau; if (poses[i]) poses[i].charger(); charge.unobserve(e.target); } }), { rootMargin: '0px 100% 0px 100%' });
   panneaux.forEach((p) => charge.observe(p));
+  /* Les photos des panneaux sont décalées de côté : le chargement paresseux ne les voyait qu'au dernier moment
+     (panneau noir quelques instants). Elles se chargent toutes quand la section approche. */
+  new IntersectionObserver((es, o) => {
+    if (!es[0].isIntersecting) return;
+    o.disconnect();
+    /* Une photo à la fois, pendant les temps morts : aucun gros décodage d'image au milieu du défilement. */
+    const reste = $$('img[loading="lazy"]', sec);
+    const suivante = () => { const im = reste.shift(); if (!im) return; im.loading = 'eager'; const fin = () => (window.requestIdleCallback || setTimeout)(suivante, { timeout: 1500 }); if (im.complete) fin(); else { im.addEventListener('load', fin, { once: true }); im.addEventListener('error', fin, { once: true }); } };
+    (window.requestIdleCallback || setTimeout)(suivante, { timeout: 1500 });
+  }, { rootMargin: '200% 0px' }).observe(sec);
   panneaux.forEach((p, i) => {
     if (!poses[i]) return;
     p.addEventListener('pointermove', (e) => {
@@ -648,6 +658,7 @@ function serie() {
   b.addEventListener('click', () => {
     if (n >= total) return;
     n++; maj();
+    if (navigator.vibrate && telephone()) try { navigator.vibrate(12); } catch {} // au téléphone, chaque montée se sent sous le doigt
     if (gsap) gsap.fromTo(nEl, { yPercent: 30, opacity: 0.3 }, { yPercent: 0, opacity: 1, duration: 0.35, ease: 'power3.out' });
     if (n === total) { msg.textContent = sec.dataset.fini; b.hidden = true; r.hidden = false; if (gsap) gsap.fromTo(anneau, { scale: 1 }, { scale: 1.06, transformOrigin: '50% 50%', yoyo: true, repeat: 1, duration: 0.3 }); r.focus(); }
   });
@@ -693,6 +704,34 @@ function inscription() {
   }));
 }
 
+
+/* ---------- v7 · Signature du pied de page : « lent. » s'élargit quand la souris ralentit ----------
+   Souris rapide sur le pied : le mot se resserre ; souris posée : il s'ouvre en respirant. Une lumière suit la souris. */
+function signaturePied() {
+  const el = $('[data-signature-lent]'), pied = $('.pied');
+  if (!el || !pied) return;
+  const st = { v: 0, x: 0.5, lx: 1, e: 80, dernierX: 0, dernierY: 0, quand: 0 };
+  pied.addEventListener('pointermove', (e) => {
+    const now = performance.now(), d = Math.max(8, now - st.quand) / 1000;
+    if (st.quand) st.v = Math.max(st.v * 0.7, Math.hypot(e.clientX - st.dernierX, e.clientY - st.dernierY) / d);
+    st.dernierX = e.clientX; st.dernierY = e.clientY; st.quand = now;
+    st.x = e.clientX / window.innerWidth;
+  });
+  let derniere = '';
+  boucle(el, (dt, t) => {
+    st.v *= Math.pow(0.05, dt);
+    const repos = 86 + 10 * (0.5 + 0.5 * Math.sin(t * 0.7));
+    const cible = clamp(repos - st.v / 60, 75, 96);
+    st.e += (cible - st.e) * Math.min(1, dt * 2.5);
+    st.lx += ((1 - st.x) * 100 - st.lx) * Math.min(1, dt * 3);
+    const v = `${st.e.toFixed(1)}|${st.lx.toFixed(0)}`;
+    if (v === derniere) return;
+    derniere = v;
+    el.style.setProperty('--etire-pied', `${st.e.toFixed(1)}%`);
+    el.style.setProperty('--lumiere-pied', `${st.lx.toFixed(0)}%`);
+  });
+}
+
 /* ---------- Démarrage ---------- */
 demarrer({
   preparer() {
@@ -708,6 +747,7 @@ demarrer({
     try { indexSurvol(); } catch (e) { console.error(e); }
     try { serie(); } catch (e) { console.error(e); }
     try { inscription(); } catch (e) { console.error(e); }
+    try { signaturePied(); } catch (e) { console.error(e); }
     if (window.__projet && window.__projet.preparer) window.__projet.preparer();
   },
   /* Intro (moins de 3 s) : un point de lumière dessine l'arc au-dessus du nom, puis glisse jusqu'aux mains de Patrick

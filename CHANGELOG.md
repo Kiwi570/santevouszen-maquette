@@ -1,5 +1,28 @@
 # Journal des versions · Santé Vous Zen
 
+## v7 · 17 novembre 2026
+
+Analyse finale de chaque page, sur ordinateur et téléphone (`_audit/analyse-v7.md`), puis audit complet :
+- **Signature au pied de chaque page** : « Le geste lent. » en très grand. « lent. » s'élargit quand la souris ralentit et se resserre quand elle file, avec une lumière qui la suit. Chaque page se termine sur l'idée du site.
+- **Parcours des séances (accueil)** : les photos des quatre panneaux se chargent à l'approche, une à une : plus de panneau noir.
+- **Séances** :
+  - le bouton de l'ouverture est aligné sur le texte ;
+  - les titres du registre commencent tous au même endroit ;
+  - le bandeau photo est ramené à une hauteur mesurée ;
+  - sur téléphone, la phrase d'explication revient sous le titre.
+- **Fitness** :
+  - la grande photo de salle est recadrée sur les personnes, en bandeau ;
+  - sur téléphone, la phrase d'explication revient sous le titre, et chaque appui du compteur de série se sent sous le doigt.
+- **Formules** :
+  - la photo aérienne sans rapport est retirée ;
+  - chaque famille a sa vignette (le live sur la plage, la méditation en forêt) ;
+  - le texte de l'ouverture est plus lisible sur le ciel ;
+  - la FAQ devient un vrai accordéon (signe +, ouverture douce).
+- **Accueil** :
+  - les trois offres réagissent au survol ;
+  - sur téléphone, les trois chiffres de Patrick tiennent sur une rangée.
+- **Audit complet** : 0 échec, une fois les points ci-dessus corrigés (signature lisible et jamais rognée, fluidité du défilement).
+
 ## v6 · 17 novembre 2026
 
 - **Consignes du premier écran** : « Plus lentement… » ne s'affiche plus dès qu'on bouge la souris. Il faut un geste vraiment brusque, et le message ne revient pas avant 8 secondes. Le reste du temps, on lit la consigne « Montez la souris, lentement : ses bras montent avec vous ». Elle s'efface une fois le geste réussi.
