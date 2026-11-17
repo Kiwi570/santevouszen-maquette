@@ -8,11 +8,11 @@
    - retour : retour arrière ou avant (pageshow ou navigation back_forward) : état final directement, sans intro.
    - secours : état final directement.
    Aucune attente ne peut bloquer l'écran : en cas d'erreur, la page passe dans son état final. */
-import { html, etat, emettre, stockage, prochaineImage, attendre } from './etat.js?v=5';
-import { bloquerDefilement, debloquerDefilement, aller } from './defilement.js?v=5';
-import { toutAfficher, demarrerApparitions } from './apparitions.js?v=5';
-import { suivre, lacher, lacherTout } from './gouttiere.js?v=5';
-import { voile, decouvrir, reinitialiser } from './voile.js?v=5';
+import { html, etat, emettre, stockage, prochaineImage, attendre } from './etat.js?v=6';
+import { bloquerDefilement, debloquerDefilement, aller } from './defilement.js?v=6';
+import { toutAfficher, demarrerApparitions } from './apparitions.js?v=6';
+import { suivre, lacher, lacherTout } from './gouttiere.js?v=6';
+import { voile, decouvrir, reinitialiser } from './voile.js?v=6';
 
 const MAX_ATTENTE = 1500;
 const BUDGET = 2900; /* ms depuis le premier octet jusqu'à la fin de l'intro */

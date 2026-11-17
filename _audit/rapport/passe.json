@@ -1,18 +1,16 @@
 {
- "id": "20261117-124824-standard-cible-partiel",
- "date": "2026-11-17T12:50:32.072Z",
+ "id": "20261117-125746-standard-cible-partiel",
+ "date": "2026-11-17T12:58:29.841Z",
  "niveau": "standard",
  "pages": "/",
  "etapes": [
   "fichiers",
-  "mesures",
   "ecran",
-  "mouvement",
-  "fluidite"
+  "mouvement"
  ],
- "version": "5",
+ "version": "6",
  "echecs": 0,
- "aRegarder": 5,
+ "aRegarder": 2,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

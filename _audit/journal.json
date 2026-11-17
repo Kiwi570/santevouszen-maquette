@@ -235,6 +235,21 @@
     }
    ],
    "attentes": []
+  },
+  {
+   "version": 6,
+   "perimetre": [
+    "/"
+   ],
+   "etapes": [
+    {
+     "etape": "seuil du message « plus lentement » relevé, consigne visible jusqu'au premier geste réussi",
+     "budget": 10,
+     "debut": "2026-11-17T13:56:00+01:00",
+     "fin": "2026-11-17T14:06:00+01:00"
+    }
+   ],
+   "attentes": []
   }
  ]
 }

@@ -1,5 +1,9 @@
 # Journal des versions · Santé Vous Zen
 
+## v6 · 17 novembre 2026
+
+- **Consignes du premier écran** : « Plus lentement… » ne s'affiche plus dès qu'on bouge la souris. Il faut un geste vraiment brusque, et le message ne revient pas avant 8 secondes. Le reste du temps, on lit la consigne « Montez la souris, lentement : ses bras montent avec vous ». Elle s'efface une fois le geste réussi.
+
 ## v5 · 17 novembre 2026
 
 - **Premier écran de l'accueil, consignes à la souris** :

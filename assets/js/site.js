@@ -1,6 +1,6 @@
 /* Santé Vous Zen · « Le geste lent ». Effets propres au client (chacun marqué data-effet="nom-du-plan").
    Le socle gère l'ouverture, le voile en iris, l'en-tête, le menu, les boucles, les mesures et les effets génériques. */
-import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=5';
+import { demarrer, boucle, versObjet, quand, partir } from './socle/index.js?v=6';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -179,15 +179,16 @@ function chrono() {
   window.addEventListener('resize', () => { rep = null; });
   /* Chaque message reste affiché assez longtemps pour être lu (tenu) : sans cela, « plus lentement » et la phrase
      de fin étaient remplacés à l'image suivante et ne faisaient que clignoter. */
-  let tenu = 0;
+  let tenu = 0, dejaReussi = false, dernierVite = -99;
+  const SEUIL_MESSAGE = 3; // « plus lentement » seulement pour un vrai geste brusque (le flou des fantômes garde son seuil)
   const maintenant = () => performance.now() / 1000;
   function dire(cle, duree = 0) {
-    if (consigne.dataset.cle === cle) { if (duree) tenu = Math.max(tenu, maintenant() + duree); return; }
+    if (consigne.dataset.cle === cle) return;
     if (maintenant() < tenu && cle === 'base') return;
     tenu = duree ? maintenant() + duree : 0;
     const avant = consigne.dataset.cle;
     consigne.dataset.cle = cle; consigne.textContent = textes[cle];
-    boite.classList.toggle('alerte', cle === 'vite'); boite.classList.toggle('discret', fin && cle === 'base');
+    boite.classList.toggle('alerte', cle === 'vite'); boite.classList.toggle('discret', fin && cle === 'base' && dejaReussi);
     if (avant && cle !== 'base' && boite.animate) boite.animate([{ opacity: 0, transform: 'translateY(-6px)' }, { opacity: 1, transform: 'none' }], { duration: 320, easing: 'ease-out' });
   }
   dire('base');
@@ -203,12 +204,12 @@ function chrono() {
     st.p += clamp(st.cible - st.p, -maxV * dt, maxV * dt);
     st.flou += ((st.vitesse > 1.4 ? 1 : 0) - st.flou) * Math.min(1, dt * 5);
     st.vitesse *= Math.pow(0.02, dt);
-    if (st.p > 0.97 && !st.auto && !st.fini) { st.fini = t; dire('fin', 6); }
+    if (st.p > 0.97 && !st.auto && !st.fini) { st.fini = t; dejaReussi = true; dire('fin', 6); }
     if (st.fini) {
       /* La phrase de fin reste au moins 6 s ; si les bras redescendent ensuite, on revient à la consigne. */
       if (t - st.fini > 6 && st.p < 0.9) { st.fini = 0; dire('base'); }
       else if (t - st.fini > 6 && !st.saisi && !st.survol) { st.fini = 0; st.auto = true; st.lance = t - 2.3; dire('base'); }
-    } else if ((st.saisi || st.survol) && st.vitesse > 1.4) dire('vite', 2.6);
+    } else if ((st.saisi || st.survol) && st.vitesse > SEUIL_MESSAGE && t - dernierVite > 8) { dernierVite = t; dire('vite', 2.4); }
     else dire('base');
     placer();
     P.dessiner(st.p, st.flou);
